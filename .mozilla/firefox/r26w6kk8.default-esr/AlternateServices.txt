@@ -1,0 +1,2 @@
+https:contile.services.mozilla.com:443:.::3	0	19851	https:contile.services.mozilla.com:443:contile.services.mozilla.com:443::n:1717777154:h3:y:1715185144:n::|n:y:
+https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	0	19851	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1717777204:h3:y:1715185144:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:

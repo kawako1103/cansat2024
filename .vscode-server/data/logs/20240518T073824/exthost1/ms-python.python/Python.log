@@ -1,0 +1,25 @@
+2024-05-18 07:38:52.918 [info] 実験 'pythonCreateEnvOnPipInstallcf' はアクティブです
+2024-05-18 07:38:52.918 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-05-18 07:38:52.918 [info] 実験 'pythonSurveyNotificationcf' はアクティブです
+2024-05-18 07:38:52.918 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-05-18 07:38:52.918 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-05-18 07:38:52.918 [info] Default formatter is set to null for workspace /home/cansat-stu
+2024-05-18 07:38:52.918 [info] Test server listening.
+2024-05-18 07:39:07.124 [info] > C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -c "import sys;print(sys.executable)"
+2024-05-18 07:39:07.491 [info] > pyenv which python
+2024-05-18 07:39:07.491 [info] cwd: .
+2024-05-18 07:39:08.731 [info] Discover tests for workspace name: cansat-stu - uri: /home/cansat-stu/Op-test_i2c/03_parse.py
+2024-05-18 07:39:14.075 [error] [Error: Command failed: C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsershayatoAppDataLocalMicrosoftWindowsAppspython3.10.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\hayato\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe -c "import sys;print(sys.executable)"'
+}

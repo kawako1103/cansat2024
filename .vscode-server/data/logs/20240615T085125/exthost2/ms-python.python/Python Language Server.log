@@ -1,0 +1,6 @@
+2024-06-15 08:53:23.321 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-06-15 08:54:17.659 [info] [Info  - 08:54:05] (2122) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-06-15 08:54:20.090 [info] [Info  - 08:54:18] (2122) Server root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-06-15 08:54:27.294 [info] [Info  - 08:54:25] (2122) Starting service instance "cansat-stu"
+2024-06-15 08:57:09.516 [info] [Info  - 08:57:08] (2122) Setting pythonPath for service "cansat-stu": "/usr/bin/python3"
+2024-06-15 08:57:11.104 [info] [Info  - 08:57:10] (2122) Setting environmentName for service "cansat-stu": "3.8.10 (global)"

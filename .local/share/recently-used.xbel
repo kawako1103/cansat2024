@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/cansat-stu/Op-test/02_SPI.py" added="2024-04-20T06:06:05.932127Z" modified="2024-05-12T06:12:31.332411Z" visited="2024-04-20T06:06:05.932133Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-12T06:12:31.332397Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/03_SPI2.py" added="2024-04-20T08:07:42.836431Z" modified="2024-05-12T09:38:59.982260Z" visited="2024-04-20T08:07:42.836436Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-12T09:38:59.982241Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cansat-stu/KIOXIA/LoRa_monitor_mode.py" added="2024-05-08T15:27:50.895913Z" modified="2024-05-08T15:50:04.745833Z" visited="2024-05-08T15:27:50.895919Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-08T15:50:04.745807Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/LoRa_monitor_mode.py" added="2024-05-08T16:26:06.464201Z" modified="2024-05-08T16:26:06.618094Z" visited="2024-05-08T16:26:06.464207Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-08T16:26:06.618072Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cansat-stu/KIOXIA/LoRa/latlon_restore.py" added="2024-05-09T09:34:37.934054Z" modified="2024-05-09T09:34:38.098411Z" visited="2024-05-09T09:34:37.934062Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-09T09:34:38.098395Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/latlon_restore.py" added="2024-05-09T09:35:01.995613Z" modified="2024-05-09T09:35:02.180701Z" visited="2024-05-09T09:35:01.995623Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-09T09:35:02.180685Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/send.py" added="2024-05-09T09:37:17.262812Z" modified="2024-05-21T08:23:54.521901Z" visited="2024-05-09T09:37:17.262822Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:23:54.521867Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cansat-stu/191C-0E2C/mian.py" added="2024-05-09T10:27:41.073667Z" modified="2024-05-09T10:27:41.073727Z" visited="2024-05-09T10:27:41.073677Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-09T10:27:41.073701Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cansat-stu/191C-0E2C/data.csv" added="2024-05-09T10:37:19.494954Z" modified="2024-05-09T10:37:19.494992Z" visited="2024-05-09T10:37:19.494961Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-09T10:37:19.494976Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/send0510.py" added="2024-05-09T17:54:07.611525Z" modified="2024-05-09T17:54:07.953684Z" visited="2024-05-09T17:54:07.611542Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-09T17:54:07.953670Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/cansat-stu/KIOXIA/copy.py" added="2024-05-11T16:52:57.704601Z" modified="2024-05-11T16:52:57.704655Z" visited="2024-05-11T16:52:57.704611Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-11T16:52:57.704635Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/save_senddata.txt" added="2024-05-11T16:57:29.524422Z" modified="2024-05-11T16:57:29.524466Z" visited="2024-05-11T16:57:29.524430Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-11T16:57:29.524450Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/save_0.txt" added="2024-05-11T17:08:28.454532Z" modified="2024-05-11T17:08:28.454584Z" visited="2024-05-11T17:08:28.454552Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-11T17:08:28.454569Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/02B_GPS.py" added="2024-05-12T06:12:38.915446Z" modified="2024-05-18T05:06:46.332106Z" visited="2024-05-12T06:12:38.915452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-18T05:06:46.332092Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/02_GPS.py" added="2024-05-12T06:13:10.362680Z" modified="2024-05-18T05:06:51.877197Z" visited="2024-05-12T06:13:10.362686Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-18T05:06:51.877183Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/04_parse.py" added="2024-05-12T06:17:25.613572Z" modified="2024-05-12T06:17:25.613620Z" visited="2024-05-12T06:17:25.613582Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-12T06:17:25.613598Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/log_rawstring.txt" added="2024-05-12T08:48:45.617597Z" modified="2024-05-18T06:18:23.465640Z" visited="2024-05-12T08:48:45.617603Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-18T06:18:23.465619Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/05_loadlog.py" added="2024-05-12T10:47:45.168392Z" modified="2024-05-21T09:44:09.353345Z" visited="2024-05-12T10:47:45.168403Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T09:44:09.353323Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test/04B_parse.py" added="2024-05-12T11:33:38.331366Z" modified="2024-05-21T09:44:11.606075Z" visited="2024-05-12T11:33:38.331379Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T09:44:11.606054Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/01_I2C.py" added="2024-05-17T15:46:58.806979Z" modified="2024-05-21T09:44:14.814076Z" visited="2024-05-17T15:46:58.806986Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T09:44:14.814057Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/02_GPSdata.py" added="2024-05-17T15:49:42.946562Z" modified="2024-05-17T15:49:42.946600Z" visited="2024-05-17T15:49:42.946568Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-17T15:49:42.946584Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/02B.py" added="2024-05-17T16:42:30.783451Z" modified="2024-05-17T16:42:30.783503Z" visited="2024-05-17T16:42:30.783458Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-17T16:42:30.783484Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/03_parse.py" added="2024-05-18T04:58:58.889581Z" modified="2024-05-18T04:58:58.889623Z" visited="2024-05-18T04:58:58.889586Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-18T04:58:58.889605Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/02_GPSdata_read.py" added="2024-05-18T05:01:47.931203Z" modified="2024-05-21T09:44:13.595963Z" visited="2024-05-18T05:01:47.931212Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T09:44:13.595943Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/send-new.py" added="2024-05-21T08:21:29.310951Z" modified="2024-05-21T08:21:29.311010Z" visited="2024-05-21T08:21:29.310956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:21:29.310995Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/memo/LoRa_monitor_mode.py" added="2024-05-21T08:24:14.120237Z" modified="2024-05-21T08:24:14.120275Z" visited="2024-05-21T08:24:14.120244Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:24:14.120260Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/memo/latlon_restore.py" added="2024-05-21T08:24:17.973461Z" modified="2024-05-21T08:24:17.973497Z" visited="2024-05-21T08:24:17.973466Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:24:17.973483Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/memo/save_0.txt" added="2024-05-21T08:25:39.657671Z" modified="2024-05-21T08:25:39.657710Z" visited="2024-05-21T08:25:39.657678Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:25:39.657694Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/memo/save_senddata.txt" added="2024-05-21T08:25:46.714875Z" modified="2024-05-21T08:25:46.714936Z" visited="2024-05-21T08:25:46.714880Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:25:46.714919Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/LoRa/memo/send0510.py" added="2024-05-21T08:25:49.696888Z" modified="2024-05-21T08:25:49.696926Z" visited="2024-05-21T08:25:49.696893Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T08:25:49.696911Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/04_getlonlat.py" added="2024-05-21T09:04:33.439235Z" modified="2024-05-21T09:04:33.439267Z" visited="2024-05-21T09:04:33.439241Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T09:04:33.439254Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/tegusu/01_gpioonoff.py" added="2024-05-21T09:18:03.711713Z" modified="2024-05-21T09:44:06.642121Z" visited="2024-05-21T09:18:03.711718Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-21T09:44:06.642107Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/gps_log.txt" added="2024-05-31T10:17:15.084632Z" modified="2024-05-31T10:17:15.084682Z" visited="2024-05-31T10:17:15.084644Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-31T10:17:15.084667Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/05_writelog.py" added="2024-05-31T10:27:08.983366Z" modified="2024-05-31T10:27:08.983438Z" visited="2024-05-31T10:27:08.983379Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-31T10:27:08.983408Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/cansat-stu/Op-test_i2c/log_gps.txt" added="2024-05-31T10:54:03.447409Z" modified="2024-05-31T10:54:03.447444Z" visited="2024-05-31T10:54:03.447416Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2024-05-31T10:54:03.447430Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

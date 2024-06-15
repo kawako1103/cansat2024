@@ -1,0 +1,58 @@
+2024-04-20 06:08:14.592 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-04-20 06:08:14.592 [info] 実験 'pythonREPLSmartSend' はアクティブです
+2024-04-20 06:08:14.592 [info] 実験 'pythonSurveyNotificationcf' はアクティブです
+2024-04-20 06:08:14.592 [info] 実験 'pythonTerminalEnvVarActivationcf' はアクティブです
+2024-04-20 06:08:14.592 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-04-20 06:08:14.592 [info] Default formatter is set to null for workspace /home/cansat-stu/Op-test
+2024-04-20 06:08:14.592 [info] Test server listening.
+2024-04-20 06:08:14.592 [info] > hatch env show --json
+2024-04-20 06:08:14.592 [info] cwd: .
+2024-04-20 06:08:14.680 [info] > C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -c "import sys;print(sys.executable)"
+2024-04-20 06:08:14.718 [error] [Error: Command failed: C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsershayatoAppDataLocalMicrosoftWindowsAppspython3.10.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\hayato\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe -c "import sys;print(sys.executable)"'
+}
+2024-04-20 06:08:14.986 [info] > C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-20 06:08:15.000 [error] [Error: Command failed: C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UsershayatoAppDataLocalMicrosoftWindowsAppspython3.10.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\hayato\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-20 06:08:15.026 [info] Discover tests for workspace name: Op-test - uri: /home/cansat-stu/Op-test/02_SPI.py
+2024-04-20 06:08:17.111 [info] > C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-20 06:08:17.123 [error] [Error: Command failed: C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UsershayatoAppDataLocalMicrosoftWindowsAppspython3.10.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\hayato\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-20 06:08:17.173 [info] > pyenv which python
+2024-04-20 06:08:17.173 [info] cwd: .
+2024-04-20 06:08:24.756 [info] Pylance 言語サーバーを開始しています。

@@ -1,0 +1,16 @@
+2024-04-20 04:35:19.752 [info] Extension host with pid 1438 started
+2024-04-20 04:35:19.754 [error] Error: EEXIST: file already exists, open '/home/cansat-stu/.vscode-server/data/User/workspaceStorage/5947ac4ca21c677fc6ccdbe2ffc2c694/vscode.lock'
+2024-04-20 04:35:19.940 [info] Lock '/home/cansat-stu/.vscode-server/data/User/workspaceStorage/5947ac4ca21c677fc6ccdbe2ffc2c694/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-04-20 04:35:20.023 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-20 04:35:20.088 [info] Lock '/home/cansat-stu/.vscode-server/data/User/workspaceStorage/5947ac4ca21c677fc6ccdbe2ffc2c694/vscode.lock': The pid 1840 appears to be gone.
+2024-04-20 04:35:20.090 [info] Lock '/home/cansat-stu/.vscode-server/data/User/workspaceStorage/5947ac4ca21c677fc6ccdbe2ffc2c694/vscode.lock': Deleting a stale lock.
+2024-04-20 04:35:20.219 [info] Lock '/home/cansat-stu/.vscode-server/data/User/workspaceStorage/5947ac4ca21c677fc6ccdbe2ffc2c694/vscode.lock': Lock acquired.
+2024-04-20 04:35:20.456 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-20 04:35:20.460 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-20 04:35:22.570 [info] Eager extensions activated
+2024-04-20 04:35:22.573 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-20 04:35:22.585 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-20 04:37:11.457 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-20 04:38:34.684 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-04-20 04:38:38.800 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-04-20 04:38:38.804 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

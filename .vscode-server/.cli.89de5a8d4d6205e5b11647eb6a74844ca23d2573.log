@@ -1,0 +1,7 @@
+Listening on 127.0.0.1:42589
+[2024-06-15 09:13:48] info Disposed of connection to running server.
+looking for token 55d82a98-f69e-4b57-a0af-cc729279d416, got Some("55d82a98-f69e-4b57-a0af-cc729279d416")
+[2024-06-15 09:13:48] info Checking /home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/log.txt and /home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/pid.txt for a running server...
+[2024-06-15 09:13:48] info Starting server...
+[2024-06-15 09:13:50] info Server started
+[2024-06-15 09:18:05] info Disposed of connection to running server.

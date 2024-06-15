@@ -1,0 +1,111 @@
+{
+    "editor.fontFamily": "Consolas,'Source Han Code JP' ,'Courier New', monospace, 'Yu Gothic UI'",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\hayato\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.inlineSuggest.enabled": true,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+
+ 		//ここからしたはLATEXの設定
+    // 日本語文書で単語移動を使うため、助詞や読点、括弧を区切り文字として指定する
+    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？てにをはがのともへでや",
+
+    // 設定: LaTeX Workshop
+
+    // LaTeX Workshop ではビルド設定を「Tool」と「Recipe」という2つで考える
+    //   Tool: 実行される1つのコマンド。コマンド (command) と引数 (args) で構成される
+    //   Recipe: Tool の組み合わわせを定義する。Tool の組み合わせ (tools) で構成される。
+    //           tools の中で利用される Tool は "latex-workshop.latex.tools" で定義されている必要がある。
+    
+    "latex-workshop.latex.tools": [
+{
+            "name": "platex",
+            "command": "ptex2pdf",
+            "args": [
+                "-l",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=out",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "pbibtex",
+            "args": [
+                "out/%DOCFILE%"
+            ]
+        }
+  ],
+  "latex-workshop.latex.recipes": [
+			{
+            "name": "1time pLaTeX",
+            "tools": [
+                "platex"
+            ]
+        },
+        {
+          "name": "4times p>Bib>p>p",
+          "tools": [
+              "platex",
+              "bibtex",
+              "platex",
+              "platex"
+          ]
+      }
+  ],
+
+    // クリーンアップ時に削除されるファイルの拡張子
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux", "*.bbl", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot", "*.out", "*.toc", "*.acn",
+				 "*.acr", "*.alg", "*.glg", "*.glo", "*.gls", "*.ist", "*.fls", "*.log", "*.fdb_latexmk", "*.synctex.gz",
+        // for Beamer files
+        "_minted*", "*.nav", "*.snm", "*.vrb",
+        "*.dvi","*.bbl","*.gz"
+    ],
+
+    // ビルド失敗時に一時ファイルのクリーンアップを行うかどうか
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+
+    // ビューアの開き方
+    "latex-workshop.view.pdf.viewer": "tab",
+
+    // onFileChange : ファイルを保存時にコンパイル
+		// never : 手動でコンパイル
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+
+    // ---------- LaTeX Workshop ----------
+
+    // 使用パッケージのコマンドや環境の補完を有効にする
+    "latex-workshop.intellisense.package.enabled": true,
+
+    // 生成ファイルを "out" ディレクトリに吐き出す
+    "latex-workshop.latex.outDir": "out",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "，": true,
+        "．": true
+        },
+        "remote.SSH.remotePlatform": {
+            "raspberrypi": "linux"
+        },
+
+}

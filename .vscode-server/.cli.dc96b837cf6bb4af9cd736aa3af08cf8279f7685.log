@@ -1,0 +1,8 @@
+Listening on 127.0.0.1:34435
+[2024-05-18 07:37:45] info Disposed of connection to running server.
+looking for token 336008f6-336c-4433-bba5-da5b9ebd6d91, got Some("336008f6-336c-4433-bba5-da5b9ebd6d91")
+[2024-05-18 07:37:45] info Checking /home/cansat-stu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt and /home/cansat-stu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt for a running server...
+[2024-05-18 07:37:45] info Downloading Visual Studio Code server -> /tmp/.tmpxMKlIU/vscode-server-linux-armhf.tar.gz
+[2024-05-18 07:38:22] info Starting server...
+[2024-05-18 07:38:23] info Server started
+[2024-05-18 07:43:27] info Disposed of connection to running server.

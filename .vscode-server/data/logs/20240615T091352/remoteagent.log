@@ -1,0 +1,47 @@
+2024-06-15 09:13:52.842 [info] 
+
+
+
+
+2024-06-15 09:13:52.936 [info] Extension host agent started.
+2024-06-15 09:13:53.347 [info] [<unknown>][63df6d07][ManagementConnection] New connection established.
+2024-06-15 09:13:53.373 [info] [<unknown>][2f2dd73e][ExtensionHostConnection] New connection established.
+2024-06-15 09:13:54.957 [info] [<unknown>][2f2dd73e][ExtensionHostConnection] <1344> Launched Extension Host Process.
+2024-06-15 09:14:08.329 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-15 09:14:08.342 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateIcon (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25806)
+    at R.D.<computed> (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/cansat-stu/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-15 09:14:10.581 [info] Getting Manifest... ms-python.vscode-pylance
+2024-06-15 09:14:11.793 [info] Installing extension: ms-python.vscode-pylance file:///home/cansat-stu/.vscode-server/extensions/extensions.json
+2024-06-15 09:14:14.955 [info] Getting Manifest... ms-python.python
+2024-06-15 09:14:36.371 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 17146ms.
+2024-06-15 09:14:48.948 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 09:15:32.022 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 09:16:47.652 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 09:16:59.023 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 09:17:28.461 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-15 09:17:58.266 [warning] No ptyHost heartbeat after 6 seconds

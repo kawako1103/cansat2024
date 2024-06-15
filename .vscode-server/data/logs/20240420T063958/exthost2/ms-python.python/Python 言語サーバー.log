@@ -1,0 +1,11 @@
+2024-04-20 06:40:48.118 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-04-20 06:40:54.073 [info] [Info  - 06:40:53] (1781) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-04-20 06:40:54.079 [info] [Info  - 06:40:54] (1781) Server root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-20 06:40:54.082 [info] [Info  - 06:40:54] (1781) Starting service instance "Op-test"
+2024-04-20 06:40:54.467 [info] [Info  - 06:40:54] (1781) Setting environmentName for service "Op-test": "C:\Users\hayato\AppData\Local\Microsoft\WindowsApps\python3.10.exe"
+2024-04-20 06:40:57.041 [info] [Info  - 06:40:57] (1781) Found 4 source files
+2024-04-20 06:41:03.632 [info] [Info  - 06:41:03] (1781) Background analysis(1) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-20 06:41:03.668 [info] [Info  - 06:41:03] (1781) Background analysis(1) started
+2024-04-20 06:41:32.799 [info] [Info  - 06:41:32] (1781) Indexer background runner(2) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-20 06:41:32.860 [info] [Info  - 06:41:32] (1781) Indexing(2) started
+2024-04-20 06:41:36.492 [info] [Info  - 06:41:36] (1781) [BG(1)] Long operation: parsing: file:///home/cansat-stu/Op-test/02_SPI.py (28410ms)

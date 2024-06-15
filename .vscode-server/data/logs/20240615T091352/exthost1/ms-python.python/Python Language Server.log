@@ -1,0 +1,11 @@
+2024-06-15 09:14:23.324 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.8.1)
+2024-06-15 09:14:36.906 [info] [Info  - 09:14:34] (1798) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-06-15 09:14:36.934 [info] [Info  - 09:14:36] (1798) Server root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-06-15 09:14:36.936 [info] [Info  - 09:14:36] (1798) Starting service instance "cansat-stu"
+2024-06-15 09:14:37.648 [info] [Info  - 09:14:37] (1798) Setting pythonPath for service "cansat-stu": "/usr/bin/python3"
+2024-06-15 09:14:37.658 [info] [Info  - 09:14:37] (1798) Setting environmentName for service "cansat-stu": "3.9.2 (global)"
+2024-06-15 09:14:39.462 [info] [Info  - 09:14:39] (1798) Assuming Python version 3.9.2.final.0
+2024-06-15 09:14:54.708 [info] [Info  - 09:14:54] (1798) Found 24 source files
+2024-06-15 09:15:01.967 [info] [Info  - 09:15:01] (1798) Background analysis(1) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-06-15 09:15:06.221 [info] [Info  - 09:15:04] (1798) Background analysis(1) started
+2024-06-15 09:16:42.431 [info] [Info  - 09:16:42] (1798) [BG(1)] Long operation: parsing: file:///home/cansat-stu/test37.py (34159ms)

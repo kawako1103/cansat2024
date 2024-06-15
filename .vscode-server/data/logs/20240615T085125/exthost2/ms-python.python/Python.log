@@ -1,0 +1,79 @@
+2024-06-15 08:52:48.852 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-15 08:52:48.853 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-15 08:52:48.853 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-06-15 08:52:48.853 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-15 08:52:48.853 [info] Experiment 'pythonTestAdapter' is active
+2024-06-15 08:52:48.853 [info] Default formatter is set to null for workspace /home/cansat-stu
+2024-06-15 08:52:48.853 [info] Test server listening.
+2024-06-15 08:52:48.853 [info] > hatch env show --json
+2024-06-15 08:52:48.853 [info] cwd: .
+2024-06-15 08:52:48.886 [warning] Failed to check if /opt/homebrew/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/opt/homebrew/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/opt/homebrew/bin/python3'
+}
+2024-06-15 08:52:49.095 [warning] Identifier for virt-virtualenv failed to identify /opt/homebrew/bin/python3 [Error: ENOENT: no such file or directory, scandir '/opt/homebrew/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/opt/homebrew/bin'
+}
+2024-06-15 08:52:49.184 [warning] Identifier for virt-virtualenv failed to identify /opt/homebrew/bin/python3 [Error: ENOENT: no such file or directory, scandir '/opt/homebrew/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/opt/homebrew/bin'
+}
+2024-06-15 08:52:49.312 [warning] Identifier for virt-virtualenv failed to identify /opt/homebrew/bin/python3 [Error: ENOENT: no such file or directory, scandir '/opt/homebrew/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/opt/homebrew/bin'
+}
+2024-06-15 08:52:49.506 [info] > /opt/homebrew/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-06-15 08:52:51.927 [error] [Error: Command failed: /opt/homebrew/bin/python3 -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: /opt/homebrew/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/opt/homebrew/bin/python3 -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-06-15 08:52:54.336 [info] > /opt/homebrew/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-06-15 08:52:54.775 [error] [Error: Command failed: /opt/homebrew/bin/python3 -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: /opt/homebrew/bin/python3: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/opt/homebrew/bin/python3 -I /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/cansat-stu/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-06-15 08:52:54.852 [warning] Failed to check if /opt/homebrew/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/opt/homebrew/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/opt/homebrew/bin/python3'
+}
+2024-06-15 08:52:54.876 [info] > pyenv which python
+2024-06-15 08:52:54.876 [info] cwd: .
+2024-06-15 08:52:54.894 [warning] Identifier for virt-virtualenv failed to identify /opt/homebrew/bin/python3 [Error: ENOENT: no such file or directory, scandir '/opt/homebrew/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/opt/homebrew/bin'
+}
+2024-06-15 08:52:56.206 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-06-15 08:54:40.785 [info] Starting Pylance language server.

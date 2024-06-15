@@ -1,0 +1,22 @@
+2024-04-20 06:04:46.126 [info] Extension host with pid 2110 started
+2024-04-20 06:04:46.466 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-20 06:04:46.605 [info] Lock '/home/cansat-stu/.vscode-server/data/User/workspaceStorage/9f47effbd88359c90d6fec166b3dedb9/vscode.lock': Lock acquired.
+2024-04-20 06:04:46.690 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-20 06:04:46.700 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-20 06:04:48.512 [info] Eager extensions activated
+2024-04-20 06:04:48.516 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-20 06:04:48.520 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-20 06:04:50.647 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-20 06:08:05.548 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-04-20 06:08:08.788 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-04-20 06:08:08.791 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-04-20 06:21:16.505 [error] Error: write ECONNRESET
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+2024-04-20 06:21:26.345 [error] Error: Client network socket disconnected before secure TLS connection was established
+	at connResetException (node:internal/errors:720:14)
+	at TLSSocket.onConnectEnd (node:_tls_wrap:1655:19)
+	at TLSSocket.emit (node:events:529:35)
+	at endReadableNT (node:internal/streams/readable:1368:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-04-20 06:26:43.819 [error] Error: write ECONNRESET
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)

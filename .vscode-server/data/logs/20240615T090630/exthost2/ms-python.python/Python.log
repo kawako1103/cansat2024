@@ -1,0 +1,9 @@
+2024-06-15 09:07:17.159 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-15 09:07:17.200 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-15 09:07:17.200 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-06-15 09:07:17.200 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-15 09:07:17.200 [info] Experiment 'pythonTestAdapter' is active
+2024-06-15 09:07:17.200 [info] Default formatter is set to null for workspace /home/cansat-stu
+2024-06-15 09:07:17.200 [info] Python interpreter path: /usr/bin/python3
+2024-06-15 09:07:20.815 [info] > pyenv which python
+2024-06-15 09:07:20.815 [info] cwd: .

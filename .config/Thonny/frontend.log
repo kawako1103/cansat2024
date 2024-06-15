@@ -1,0 +1,10 @@
+08:50:01.737 INFO    thonny: Thonny version: 4.0.1
+08:50:01.739 INFO    thonny: cwd: /home/cansat-stu
+08:50:01.761 INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
+08:50:01.761 INFO    thonny: sys.executable: /usr/bin/python3
+08:50:01.762 INFO    thonny: sys.argv: ['/usr/bin/thonny']
+08:50:01.762 INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
+08:50:01.763 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
+08:50:03.761 WARNING thonny.workbench: Could not find UI theme 'clam', switching to default
+08:50:05.372 INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+08:50:05.373 INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/cansat-stu'] /home/cansat-stu

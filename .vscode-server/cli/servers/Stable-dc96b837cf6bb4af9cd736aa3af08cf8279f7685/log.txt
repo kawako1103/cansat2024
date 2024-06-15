@@ -1,0 +1,32 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-8b7a3951-d582-4511-898c-ef0150b27da0
+Extension host agent listening on /tmp/code-8b7a3951-d582-4511-898c-ef0150b27da0
+
+[07:38:24] 
+
+
+
+
+[07:38:24] Extension host agent started.
+[07:38:24] [<unknown>][7ebd4c43][ExtensionHostConnection] New connection established.
+[07:38:24] [<unknown>][31036ac9][ManagementConnection] New connection established.
+[07:38:26] [<unknown>][7ebd4c43][ExtensionHostConnection] <10137> Launched Extension Host Process.
+[07:38:40] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+[07:38:40] Getting Manifest... ms-python.debugpy
+[07:38:40] Getting Manifest... ms-python.python
+[07:38:40] Getting Manifest... ms-python.vscode-pylance
+[07:38:41] Installing extension: ms-python.debugpy
+[07:38:41] Installing extension: ms-python.python
+[07:38:41] Installing extension: ms-ceintl.vscode-language-pack-ja
+[07:38:41] Installing extension: ms-python.vscode-pylance
+[07:38:51] Getting Manifest... ms-python.python
+[07:38:52] Getting Manifest... ms-python.python
+[07:39:19] Waiting for already requested installing extension ms-python.python ms-python.debugpy
+[07:39:26] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+[07:39:38] No ptyHost heartbeat after 6 seconds
