@@ -4,6 +4,7 @@ import RPi.GPIO as GPIO
 import datetime
 import sys
 import random
+import os
 
 
 
@@ -14,7 +15,7 @@ GPIO.setup(ResetPin,GPIO.OUT)
 #GPIO.output(ResetPin,0)
 device = '/dev/ttyS0'
 ser = serial.Serial(device,115200,timeout = 1)
-file_path = "/home/cansat-stu/LoRa/save_senddata.txt"
+file_path = "/home/cansat-stu/Op-test_i2c/log_gps.txt"
 
 def send(msg: str):
     ser.write(bytes(msg+'\r\n', encoding='utf-8'))
@@ -52,10 +53,10 @@ def start_operation_mode():
     send("save")
     send("start")
     
-def save_to_file(content, file_path):
-    with open(file_path, 'a') as file:
-        for line in content:
-            file.write(line + '\n')
+#def save_to_file(content, file_path):
+#    with open(file_path, 'a') as file:
+#        for line in content:
+#            file.write(line + '\n')
 
 
 def hex2dec(x: str, bit: int) -> str:
@@ -64,40 +65,62 @@ def hex2dec(x: str, bit: int) -> str:
         raise ValueError
     return dec - (dec >> (bit - 1) << bit)
 
-def make_LatLon():
-    vec_LatLon = []
-    for _ in range(20):
-        # Generate random latitude and longitude (64-bit)
-        latitude = random.uniform(-90, 90)
-        longitude = random.uniform(-180, 180)
-        vec_LatLon.append((latitude, longitude))
-        #print(latitude, longitude)
-        time.sleep(0.05)  # Approx. 20 times per second
+#def make_LatLon():
+ #   vec_LatLon = []
+ #   for _ in range(20):
+ #       # Generate random latitude and longitude (64-bit)
+ #       latitude = random.uniform(-90, 90)
+ #       longitude = random.uniform(-180, 180)
+ #       vec_LatLon.append((latitude, longitude))
+ #       #print(latitude, longitude)
+ #       time.sleep(0.05)  # Approx. 20 times per second
+ #   return vec_LatLon
+    
+def read_LatLon(file_path):
+    vec_LatLon=[]
+    with open(file_path, "r") as file:
+        for line in file:
+            if '\xb3' in line:
+                continue
+            parts=line.strip().split(',')
+            if len(parts) >= 2:
+                latitude=parts[0]
+                longitude=parts[1]
+                vec_LatLon.append((latitude,longitude))
     return vec_LatLon
+
 
 
 def send_LatLon(vec_LatLon):
     if not vec_LatLon:
         print("No data to send.")
         return
-    last_lat, last_lon = vec_LatLon[-1]
-    #output = f"{last_lat},{last_lon}\r\n"
-    output = f"4321FFFF{last_lat},{last_lon}\r\n"
-    formatted_data = f"4321FFFF{last_lat},{last_lon}\r\n"
-    #save_to_file([formatted_data], file_path)
-    ser.write(output.encode('ascii'))
-    print(output.encode('ascii'))
-    
+    for lat_lon in vec_LatLon:
+        last_lat,last_lon=lat_lon
+        
+        #last_lat, last_lon = vec_LatLon[-1]
+        output = f"{last_lat},{last_lon}\r\n"
+        #output = f"4321FFFF{last_lat},{last_lon}\r\n"
+        formatted_data = f"4321FFFF{last_lat},{last_lon}\r\n"
+        #save_to_file([formatted_data], file_path)
+        ser.write(output.encode('ascii'))
+        print(output.encode('ascii'))
+        time.sleep(1)    
     
     
     
 
 # Test the functions
 start_operation_mode()
+vec_LatLon=read_LatLon(file_path)
+send_LatLon(vec_LatLon)
 
-for _ in range(100):
-    vec_LatLon = make_LatLon()
-    send_LatLon(vec_LatLon)
 
+
+#for _ in range(100):
+   # vec_LatLon = make_LatLon()
+   #send_LatLon(vec_LatLon)
+   #time.sleep(1)
+    
 
 

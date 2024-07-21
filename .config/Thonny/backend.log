@@ -1,29 +1,105 @@
-08:50:05.774 INFO    thonny: Thonny version: 4.0.1
-08:50:05.775 INFO    thonny: cwd: /usr/lib/python3/dist-packages
-08:50:05.791 INFO    thonny: original argv: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/cansat-stu']
-08:50:05.792 INFO    thonny: sys.executable: /usr/bin/python3
-08:50:05.792 INFO    thonny: sys.argv: ['/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/cansat-stu']
-08:50:05.792 INFO    thonny: sys.path: ['/usr/lib/python3/dist-packages', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
-08:50:05.792 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
-08:50:05.794 INFO    thonny: TIME/MODS 0.023 Before constructing backend (+7 modules)
-08:50:05.794 INFO    thonny: NEW MODS ['_ctypes', '_struct', 'ctypes', 'ctypes._endian', 'encodings.ascii', 'faulthandler', 'struct']
-08:50:05.795 INFO    thonny: TIME/MODS 0.001 Before MainBackend 
-08:50:05.796 INFO    thonny: TIME/MODS 0.000 After MainBackend 
-08:50:05.850 INFO    thonny.backend: Loading plugins
-08:50:05.850 INFO    thonny: TIME/MODS 0.055 Before loading plugins (+4 modules)
-08:50:05.851 INFO    thonny: NEW MODS ['_sysconfigdata__arm-linux-gnueabihf', 'platform', 'pydoc', 'sysconfig']
-08:50:05.851 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages', '/home/cansat-stu/.config/Thonny/plugins/lib/python3.9/site-packages']
-08:50:05.856 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.birdseye_backend'
-08:50:05.859 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.dock_user_windows_backend'
-08:50:05.863 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.flask_backend'
-08:50:05.866 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.matplotlib_backend'
-08:50:05.869 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.pgzero_backend'
-08:50:05.876 INFO    thonny: TIME/MODS 0.026 After loading plugins (+6 modules)
-08:50:05.877 INFO    thonny: NEW MODS ['thonny.plugins.backend', 'thonny.plugins.backend.birdseye_backend', 'thonny.plugins.backend.dock_user_windows_backend', 'thonny.plugins.backend.flask_backend', 'thonny.plugins.backend.matplotlib_backend', 'thonny.plugins.backend.pgzero_backend']
-08:50:05.878 INFO    thonny: TIME/MODS 0.001 Beginning of mainloop 
-08:50:05.879 INFO    thonny: TIME/MODS 0.002 Sending message ToplevelResponse 
-08:50:05.880 INFO    thonny.backend: Loading Jedi
-08:50:05.881 INFO    thonny: TIME/MODS 0.001 Before loading Jedi 
-08:50:05.882 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages', '/home/cansat-stu/.config/Thonny/plugins/lib/python3.9/site-packages']
-08:50:06.609 INFO    thonny: TIME/MODS 0.728 After loading Jedi (+127 modules)
-08:50:06.610 INFO    thonny: NEW MODS ['__future__', '_blake2', '_bz2', '_compat_pickle', '_compression', '_hashlib', '_json', '_lzma', '_pickle', 'bz2', 'colorama', 'colorama.ansi', 'colorama.ansitowin32', 'colorama.initialise', 'colorama.win32', 'colorama.winterm', 'difflib', 'filecmp', 'gc', 'hashlib', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'lzma', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pydoc_data', 'pydoc_data.topics', 'shutil', 'textwrap', 'zlib']
+10:06:14.334 INFO    thonny: Thonny version: 4.0.1
+10:06:14.335 INFO    thonny: cwd: /usr/lib/python3/dist-packages
+10:06:14.349 INFO    thonny: original argv: ['/usr/bin/python3', '-u', '-B', '-m', 'thonny.plugins.cpython_backend.cp_launcher', '/home/cansat-stu/motor']
+10:06:14.350 INFO    thonny: sys.executable: /usr/bin/python3
+10:06:14.350 INFO    thonny: sys.argv: ['/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/cansat-stu/motor']
+10:06:14.350 INFO    thonny: sys.path: ['/usr/lib/python3/dist-packages', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages']
+10:06:14.350 INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0)
+10:06:14.352 INFO    thonny: TIME/MODS 0.021 Before constructing backend (+7 modules)
+10:06:14.352 INFO    thonny: NEW MODS ['_ctypes', '_struct', 'ctypes', 'ctypes._endian', 'encodings.ascii', 'faulthandler', 'struct']
+10:06:14.352 INFO    thonny: TIME/MODS 0.001 Before MainBackend 
+10:06:14.353 INFO    thonny: TIME/MODS 0.000 After MainBackend 
+10:06:14.393 INFO    thonny.backend: Loading plugins
+10:06:14.393 INFO    thonny: TIME/MODS 0.040 Before loading plugins (+4 modules)
+10:06:14.393 INFO    thonny: NEW MODS ['_sysconfigdata__arm-linux-gnueabihf', 'platform', 'pydoc', 'sysconfig']
+10:06:14.394 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages', '/home/cansat-stu/.config/Thonny/plugins/lib/python3.9/site-packages']
+10:06:14.398 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.birdseye_backend'
+10:06:14.400 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.dock_user_windows_backend'
+10:06:14.403 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.flask_backend'
+10:06:14.405 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.matplotlib_backend'
+10:06:14.407 INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.pgzero_backend'
+10:06:14.414 INFO    thonny: TIME/MODS 0.021 After loading plugins (+6 modules)
+10:06:14.415 INFO    thonny: NEW MODS ['thonny.plugins.backend', 'thonny.plugins.backend.birdseye_backend', 'thonny.plugins.backend.dock_user_windows_backend', 'thonny.plugins.backend.flask_backend', 'thonny.plugins.backend.matplotlib_backend', 'thonny.plugins.backend.pgzero_backend']
+10:06:14.416 INFO    thonny: TIME/MODS 0.001 Beginning of mainloop 
+10:06:14.417 INFO    thonny: TIME/MODS 0.001 Before Run 
+10:06:14.418 INFO    thonny: TIME/MODS 0.001 Starting _execute_file 
+10:06:14.419 INFO    thonny: TIME/MODS 0.001 Done preprocessing 
+10:06:14.419 INFO    thonny: TIME/MODS 0.000 Done creating executor 
+10:06:14.419 INFO    thonny: TIME/MODS 0.000 Before preparing ast in executor 
+10:06:14.458 INFO    thonny: TIME/MODS 0.039 After compiling ast in executor (+1 modules)
+10:06:14.459 INFO    thonny: NEW MODS ['pgzero']
+10:06:14.638 INFO    thonny: TIME/MODS 0.180 Sending message ProgramOutput (+47 modules)
+10:06:14.639 INFO    thonny: NEW MODS ['__future__', '_bisect', '_datetime', '_decimal', '_random', '_sha512', '_socket', '_statistics', 'array', 'bisect', 'cmath', 'colorsys', 'colorzero', 'colorzero.attr', 'colorzero.color', 'colorzero.conversions', 'colorzero.deltae', 'colorzero.easings', 'colorzero.tables', 'colorzero.types', 'datetime', 'decimal', 'fractions', 'gpiozero', 'gpiozero.boards', 'gpiozero.compat', 'gpiozero.devices', 'gpiozero.exc', 'gpiozero.fonts', 'gpiozero.input_devices', 'gpiozero.internal_devices', 'gpiozero.mixins', 'gpiozero.output_devices', 'gpiozero.pins', 'gpiozero.pins.data', 'gpiozero.pins.pi', 'gpiozero.pins.pigpio', 'gpiozero.spi_devices', 'gpiozero.threads', 'gpiozero.tones', 'numbers', 'pigpio', 'random', 'socket', 'spidev', 'statistics', 'textwrap']
+10:06:14.641 INFO    thonny: TIME/MODS 0.003 Sending message ProgramOutput 
+10:06:14.669 INFO    thonny: TIME/MODS 0.028 Sending message ProgramOutput (+3 modules)
+10:06:14.670 INFO    thonny: NEW MODS ['encodings.idna', 'stringprep', 'unicodedata']
+10:06:14.672 INFO    thonny: TIME/MODS 0.003 Sending message ProgramOutput 
+10:06:17.098 INFO    thonny: TIME/MODS 2.426 Sending message ProgramOutput 
+10:06:17.100 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:17.830 INFO    thonny: TIME/MODS 0.730 Sending message ProgramOutput 
+10:06:17.833 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:18.776 INFO    thonny: TIME/MODS 0.943 Sending message ProgramOutput 
+10:06:18.778 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:20.857 INFO    thonny: TIME/MODS 2.079 Sending message ProgramOutput 
+10:06:20.859 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:23.937 INFO    thonny: TIME/MODS 3.078 Sending message ProgramOutput 
+10:06:23.938 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:24.784 INFO    thonny: TIME/MODS 0.846 Sending message ProgramOutput 
+10:06:24.786 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:26.218 INFO    thonny: TIME/MODS 1.432 Sending message ProgramOutput 
+10:06:26.220 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:26.423 INFO    thonny: TIME/MODS 0.202 Sending message ProgramOutput 
+10:06:26.425 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:29.573 INFO    thonny: TIME/MODS 3.148 Sending message ProgramOutput 
+10:06:29.574 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:29.593 INFO    thonny: TIME/MODS 0.019 Sending message ProgramOutput 
+10:06:29.595 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:32.043 INFO    thonny: TIME/MODS 2.448 Sending message ProgramOutput 
+10:06:32.045 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:32.777 INFO    thonny: TIME/MODS 0.732 Sending message ProgramOutput 
+10:06:32.778 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:33.722 INFO    thonny: TIME/MODS 0.944 Sending message ProgramOutput 
+10:06:33.724 INFO    thonny: TIME/MODS 0.002 Sending message ProgramOutput 
+10:06:35.797 INFO    thonny: TIME/MODS 2.073 Sending message ProgramOutput 
+10:06:35.799 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:38.875 INFO    thonny: TIME/MODS 3.076 Sending message ProgramOutput 
+10:06:38.876 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:39.723 INFO    thonny: TIME/MODS 0.846 Sending message ProgramOutput 
+10:06:39.724 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:41.156 INFO    thonny: TIME/MODS 1.432 Sending message ProgramOutput 
+10:06:41.157 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:41.358 INFO    thonny: TIME/MODS 0.201 Sending message ProgramOutput 
+10:06:41.360 INFO    thonny: TIME/MODS 0.001 Sending message ProgramOutput 
+10:06:44.509 INFO    thonny: TIME/MODS 3.149 After Run 
+10:06:44.513 INFO    thonny: TIME/MODS 0.005 Sending message ToplevelResponse 
+10:06:44.516 INFO    thonny.backend: Loading Jedi
+10:06:44.516 INFO    thonny: TIME/MODS 0.003 Before loading Jedi 
+10:06:44.518 INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python39.zip', '/usr/lib/python3.9', '/usr/lib/python3.9/lib-dynload', '/home/cansat-stu/.local/lib/python3.9/site-packages', '/usr/local/lib/python3.9/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.9/dist-packages', '/home/cansat-stu/.config/Thonny/plugins/lib/python3.9/site-packages']
+10:06:44.895 INFO    thonny: TIME/MODS 0.379 After loading Jedi (+125 modules)
+10:06:44.896 INFO    thonny: NEW MODS ['_blake2', '_bz2', '_compat_pickle', '_compression', '_hashlib', '_json', '_lzma', '_pickle', 'bz2', 'colorama', 'colorama.ansi', 'colorama.ansitowin32', 'colorama.initialise', 'colorama.win32', 'colorama.winterm', 'difflib', 'filecmp', 'gc', 'hashlib', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'lzma', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pydoc_data', 'pydoc_data.topics', 'shutil', 'zlib']
+10:06:50.222 INFO    thonny: TIME/MODS 5.326 Sending message highlight_occurrences_response (+1 modules)
+10:06:50.223 INFO    thonny: NEW MODS ['thonny.jedi_utils']
+10:06:50.266 INFO    thonny: TIME/MODS 0.044 Sending message highlight_occurrences_response 
+10:06:50.518 INFO    thonny: TIME/MODS 0.253 Sending message highlight_occurrences_response 
+10:06:51.695 INFO    thonny: TIME/MODS 1.177 Sending message highlight_occurrences_response 
+10:06:52.009 INFO    thonny: TIME/MODS 0.314 Sending message highlight_occurrences_response 
+10:06:53.372 INFO    thonny: TIME/MODS 1.363 Sending message highlight_occurrences_response 
+10:06:56.725 INFO    thonny: TIME/MODS 3.353 Sending message highlight_occurrences_response 
+10:06:58.078 INFO    thonny: TIME/MODS 1.353 Sending message highlight_occurrences_response 
+10:06:58.518 INFO    thonny: TIME/MODS 0.440 Sending message highlight_occurrences_response 
+10:06:59.736 INFO    thonny: TIME/MODS 1.218 Sending message highlight_occurrences_response 
+10:07:00.225 INFO    thonny: TIME/MODS 0.489 Sending message highlight_occurrences_response 
+10:07:01.312 INFO    thonny: TIME/MODS 1.087 Sending message highlight_occurrences_response (+1 modules)
+10:07:01.313 INFO    thonny: NEW MODS ['jedi.inference.finder']
+10:07:01.528 INFO    thonny: TIME/MODS 0.215 Sending message highlight_occurrences_response 
+10:07:02.243 INFO    thonny: TIME/MODS 0.716 Sending message highlight_occurrences_response 
+10:07:03.077 INFO    thonny: TIME/MODS 0.834 Sending message highlight_occurrences_response 
+10:07:03.508 INFO    thonny: TIME/MODS 0.430 Sending message highlight_occurrences_response 
+10:07:05.044 INFO    thonny: TIME/MODS 1.536 Sending message highlight_occurrences_response 
+10:07:05.952 INFO    thonny: TIME/MODS 0.909 Sending message highlight_occurrences_response 
+10:07:06.647 INFO    thonny: TIME/MODS 0.695 Sending message highlight_occurrences_response 
+10:07:07.625 INFO    thonny: TIME/MODS 0.978 Sending message highlight_occurrences_response 
+10:07:09.075 INFO    thonny: TIME/MODS 1.450 Sending message highlight_occurrences_response 
+10:07:10.797 INFO    thonny: TIME/MODS 1.723 Sending message highlight_occurrences_response 
+10:08:47.686 INFO    thonny: TIME/MODS 96.889 Sending message highlight_occurrences_response 
+10:08:51.040 INFO    thonny: TIME/MODS 3.354 Sending message highlight_occurrences_response 

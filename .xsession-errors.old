@@ -1,4 +1,4 @@
-Xsession: X session started for cansat-stu at Sat 15 Jun 09:07:06 BST 2024
+Xsession: X session started for cansat-stu at Sun 21 Jul 07:49:56 BST 2024
 WARNING: tempfile is deprecated; consider using mktemp instead.
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
@@ -26,7 +26,7 @@ dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
 dbus-update-activation-environment: setting NO_AT_BRIDGE=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting PWD=/home/cansat-stu
-** Message: 09:07:14.736: main.vala:103: Session is LXDE-pi
-** Message: 09:07:14.737: main.vala:104: DE is LXDE
-** Message: 09:07:15.032: main.vala:135: log directory: /home/cansat-stu/.cache/lxsession/LXDE-pi
-** Message: 09:07:15.032: main.vala:136: log path: /home/cansat-stu/.cache/lxsession/LXDE-pi/run.log
+** Message: 07:50:06.024: main.vala:103: Session is LXDE-pi
+** Message: 07:50:06.024: main.vala:104: DE is LXDE
+** Message: 07:50:06.334: main.vala:135: log directory: /home/cansat-stu/.cache/lxsession/LXDE-pi
+** Message: 07:50:06.334: main.vala:136: log path: /home/cansat-stu/.cache/lxsession/LXDE-pi/run.log

@@ -1,0 +1,12 @@
+2024-06-23 06:47:50.909 [info] 実験 'pythonCreateEnvOnPipInstall' はアクティブです
+2024-06-23 06:47:50.909 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-06-23 06:47:50.909 [info] 実験 'pythonSurveyNotificationcf' はアクティブです
+2024-06-23 06:47:50.909 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-06-23 06:47:50.909 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-06-23 06:47:50.909 [info] Default formatter is set to null for workspace /home/cansat-stu
+2024-06-23 06:47:50.909 [info] Python インタープリター パス: /usr/bin/python3
+2024-06-23 06:47:52.869 [info] > pyenv which python
+2024-06-23 06:47:52.869 [info] cwd: .
+2024-06-23 06:47:54.869 [info] Discover tests for workspace name: cansat-stu - uri: /home/cansat-stu/motor/motor.py
+2024-06-23 06:48:04.084 [info] Pylance 言語サーバーを開始しています。
+2024-06-23 06:49:08.368 [info] Discover tests for workspace name: cansat-stu - uri: /home/cansat-stu/motor/motor.py

@@ -1,0 +1,15 @@
+2024-06-23 07:22:31.208 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-06-23 07:22:39.687 [info] [Info  - 07:22:38] (1624) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-23 07:22:39.769 [info] [Info  - 07:22:39] (1624) Server root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-23 07:22:39.774 [info] [Info  - 07:22:39] (1624) Starting service instance "cansat-stu"
+2024-06-23 07:22:40.223 [info] Auto-Indent enabled
+2024-06-23 07:22:42.329 [info] Auto-Indent enabled
+2024-06-23 07:22:43.206 [info] [Info  - 07:22:42] (1624) Setting pythonPath for service "cansat-stu": "/usr/bin/python3"
+2024-06-23 07:22:45.475 [info] [Info  - 07:22:45] (1624) Setting environmentName for service "cansat-stu": "3.9.2 (グローバル)"
+2024-06-23 07:22:48.254 [info] [Info  - 07:22:47] (1624) Assuming Python version 3.9.2.final.0
+2024-06-23 07:22:57.879 [info] [Info  - 07:22:57] (1624) Found 26 source files
+2024-06-23 07:22:58.280 [info] Auto-Indent enabled
+2024-06-23 07:23:07.476 [info] [Info  - 07:23:07] (1624) [FG] Long operation: parsing: file:///home/cansat-stu/motor/motor.py (8916ms)
+2024-06-23 07:23:22.287 [info] [Info  - 07:23:22] (1624) [FG] Long operation: binding: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist/typeshed-fallback/stdlib/builtins.pyi (13581ms)
+2024-06-23 07:23:22.572 [info] [Info  - 07:23:22] (1624) Background analysis(1) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-23 07:23:22.576 [info] [Info  - 07:23:22] (1624) Background analysis(1) started

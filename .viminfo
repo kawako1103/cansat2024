@@ -14,6 +14,8 @@
 ~Msle0~/\<dtoverlay\>
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1719122682,,"wq"
 :w
 |2,0,1716288835,,"w"
 :q!
@@ -37,28 +39,34 @@
 |3,1,36,0,1,0,1716287851,"54321"
 
 # File marks:
-'0  22  0  ~/.vimrc
-|4,48,22,0,1716288837,"~/.vimrc"
-'1  1  0  ~/.vimrc
-|4,49,1,0,1716288792,"~/.vimrc"
+'0  1  12  ~/motor/motor.py
+|4,48,1,12,1719122682,"~/motor/motor.py"
+'1  22  0  ~/.vimrc
+|4,49,22,0,1716288837,"~/.vimrc"
 '2  1  0  ~/.vimrc
 |4,50,1,0,1716288792,"~/.vimrc"
-'3  37  28  ~/.tmux.conf
-|4,51,37,28,1716288739,"~/.tmux.conf"
-'4  15  6  /etc/ssh/sshd_config
-|4,52,15,6,1716287875,"/etc/ssh/sshd_config"
-'5  4  3  ~/test40.py
-|4,53,4,3,1716285257,"~/test40.py"
-'6  7  0  ~/test.py
-|4,54,7,0,1716285189,"~/test.py"
-'7  48  0  /boot/config.txt
-|4,55,48,0,1715182798,"/boot/config.txt"
-'8  82  0  /boot/config.txt
-|4,56,82,0,1715182692,"/boot/config.txt"
+'3  1  0  ~/.vimrc
+|4,51,1,0,1716288792,"~/.vimrc"
+'4  37  28  ~/.tmux.conf
+|4,52,37,28,1716288739,"~/.tmux.conf"
+'5  15  6  /etc/ssh/sshd_config
+|4,53,15,6,1716287875,"/etc/ssh/sshd_config"
+'6  4  3  ~/test40.py
+|4,54,4,3,1716285257,"~/test40.py"
+'7  7  0  ~/test.py
+|4,55,7,0,1716285189,"~/test.py"
+'8  48  0  /boot/config.txt
+|4,56,48,0,1715182798,"/boot/config.txt"
 '9  82  0  /boot/config.txt
 |4,57,82,0,1715182692,"/boot/config.txt"
 
 # Jumplist (newest first):
+-'  1  12  ~/motor/motor.py
+|4,39,1,12,1719122682,"~/motor/motor.py"
+-'  22  0  ~/.vimrc
+|4,39,22,0,1716288837,"~/.vimrc"
+-'  22  0  ~/.vimrc
+|4,39,22,0,1716288837,"~/.vimrc"
 -'  22  0  ~/.vimrc
 |4,39,22,0,1716288837,"~/.vimrc"
 -'  22  0  ~/.vimrc
@@ -67,6 +75,14 @@
 |4,39,1,0,1716288830,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1716288830,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1716288830,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1716288830,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1716288792,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1716288792,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1716288792,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -87,6 +103,38 @@
 |4,39,37,28,1716288739,"~/.tmux.conf"
 -'  37  28  ~/.tmux.conf
 |4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  37  28  ~/.tmux.conf
+|4,39,37,28,1716288739,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1716288733,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
 |4,39,1,0,1716288733,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
@@ -135,6 +183,38 @@
 |4,39,15,6,1716287875,"/etc/ssh/sshd_config"
 -'  15  6  /etc/ssh/sshd_config
 |4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
+-'  15  6  /etc/ssh/sshd_config
+|4,39,15,6,1716287875,"/etc/ssh/sshd_config"
 -'  1  0  /etc/ssh/sshd_config
 |4,39,1,0,1716287786,"/etc/ssh/sshd_config"
 -'  1  0  /etc/ssh/sshd_config
@@ -167,98 +247,32 @@
 |4,39,1,0,1716287786,"/etc/ssh/sshd_config"
 -'  1  0  /etc/ssh/sshd_config
 |4,39,1,0,1716287786,"/etc/ssh/sshd_config"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  4  3  ~/test40.py
-|4,39,4,3,1716285257,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
--'  1  0  ~/test40.py
-|4,39,1,0,1716285242,"~/test40.py"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1716287786,"/etc/ssh/sshd_config"
 
 # History of marks within files (newest to oldest):
+
+> ~/motor/motor.py
+	*	1719122681	0
+	"	1	12
+	^	1	13
+	.	9	12
+	+	6	12
+	+	7	12
+	+	8	12
+	+	9	12
 
 > ~/.vimrc
 	*	1716288835	0

@@ -1,0 +1,11 @@
+2024-06-23 06:25:32.004 [info] 実験 'pythonCreateEnvOnPipInstall' はアクティブです
+2024-06-23 06:25:32.005 [info] 実験 'pythonRecommendTensorboardExt' はアクティブです
+2024-06-23 06:25:32.005 [info] 実験 'pythonSurveyNotificationcf' はアクティブです
+2024-06-23 06:25:32.005 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2024-06-23 06:25:32.005 [info] 実験 'pythonTestAdapter' はアクティブです
+2024-06-23 06:25:32.005 [info] Default formatter is set to null for workspace /home/cansat-stu
+2024-06-23 06:25:34.810 [info] > pyenv which python
+2024-06-23 06:25:34.810 [info] cwd: .
+2024-06-23 06:25:43.360 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-23 06:25:44.184 [info] Python インタープリター パス: /usr/bin/python3
+2024-06-23 06:25:51.356 [info] Pylance 言語サーバーを開始しています。

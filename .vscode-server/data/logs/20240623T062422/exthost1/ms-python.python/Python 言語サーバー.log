@@ -1,0 +1,23 @@
+2024-06-23 06:25:44.071 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.8.1)
+2024-06-23 06:25:51.131 [info] [Info  - 06:25:50] (1936) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-06-23 06:25:51.138 [info] [Info  - 06:25:51] (1936) Server root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-06-23 06:25:51.141 [info] [Info  - 06:25:51] (1936) Starting service instance "cansat-stu"
+2024-06-23 06:25:51.646 [info] [Info  - 06:25:51] (1936) Setting pythonPath for service "cansat-stu": "/usr/bin/python3"
+2024-06-23 06:25:51.664 [info] [Info  - 06:25:51] (1936) Setting environmentName for service "cansat-stu": "3.8.10 (グローバル)"
+2024-06-23 06:25:52.351 [info] [Info  - 06:25:52] (1936) Assuming Python version 3.9.2.final.0
+2024-06-23 06:25:54.487 [info] [Info  - 06:25:54] (1936) Found 24 source files
+2024-06-23 06:25:58.137 [info] [Info  - 06:25:57] (1936) [FG] Long operation: parsing: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/builtins.pyi (2222ms)
+2024-06-23 06:25:59.589 [info] [Info  - 06:25:59] (1936) Background analysis(1) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-06-23 06:25:59.620 [info] [Info  - 06:25:59] (1936) Background analysis(1) started
+2024-06-23 06:26:06.361 [info] [Info  - 06:26:06] (1936) Indexer background runner(2) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-06-23 06:26:06.408 [info] [Info  - 06:26:06] (1936) Indexing(2) started
+2024-06-23 06:26:15.195 [info] [Info  - 06:26:14] (1936) [BG(1)] Long operation: parsing: file:///home/cansat-stu/BMX055/BMX055.py (8492ms)
+2024-06-23 06:26:26.338 [info] [Info  - 06:26:24] (1936) [BG(1)] Long operation: parsing: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/builtins.pyi (9271ms)
+2024-06-23 06:27:25.669 [info] [Info  - 06:27:23] (1936) [BG(1)] Long operation: binding: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/builtins.pyi (48971ms)
+2024-06-23 06:27:31.934 [info] [Info  - 06:27:28] (1936) [BG(1)] Long operation: binding: file:///home/cansat-stu/BMX055/BMX055.py (6409ms)
+2024-06-23 06:30:02.559 [info] [Info  - 06:29:59] (1936) [BG(1)] Long operation: parsing: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/typing.pyi (130734ms)
+2024-06-23 06:30:30.984 [info] [Info  - 06:30:29] (1936) [BG(1)] Long operation: binding: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/typing.pyi (31678ms)
+2024-06-23 06:30:42.400 [info] [Info  - 06:30:39] (1936) [BG(1)] Long operation: parsing: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/types.pyi (5576ms)
+2024-06-23 06:31:22.471 [info] [Info  - 06:31:18] (1936) [BG(1)] Long operation: binding: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/types.pyi (10067ms)
+2024-06-23 06:32:42.528 [info] [Info  - 06:32:40] (1936) [BG(1)] Long operation: parsing: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/_typeshed/__init__.pyi (7353ms)
+2024-06-23 06:32:48.275 [info] [Info  - 06:32:46] (1936) [BG(1)] Long operation: binding: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stdlib/_typeshed/__init__.pyi (6424ms)

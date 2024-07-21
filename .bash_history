@@ -164,3 +164,7 @@ python 04_getlonlat.py
 i2cdetect -y 1
 python 04_getlonlat.py 
 python 05_writelog.py 
+ls
+cd motor
+shutdwon
+sudo shutdown -h now

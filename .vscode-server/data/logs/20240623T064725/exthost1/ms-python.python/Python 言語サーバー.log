@@ -1,0 +1,19 @@
+2024-06-23 06:47:56.283 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-06-23 06:48:03.911 [info] [Info  - 06:48:03] (1561) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-23 06:48:03.924 [info] [Info  - 06:48:03] (1561) Server root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-23 06:48:03.928 [info] [Info  - 06:48:03] (1561) Starting service instance "cansat-stu"
+2024-06-23 06:48:04.154 [info] Auto-Indent enabled
+2024-06-23 06:48:04.316 [info] Auto-Indent enabled
+2024-06-23 06:48:04.333 [info] [Info  - 06:48:04] (1561) Setting pythonPath for service "cansat-stu": "/usr/bin/python3"
+2024-06-23 06:48:04.364 [info] [Info  - 06:48:04] (1561) Setting environmentName for service "cansat-stu": "3.9.2 (グローバル)"
+2024-06-23 06:48:06.684 [info] [Info  - 06:48:06] (1561) Assuming Python version 3.9.2.final.0
+2024-06-23 06:48:11.573 [info] [Info  - 06:48:11] (1561) Found 25 source files
+2024-06-23 06:48:11.842 [info] Auto-Indent enabled
+2024-06-23 06:48:11.878 [info] [Info  - 06:48:11] (1561) Background analysis(1) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-23 06:48:11.880 [info] [Info  - 06:48:11] (1561) Background analysis(1) started
+2024-06-23 06:48:22.101 [info] [Info  - 06:48:21] (1561) [BG(1)] Long operation: parsing: file:///home/cansat-stu/motor/motor.py (2936ms)
+2024-06-23 06:48:22.232 [info] [Info  - 06:48:22] (1561) Indexer background runner(2) root directory: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist (index)
+2024-06-23 06:48:22.233 [info] [Info  - 06:48:22] (1561) Indexing(2) started
+2024-06-23 06:48:31.771 [info] [Info  - 06:48:31] (1561) [BG(1)] Long operation: binding: file:///home/cansat-stu/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist/typeshed-fallback/stdlib/types.pyi (2316ms)
+2024-06-23 06:48:45.807 [info] [Info  - 06:48:45] (1561) [BG(1)] Long operation: checking: file:///home/cansat-stu/motor/motor.py (17993ms)
+2024-06-23 06:48:45.880 [info] [Info  - 06:48:45] (1561) [BG(1)] Long operation: analyzing: file:///home/cansat-stu/motor/motor.py (23911ms)
