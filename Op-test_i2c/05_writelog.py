@@ -34,8 +34,8 @@ def proccess_data_gps(data_nmea):
 				#print("nmea_cat:",nmea_cat,end=", ")
 				msg = pynmea2.parse(data_nmea_arr[index_i])
 				#print("longitude:",msg.lon,", latitude:", msg.lat)
-				read_lon = msg.lon
-				read_lat = msg.lat
+				read_lon = msg.longtude
+				read_lat = msg.latitude
 			except Exception as e:
 				print("",end="")
 		#else:
