@@ -1,60 +1,158 @@
-# Distributed with a free-will license.
-# Use it any way you want, profit or free, provided it fits in the licenses of its associated works.
-# MPL3115A2
-# This code is designed to work with the MPL3115A2_I2CS I2C Mini Module available from ControlEverything.com.
-# https://www.controleverything.com/products
-
-import smbus
 import time
+import smbus
 
-# Get I2C bus
-bus = smbus.SMBus(1)
 
-# MPL3115A2 address, 0x60(96)
-# Select control register, 0x26(38)
-#		0xB9(185)	Active mode, OSR = 128, Altimeter mode
-bus.write_byte_data(0x60, 0x26, 0xB9)
-# MPL3115A2 address, 0x60(96)
-# Select data configuration register, 0x13(19)
-#		0x07(07)	Data ready event enabled for altitude, pressure, temperature
-bus.write_byte_data(0x60, 0x13, 0x07)
-# MPL3115A2 address, 0x60(96)
-# Select control register, 0x26(38)
-#		0xB9(185)	Active mode, OSR = 128, Altimeter mode
-bus.write_byte_data(0x60, 0x26, 0xB9)
+class MPL3115A2exception(Exception):
+    pass
 
-time.sleep(1)
 
-# MPL3115A2 address, 0x60(96)
-# Read data back from 0x00(00), 6 bytes
-# status, tHeight MSB1, tHeight MSB, tHeight LSB, temp MSB, temp LSB
-data = bus.read_i2c_block_data(0x60, 0x00, 6)
+class MPL3115A2:
+    ALTITUDE_MODE = 0
+    PRESSURE_MODE = 1
 
-# Convert the data to 20-bits (8+8+4bits)
-tHeight = ((data[1] * 65536) + (data[2] * 256) + (data[3] & 0xF0)) / 16
-temp = ((data[4] * 256) + (data[5] & 0xF0)) / 16
-altitude = tHeight / 16.0
-cTemp = temp / 16.0
-fTemp = cTemp * 1.8 + 32
+    MPL3115_I2CADDR = 0x60
+    MPL3115_STATUS = 0x00
+    MPL3115_PRESSURE_DATA_MSB = 0x01
+    MPL3115_PRESSURE_DATA_CSB = 0x02
+    MPL3115_PRESSURE_DATA_LSB = 0x03
+    MPL3115_TEMP_DATA_MSB = 0x04
+    MPL3115_TEMP_DATA_LSB = 0x05
+    MPL3115_DR_STATUS = 0x06
+    MPL3115_DELTA_DATA = 0x07
+    MPL3115_WHO_AM_I = 0x0C
+    MPL3115_FIFO_STATUS = 0x0D
+    MPL3115_FIFO_DATA = 0x0E
+    MPL3115_FIFO_SETUP = 0x0E
+    MPL3115_TIME_DELAY = 0x10
+    MPL3115_SYS_MODE = 0x11
+    MPL3115_INT_SORCE = 0x12
+    MPL3115_PT_DATA_CFG = 0x13
+    MPL3115_BAR_IN_MSB = 0x14
+    MPL3115_P_ARLARM_MSB = 0x16
+    MPL3115_T_ARLARM = 0x18
+    MPL3115_P_ARLARM_WND_MSB = 0x19
+    MPL3115_T_ARLARM_WND = 0x1B
+    MPL3115_P_MIN_DATA = 0x1C
+    MPL3115_T_MIN_DATA = 0x1F
+    MPL3115_P_MAX_DATA = 0x21
+    MPL3115_T_MAX_DATA = 0x24
+    MPL3115_CTRL_REG1 = 0x26
+    MPL3115_CTRL_REG2 = 0x27
+    MPL3115_CTRL_REG3 = 0x28
+    MPL3115_CTRL_REG4 = 0x29
+    MPL3115_CTRL_REG5 = 0x2A
+    MPL3115_OFFSET_P = 0x2B
+    MPL3115_OFFSET_T = 0x2C
+    MPL3115_OFFSET_H = 0x2D
 
-# MPL3115A2 address, 0x60(96)
-# Select control register, 0x26(38)
-#		0x39(57)	Active mode, OSR = 128, Barometer mode
-bus.write_byte_data(0x60, 0x26, 0x39)
+    def __init__(self, mode):
 
-time.sleep(1)
+        self.mode = mode
+        self.bus = smbus.SMBus(1)
 
-# MPL3115A2 address, 0x60(96)
-# Read data back from 0x00(00), 4 bytes
-# status, pres MSB1, pres MSB, pres LSB
-data = bus.read_i2c_block_data(0x60, 0x00, 4)
+        if self.mode == MPL3115A2.PRESSURE_MODE:
+            # barometer mode, not raw, oversampling 128, minimum time 512 ms
+            self.bus.write_byte_data(
+                MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_CTRL_REG1, 0x38
+            )
+            self.bus.write_byte_data(
+                MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_PT_DATA_CFG, 0x07
+            )  # no events detected
+            self.bus.write_byte_data(
+                MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_CTRL_REG1, 0x39
+            )  # active
+        elif self.mode == MPL3115A2.ALTITUDE_MODE:
+            # altitude mode, not raw, oversampling 128, minimum time 512 ms
+            self.bus.write_byte_data(
+                MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_CTRL_REG1, 0xB8
+            )
+            self.bus.write_byte_data(
+                MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_PT_DATA_CFG, 0x07
+            )  # no events detected
+            self.bus.write_byte_data(
+                MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_CTRL_REG1, 0xB9
+            )  # active
+        else:
+            raise MPL3115A2exception("Invalid Mode MPL3115A2")
 
-# Convert the data to 20-bits
-pres = ((data[1] * 65536) + (data[2] * 256) + (data[3] & 0xF0)) / 16
-pressure = (pres / 4.0) / 1000.0
+    def pressure(self):
+        if self.mode == MPL3115A2.ALTITUDE_MODE:
+            raise MPL3115A2exception("Incorrect Measurement Mode MPL3115A2")
 
-# Output data to screen
-print ("Pressure : %.2f kPa" %pressure)
-print ("Altitude : %.2f m" %altitude)
-print ("Temperature in Celsius  : %.2f C" %cTemp)
-print ("Temperature in Fahrenheit  : %.2f F" %fTemp)
+        out_pressure = self.bus.read_i2c_block_data(
+            MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_PRESSURE_DATA_MSB, 3
+        )
+
+        pressure_int = (
+            (out_pressure[0] << 10)
+            + (out_pressure[1] << 2)
+            + ((out_pressure[2] >> 6) & 0x3)
+        )
+        pressure_frac = (out_pressure[2] >> 4) & 0x03
+
+        return float(pressure_int + pressure_frac / 4.0)
+
+    def altitude(self):
+        if self.mode == MPL3115A2.PRESSURE_MODE:
+            raise MPL3115A2exception("Incorrect Measurement Mode MPL3115A2")
+
+        out_alt = self.bus.read_i2c_block_data(
+            MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_PRESSURE_DATA_MSB, 3
+        )
+
+        alt_int = (out_alt[0] << 8) + (out_alt[1])
+        alt_frac = (out_alt[2] >> 4) & 0x0F
+
+        if alt_int > 32767:
+            alt_int -= 65536
+
+        return float(alt_int + alt_frac / 16.0)
+
+    def temperature(self):
+        OUT_T_MSB = self.bus.read_i2c_block_data(
+            MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_TEMP_DATA_MSB, 1
+        )
+        OUT_T_LSB = self.bus.read_i2c_block_data(
+            MPL3115A2.MPL3115_I2CADDR, MPL3115A2.MPL3115_TEMP_DATA_LSB, 1
+        )
+
+        temp_int = OUT_T_MSB[0]
+        temp_frac = OUT_T_LSB[0]
+
+        if temp_int > 127:
+            temp_int -= 256
+
+        return float(temp_int + temp_frac / 256.0)
+
+    def recordLog(self):
+        date = time.strftime("%H:%M:%S.%f")
+        path = "./MPL3115A2.log"
+
+        if self.mode == MPL3115A2.ALTITUDE_MODE:
+            buf = self.altitude()
+        elif self.mode == MPL3115A2.PRESSURE_MODE:
+            buf = self.pressure()
+        else:
+            raise MPL3115A2exception("Incorrect Measurement Mode MPL3115A2")
+
+        try:
+            with open(path, "x", encoding="utf-8") as f:
+                print("%s,%.2f" % (date, buf), file=f)
+        except:
+            with open(path, "a", encoding="utf-8") as f:
+                print("%s,%.2f" % (date, buf), file=f)
+
+
+if __name__ == "__main__":
+    mpla = MPL3115A2(MPL3115A2.ALTITUDE_MODE)
+    mplp = MPL3115A2(MPL3115A2.PRESSURE_MODE)
+    while True:
+        altitude = mpla.altitude()
+        temperature = mpla.temperature()
+        mpla.recordLog()
+        pressure = mplp.pressure()
+
+        print("Pressure : %.2f Pa" % pressure)
+        print("Altitude : %.2f m" % altitude)
+        print("Temperature : %.2f C" % temperature)
+        time.sleep(1)

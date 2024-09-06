@@ -1,150 +1,180 @@
-from gpiozero import Motor
-from time import sleep
+import threading
+from gpiozero import PWMOutputDevice
 from gpiozero.pins.pigpio import PiGPIOFactory
+from time import sleep
 
 # DCモータのピン設定
-PIN_AIN1 = 13
-PIN_AIN2 = 15
-PIN_BIN1 = 33
-PIN_BIN2 = 35
+PIN_AIN1 = 27
+PIN_AIN2 = 22
+PIN_BIN1 = 13
+PIN_BIN2 = 19
 
 dcm_pins = {
-    "left_forward": PIN_AIN2,
-    "left_backward": PIN_AIN1,
-    "right_forward": PIN_BIN2,
-    "right_backward": PIN_BIN1,
+    "right_backward": PIN_AIN2,
+    "right_forward": PIN_AIN1,
+    "left_backward": PIN_BIN2,
+    "left_forward": PIN_BIN1,
 }
 
-def smooth_transition(motor, target_value, step=0.01, delay=0.02):
-    current_value = motor.value
-    while current_value != target_value:
-        if current_value < target_value:
-            current_value = min(current_value + step, target_value)
+
+class MotorPWM:
+    def __init__(
+        self, forward_pin, backward_pin, pwm_frequency=16000, pin_factory=None
+    ):
+        self.forward = PWMOutputDevice(
+            forward_pin, frequency=pwm_frequency, pin_factory=pin_factory
+        )
+        self.backward = PWMOutputDevice(
+            backward_pin, frequency=pwm_frequency, pin_factory=pin_factory
+        )
+        self._value = 0.0  # _value属性の初期化
+
+    @property
+    def value(self):
+        return self._value
+
+    @value.setter
+    def value(self, speed):
+        self._value = speed
+        if speed > 0:
+            self.forward.value = speed
+            self.backward.value = 0
+        elif speed < 0:
+            self.forward.value = 0
+            self.backward.value = -speed
         else:
-            current_value = max(current_value - step, target_value)
-        motor.value = current_value
+            self.forward.value = 0
+            self.backward.value = 0
+
+
+def smooth_transition(
+    motor_left,
+    motor_right,
+    target_value_left,
+    target_value_right,
+    step=0.01,
+    delay=0.02,
+):
+    current_value_left = motor_left.value
+    current_value_right = motor_right.value
+
+    while (
+        current_value_left != target_value_left
+        or current_value_right != target_value_right
+    ):
+        if current_value_left < target_value_left:
+            current_value_left = min(current_value_left + step, target_value_left)
+        else:
+            current_value_left = max(current_value_left - step, target_value_left)
+
+        if current_value_right < target_value_right:
+            current_value_right = min(current_value_right + step, target_value_right)
+        else:
+            current_value_right = max(current_value_right - step, target_value_right)
+
+        thread_left = threading.Thread(
+            target=set_motor_values, args=(motor_left, current_value_left)
+        )
+        thread_right = threading.Thread(
+            target=set_motor_values, args=(motor_right, current_value_right)
+        )
+
+        thread_left.start()
+        thread_right.start()
+
+        thread_left.join()
+        thread_right.join()
+
         sleep(delay)
 
-def reset():
-    factory = PiGPIOFactory()
-    motor_left = Motor(forward=dcm_pins["left_forward"],
-                       backward=dcm_pins["left_backward"],
-                       pin_factory=factory,
-                       pwm=True,
-                       pwm_frequency=16000)
-    motor_right = Motor(forward=dcm_pins["right_forward"],
-                        backward=dcm_pins["right_backward"],
-                        pin_factory=factory,
-                        pwm=True,
-                        pwm_frequency=16000)
 
-def main():
+def set_motor_values(motor, value):
+    motor.value = value
+
+
+# motor's max duty is "duty" and motor will rotate for "time" seconds in this method, motor won't stop.
+def move(left_duty, right_duty, time):
     factory = PiGPIOFactory()
-    motor_left = Motor(forward=dcm_pins["left_forward"],
-                       backward=dcm_pins["left_backward"],
-                       pin_factory=factory,
-                       pwm=True,
-                       pwm_frequency=16000)
-    motor_right = Motor(forward=dcm_pins["right_forward"],
-                        backward=dcm_pins["right_backward"],
-                        pin_factory=factory,
-                        pwm=True,
-                        pwm_frequency=16000)
+    motor_left = MotorPWM(
+        forward_pin=dcm_pins["left_forward"],
+        backward_pin=dcm_pins["left_backward"],
+        pin_factory=factory,
+    )
+    motor_right = MotorPWM(
+        forward_pin=dcm_pins["right_forward"],
+        backward_pin=dcm_pins["right_backward"],
+        pin_factory=factory,
+    )
+
+    # motor will be rotated when duty is more than 0.5
+    # therefore if you input the duty, motor should rotate absolutely
+    # ex:if you input duty = 0 or duty = 0.5 or duty = 1.0, duty ratio is 0.5, 0.75, 1 respectively.
+    left_duty_ratio = 0.5 * (1 + left_duty)
+    right_duty_ratio = 0.5 * (1 + right_duty)
 
     try:
-        print("最高速で正回転 - 1秒")
-        smooth_transition(motor_left, 1.0)
-        smooth_transition(motor_right, 1.0)
-        sleep(1)
-        
-        print("少し遅く正回転 - 2秒")
-        smooth_transition(motor_left, 0.75)
-        smooth_transition(motor_right, 0.75)
-        sleep(2)
-        
-        print("遅く正回転 - 1秒")
-        smooth_transition(motor_left, 0.5)
-        smooth_transition(motor_right, 0.5)
-        sleep(1)
-        
-        print("停止 - 1秒")
-        smooth_transition(motor_left, 0.0)
-        smooth_transition(motor_right, 0.0)
-        sleep(1)
-        
-        print("最高速で逆回転 - 1秒")
-        smooth_transition(motor_left, -1.0)
-        smooth_transition(motor_right, -1.0)
-        sleep(1)
-        
-        print("少し遅く逆回転 - 1秒")
-        smooth_transition(motor_left, -0.75)
-        smooth_transition(motor_right, -0.75)
-        sleep(1)
-        
-        print("遅く逆回転 - 1秒")
-        smooth_transition(motor_left, -0.5)
-        smooth_transition(motor_right, -0.5)
-        sleep(1)
-        
-        print("停止 - 1秒")
-        smooth_transition(motor_left, 0.0)
-        smooth_transition(motor_right, 0.0)
-        sleep(1)
+        # print("遅く正回転 - 0.2秒")
+        # smooth_transition(motor_left, motor_right, 0.5 * duty_ratio)#previous 0.5
+        # smooth_transition(motor_right, 0.5 * duty_ratio)
+        # sleep(0.3)
+
+        # print("少し遅く正回転 - 0.2秒")
+        # smooth_transition(motor_left, motor_right, 0.6 * duty_ratio)#previous 0.5
+        # smooth_transition(motor_right, 0.6 * duty_ratio)
+        # sleep(0.3)
+
+        # print("少し少し遅く正回転 - 0.2秒")
+        # smooth_transition(motor_left, motor_right,0.75 * duty_ratio)#previous 0.5
+        # smooth_transition(motor_right, 0.75 * duty_ratio)
+        # sleep(0.3)
+
+        print("最高速で正回転 - time秒")
+        smooth_transition(
+            motor_left, motor_right, 1.0 * left_duty_ratio, 1.0 * right_duty_ratio
+        )  # previous 1,0
+        # smooth_transition(motor_right, 1.0 * duty_ratio)
+        sleep(time)
+
     except KeyboardInterrupt:
         print("stop")
-        motor_left.stop()
-        motor_right.stop()
+        motor_left.value = 0.0
+        motor_right.value = 0.0
+
+
+def stop():
+    factory = PiGPIOFactory()
+    motor_left = MotorPWM(
+        forward_pin=dcm_pins["left_forward"],
+        backward_pin=dcm_pins["left_backward"],
+        pin_factory=factory,
+    )
+    motor_right = MotorPWM(
+        forward_pin=dcm_pins["right_forward"],
+        backward_pin=dcm_pins["right_backward"],
+        pin_factory=factory,
+    )
+
+    try:
+        print("遅く逆回転 - 0.2秒")
+        smooth_transition(motor_left, motor_right, -0.5, -0.5)
+        # smooth_transition(motor_right, -0.5)
+        sleep(0.2)
+
+        print("停止 - 0.5秒")
+        smooth_transition(motor_left, motor_right, 0.0, 0.0)
+        # smooth_transition(motor_right, 0.0)
+        sleep(0.5)
+
+    except KeyboardInterrupt:
+        print("stop")
+        motor_left.value = 0.0
+        motor_right.value = 0.0
+
 
 if __name__ == "__main__":
-    main()
-
-def rotate():
-    factory = PiGPIOFactory()
-    motor_left = Motor(forward=dcm_pins["left_forward"],
-                       backward=dcm_pins["left_backward"],
-                       pin_factory=factory,
-                       pwm=True,
-                       pwm_frequency=16000)
-    motor_right = Motor(forward=dcm_pins["right_forward"],
-                        backward=dcm_pins["right_backward"],
-                        pin_factory=factory,
-                        pwm=True,
-                        pwm_frequency=16000)
-
-    try:
-        print("最高速で正回転 - 2秒")
-        smooth_transition(motor_left, 1.0)
-        smooth_transition(motor_right, 1.0)
-        sleep(2)
-        
-        print("遅く正回転 - 2秒")
-        smooth_transition(motor_left, 0.5)
-        smooth_transition(motor_right, 0.5)
-        sleep(2)
-        
-        print("停止 - 2秒")
-        smooth_transition(motor_left, 0.0)
-        smooth_transition(motor_right, 0.0)
-        sleep(2)
-        
-        print("遅く逆回転 - 2秒")
-        smooth_transition(motor_left, -0.5)
-        smooth_transition(motor_right, -0.5)
-        sleep(2)
-        
-        print("最高速で逆回転 - 2秒")
-        smooth_transition(motor_left, -1.0)
-        smooth_transition(motor_right, -1.0)
-        sleep(2)
-        
-        print("停止 - 2秒")
-        smooth_transition(motor_left, 0.0)
-        smooth_transition(motor_right, 0.0)
-        sleep(2)
-    except KeyboardInterrupt:
-        print("stop")
-        motor_left.stop()
-        motor_right.stop()
-
-    return
+    # move_forward should be used with motor_stop()
+    # move_forward(duty, time)
+    move(0.75, 0.74, 6.0)  # left + 0.01 # 4 m or less or more
+    # stop
+    print("stop")
+    stop()

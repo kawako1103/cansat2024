@@ -1,6 +1,6 @@
 import smbus
 import time
-import pynmea2 
+import pynmea2
 
 I2C_BUS = 1
 GPS_ADDRESS = 0x42
@@ -34,8 +34,8 @@ def proccess_data_gps(data_nmea):
 				#print("nmea_cat:",nmea_cat,end=", ")
 				msg = pynmea2.parse(data_nmea_arr[index_i])
 				#print("longitude:",msg.lon,", latitude:", msg.lat)
-				read_lon = msg.lon
-				read_lat = msg.lat
+				read_lon = msg.longtude
+				read_lat = msg.latitude
 			except Exception as e:
 				print("",end="")
 		#else:
@@ -79,6 +79,7 @@ def read_data_gps():
 
 def get_lon_lat_time():
 	rx_data_nmea = read_data_gps()
+	#print("Received NMEA data:", rx_data_nmea)  # ここを追加
 	read_lon, read_lat, read_time = proccess_data_gps(rx_data_nmea)
 	attempt = 0
 
@@ -91,6 +92,7 @@ def get_lon_lat_time():
 		read_lon, read_lat, read_time = proccess_data_gps(rx_data_nmea)
 		time.sleep(0.5)
 	print("")
+	#print("I2C received data:", rx_data_nmea)
 	#print("read_lon:",read_lon,", read_lat:",read_lat)
 	return read_lon, read_lat, read_time
 
