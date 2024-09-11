@@ -319,13 +319,13 @@ class BNO055:
         return self._bus.write_i2c_block_data(self._address, register, byteVals)
 
     def getEulerInQuat(self):
-        quat = bno.getQuat()
+        quat = self.getQuat()
         if quat != (0, 0, 0, 0):
             rot = Rotation.from_quat(quat)
             euler_angles = rot.as_euler("xyz", degrees=True)
             return euler_angles
         else:
-            return (0, 0, 0, 0)
+            return 0, 0, 0
 
     # Decide later
     def getABSAccelaration(self):
@@ -343,8 +343,9 @@ class BNO055:
     #     g_vel = (lowpass_value + g_oldacc) * time_span + g_vel
 
     def recordLog(self):
-        date = time.strftime("%H:%M:%S.%f")
-        path = "./BNO055.log"
+        timestamp = time.strftime("%H:%M:%S.%f")
+        date = time.strftime("%Y%m%d")
+        path = f"./BNO055_{date}.log"
 
         bufE = self.getEulerInQuat()
         bufA = self.getVector(BNO055.VECTOR_LINEARACCEL)
@@ -352,14 +353,14 @@ class BNO055:
             with open(path, "x", encoding="utf-8") as f:
                 print(
                     "%s,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f"
-                    % (date, bufE[0], bufE[1], bufE[2], bufA[0], bufA[1], bufA[2]),
+                    % (timestamp, bufE[0], bufE[1], bufE[2], bufA[0], bufA[1], bufA[2]),
                     file=f,
                 )
         except:
             with open(path, "a", encoding="utf-8") as f:
                 print(
                     "%s,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f"
-                    % (date, bufE[0], bufE[1], bufE[2], bufA[0], bufA[1], bufA[2]),
+                    % (timestamp, bufE[0], bufE[1], bufE[2], bufA[0], bufA[1], bufA[2]),
                     file=f,
                 )
 
@@ -373,13 +374,9 @@ if __name__ == "__main__":
     bno.setExternalCrystalUse(True)
 
     while True:
-        euler = bno.getEulerInQuat()
-        acc = bno.getVector(BNO055.VECTOR_LINEARACCEL)
         print(bno.getCalibration())
         print(f"Euler x y z[deg]: {bno.getEulerInQuat()}")
-        print(
-            f"Acc x y z[m/s]: {bno.getVector(BNO055.VECTOR_LINEARACCEL)}" 
-        )
+        print(f"Acc x y z[m/s]: {bno.getVector(BNO055.VECTOR_LINEARACCEL)}")
         print(f"Acc[m/s]: %.2f" % bno.getABSAccelaration())
         bno.recordLog()
         time.sleep(0.1)
