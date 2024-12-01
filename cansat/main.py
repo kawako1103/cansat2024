@@ -4,6 +4,8 @@ import time
 import phase1
 import phase2
 import phase3
+#add phase4
+import phase4 as phase4
 
 
 def stamp(start):
@@ -25,3 +27,8 @@ print(f"Time taken for Phase 2: {phase2_time}s")
 phase3.phase3(goal_pos)
 phase3_time = stamp(start)
 print(f"Time taken for Phase 3: {phase3_time}s")
+
+#add phase4
+phase4.phase4()
+phase4_time = stamp(start)
+print(f"Time taken for Phase 4: {phase4_time}s")
