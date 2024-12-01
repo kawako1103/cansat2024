@@ -161,6 +161,7 @@ if __name__ == "__main__":
     # move_forward should be used with motor_stop()
     # move_forward(duty, time)
     move(0.75, 0.74, 6.0)  # left + 0.01 # 4 m or less or more
+    move(1.0, 0.7, 3.0)
     # stop
     print("stop")
     stop()

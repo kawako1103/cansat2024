@@ -21,3 +21,7 @@ def phase3(goal_pos):
         rt.stop()
 
     print("Arrived!!")
+
+if __name__ == "__main__":
+    goal_pos = [139.5182666, 35.463201]
+    phase3(goal_pos)

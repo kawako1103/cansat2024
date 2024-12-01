@@ -125,9 +125,9 @@ class MPL3115A2:
         return float(temp_int + temp_frac / 256.0)
 
     def recordLog(self):
-        timestamp = time.strftime("%H:%M:%S.%f")
+        timestamp = time.strftime("%H:%M:%S")
         date = time.strftime("%Y%m%d")
-        path = f"./MPL311A2_{date}.log"
+        path = f"./MPL3115A2_{date}.log"
 
         if self.mode == self.ALTITUDE_MODE:#self.MPL3115A2.ALTITUDE_MODE was modified by kawako
             buf = self.getAltitude()

@@ -343,7 +343,7 @@ class BNO055:
     #     g_vel = (lowpass_value + g_oldacc) * time_span + g_vel
 
     def recordLog(self):
-        timestamp = time.strftime("%H:%M:%S.%f")
+        timestamp = time.strftime("%H:%M:%S")
         date = time.strftime("%Y%m%d")
         path = f"./BNO055_{date}.log"
 

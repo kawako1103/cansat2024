@@ -12,7 +12,7 @@ bus = smbus.SMBus(I2C_BUS)
 # Record data for lon, lat and time
 def recordLog():
     read_lon, read_lat = getLonLat()
-    timestamp = time.strftime("%H:%M:%S.%f")
+    timestamp = time.strftime("%H:%M:%S")
     date = time.strftime("%Y%m%d")
     path = f"./GPS_{date}.log"
 

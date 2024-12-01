@@ -1,4 +1,5 @@
 import time
+import smbus
 
 #try to use gps, BNO055
 #import sys
@@ -17,21 +18,21 @@ ALTITUDE_MODE = 0
 if __name__ == "__main__":
     
     #MLP3115A2;)
-    mpla = MPL3115A2(MPL3115A2.ALTITUDE_MODE)
+    mpla = MPL3115A2.MPL3115A2(ALTITUDE_MODE)
     #mpla = MPL3115A2()
     #mplp = MPL3115A2(MPL3115A2.PRESSURE_MODE)
 
 
     #BNO055;
-    bno = BNO055()
-    time = 0
+    bno = BNO055.BNO055()
+    time_count = 0
 
     while True:
         
         mpla.recordLog()
 
         bno.recordLog()
-        print("Now time count : %f C" % time)
-        time.sleep(1)
-        time += 1
+        print("Now time count : %f" % time_count)
+        time.sleep(1.0)
+        time_count += 1
 

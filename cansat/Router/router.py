@@ -2,12 +2,17 @@ from scipy.integrate import cumtrapz
 from pyproj import Geod
 import time
 import threading
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from BNO055 import BNO055
 from GPS import gps
 
 
 class Router:
-    def __init__(self, *goal_pos):
+    def __init__(self, goal_pos):
         self.goal_flag = False
         self.goal_pos = goal_pos
         self.gps_pos = [000.0000000, 000.0000000]
@@ -102,8 +107,9 @@ if __name__ == "__main__":
     router.start()
 
     while True:
-        router.getGpsPos()
-        router.getAzimuth()
-        router.getDistance()
+        #router.getGpsPos()
+        #router.getAzimuth()
+        #router.getDistance()
+        router.getAngleDiff()
         print("")
         time.sleep(0.01)
