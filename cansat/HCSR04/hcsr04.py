@@ -3,8 +3,8 @@ import time
 import collections
 import numpy
 
-TRIG = 23 #どこ？
-ECHO = 24  #どこ？
+TRIG = 23
+ECHO = 24
 
 pi = pigpio.pi()
  
@@ -12,7 +12,6 @@ pi = pigpio.pi()
 pi.set_mode(TRIG, pigpio.OUTPUT)
 pi.set_mode(ECHO, pigpio.INPUT)
 
-# 中央値フィルター用の箱10個
 history = collections.deque(maxlen=10)
 
 def distance():
@@ -43,7 +42,8 @@ def distance():
 
 def distance_filtered():
     history.append(distance())
-    return numpy.median(history)
+    #return numpy.median(history) # median is "chuochi"
+    return numpy.mean(history) # medean is "heikinchi"
  
 if __name__ == '__main__':
     try:
