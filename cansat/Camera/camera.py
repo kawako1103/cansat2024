@@ -3,20 +3,32 @@ import numpy as np
 import time
 import os
 from picamera2 import Picamera2
-from libcamera import controls
+from libcamera import Transform
+
+# Define image dimensions
+height = 100
+width = 100
+
+# Generate log file name with date_
+log_filename = os.path.join(os.path.dirname(__file__), f"Camera_{time.strftime('%Y%m%d')}.log")
+
+def log_message(message):
+    """Log messages to both console and log file."""
+    print(message)
+    with open(log_filename, "a") as log_file:
+        log_file.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
 
 class Camera:
     def __init__(self):
-        # Picamera2のインスタンス作成と初期化
         self.picam2 = Picamera2()
-        camera_config = self.picam2.create_preview_configuration()
+        camera_config = self.picam2.create_still_configuration(
+            main={"size": (height, width)}
+        )
         self.picam2.configure(camera_config)
-        self.picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous})
         self.picam2.start()
-        print("Camera initialized.")
+        print("Camera initialized")
 
     def initialize_camera(self):
-        # 既に初期化済みのため特に必要な処理なし
         print("Camera already initialized.")
 
     def capture_and_save(self, filename=None):
@@ -32,54 +44,68 @@ class Camera:
         
         # 撮影した画像を保存
         self.picam2.capture_file(filename)
-        print(f"Image captured and saved to {filename}.")
+        log_message(f"Image captured and saved to {filename}.")
         return filename
 
-    def greenthreshold_left_center_right(self, image_path, threshold=40):
+    def redthreshold_left_center_right(self, image_path, red_threshold=80, green_threshold=60, black_threshold=50):
         # 画像を読み込み
         image = Image.open(image_path)
-
-        # 画像サイズとRGB値の取得
-        width, height = image.size
         image_rgb = np.array(image)
-        g_channel = image_rgb[:, :, 1]  # 緑チャンネル
 
-        # 閾値処理
-        g_threshold = np.where(g_channel >= threshold, 255, 0).astype(np.uint8)  # 二値化
+        # 画像サイズとRGBチャンネル取得
+        width, height, _ = image_rgb.shape
+        r_channel = image_rgb[:, :, 0]
+        g_channel = image_rgb[:, :, 1]
+        b_channel = image_rgb[:, :, 2]
+
+        # 赤色の判定マスクを作成
+        red_mask = (r_channel > red_threshold) & (g_channel < green_threshold) & (r_channel > b_channel)
+
+        # 黒色を除外
+        black_mask = (r_channel < black_threshold) & (g_channel < black_threshold) & (b_channel < black_threshold)
+        red_mask &= ~black_mask
+
+        # 二値化画像作成
+        red_binary = np.where(red_mask, 255, 0).astype(np.uint8)
 
         # 二値化画像を保存
         save_dir = os.path.dirname(__file__)
         threshold_image_path = os.path.join(save_dir, f"threshold_{os.path.basename(image_path)}")
-        Image.fromarray(g_threshold).convert("L").save(threshold_image_path)
-        print(f"Threshold processed image saved to {threshold_image_path}.")
+        Image.fromarray(red_binary).convert("L").save(threshold_image_path)
+        log_message(f"Threshold processed image saved to {threshold_image_path}.")
 
-        # 画像をx方向に3分割して緑色が薄い領域を判定
+        # 画像をx方向に3分割
         section_width = width // 3
-        sections = [g_threshold[:, :section_width],
-                    g_threshold[:, section_width:2*section_width],
-                    g_threshold[:, 2*section_width:]]
-        
-        # 各セクションで緑色が薄い領域（40未満のピクセル）の割合を計算
+        sections = [red_binary[:, :section_width],
+                    red_binary[:, section_width:2 * section_width],
+                    red_binary[:, 2 * section_width:]]
+
+        # 各セクションで赤色領域の割合を計算
         total_pixels = height * section_width
-        counts = [np.sum(section == 0) for section in sections]
+        counts = [np.sum(section == 255) for section in sections]
         percentages = [(count / total_pixels) * 100 for count in counts]
-
-        # 最も緑が薄いセクションを判定
+        
+        
+        # 最も赤色領域が多いセクションを判定
         max_count_index = np.argmax(counts)
-        sections_labels = ["Left", "Center", "Right"]
-        most_greenless_section = sections_labels[max_count_index]
+        sections_labels = ["Left", "Center", "Right", ]
+        most_red_section = sections_labels[max_count_index]
 
-        # 各セクションの緑が薄い領域の割合を表示
+        # ログに記録
         for label, percent in zip(sections_labels, percentages):
-            print(f"{label}: {percent:.2f}% greenless area")
-
-        print(f"Most greenless section: {most_greenless_section}")
-        return most_greenless_section, percentages
+            log_message(f"{label}: {percent:.2f}% red area")
+        log_message(f"Most red section: {most_red_section}")
+        # all section <= 0.05% return None
+        if all(percent <= 0.05 for percent in percentages):
+                log_message("Red area is below 0.05% in all sections. Returning None.")
+                return "None", 0
+                
+        return most_red_section, percentages
 
     def stop_camera(self):
         # カメラのプレビュー停止と終了処理
         self.picam2.stop()
-        print("Camera stopped.")
+        log_message("Camera stopped.")
 
 if __name__ == "__main__":
     camera = Camera()
@@ -87,12 +113,12 @@ if __name__ == "__main__":
         # 画像を撮影して保存
         image_path = camera.capture_and_save()
 
-        # 保存した画像を解析
-        result, percentages = camera.greenthreshold_left_center_right(image_path)
-        print(f"The area with the least green is: {result}")
+        # 保存した画像を解析（緑ではなく赤を検出）
+        result, percentages = camera.redthreshold_left_center_right(image_path)
+        log_message(f"The area with the most red is: {result}")
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        log_message(f"An error occurred: {e}")
 
     finally:
         camera.stop_camera()

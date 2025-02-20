@@ -1,51 +1,91 @@
 from Motor import robot
-from Camera import Camera
-from HCSR04 import distance_filtered
+from Camera.camera import Camera
+#from HCSR04.hcsr04 import distance_filtered
+from HCSR04.hcsr04 import get_distance, setup
 import time
+import os
 
+# Generate log file name with date_
+log_filename = os.path.join(os.path.dirname(__file__),f"phase4_{time.strftime('%Y%m%d')}.log")
 
-#カメラで実際にコーンを3mの場所において撮影して確かめたい。
-#どのぐらいの割合になるのか確認
-#日本語消す。phase4追加、main.pyに追記、camera.py追加、hcsr04.py追加
-#余裕あれば、YOLO5やりたい。 https://github.com/jhan15/traffic_cones_detection
+setup() #HCSr04pinsetup
+def log_message(message):
+        """Log messages to both console and log file."""
+        print(message)
+        with open(log_filename, "a") as log_file:
+                log_file.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
 
+# camera is reverse. Left is right. Right is left.                
 def phase4():
     camera = Camera()
+    count = 0
+    
     try:
         while True:
-            # 距離を測定
-            current_distance = distance_filtered()
-            print(f"Current Distance: {current_distance:.1f} cm")
-
-            # 1cm以下で終了
-            if current_distance <= 1:
-                print("Goal reached!")
+            count = count + 1
+            if count >= 100:
                 break
-
+                
             # カメラで画像を撮影し緑が少ない方向を判定
             image_path = camera.capture_and_save()
-            most_greenless_section, _ = camera.greenthreshold_left_center_right(image_path)
+            most_greenless_section, _ = camera.redthreshold_left_center_right(image_path)
 
             # 判定結果に応じて動作
-            if most_greenless_section == "Left":
-                print("Turning left")
-                robot.turn(-10)  # 左に10度回転
-            elif most_greenless_section == "Right":
-                print("Turning right")
-                robot.turn(10)  # 右に10度回転
+            if most_greenless_section == "Right": #camera is reverse.
+                log_message("Turning left")
+                robot.turn(-20)  # 左に10度回転
+                robot.stop()
+                time.sleep(0.4)
+            
+            elif most_greenless_section == "Left": #camera is reverse.
+                log_message("Turning right")
+                #robot.start()
+                robot.turn(20)  # 右に10度回転
+                robot.stop()
+                time.sleep(0.4)
+            
             elif most_greenless_section == "Center":
-                print("Moving forward")
-                robot.move(0.75, 10)  # 前方に進む、速度0.75、時間10秒?、1秒ぐらいにしたい。
+                log_message("Moving forward")
+                #robot.start()
+                robot.move(0.5, 1)  # 前方に進む、速度0.3,時間0.54秒
+                robot.stop()
+                time.sleep(0.4)  # 次の操作までの短い遅延                    
+                # 距離を測定
+                #current_distance = distance_filtered()
+                #current_distance = get_distance()
+                ##if current_distance is None:
+                #    log_message("Measurement timeout!")
+                #    robot.turn(0.5)
+                #    time.sleep(0.4)
 
-            time.sleep(0.5)  # 次の操作までの短い遅延
+                #else:
+                    #log_message(f"Current Distance: {current_distance:.1f} cm")
+                    #current_distance = 1 #for test                
+                    # 5cm以下で終了
+                    #if current_distance <= 5:
+                    #    log_message("Goal reached!")
+                    #    break
+                    #elif current_distance >= 5:
+                    #    log_message("Moving forward")
+                    #    robot.move(0.3, 0.1)  # 前方に進む、速度0.3,時間0.54秒
+                    #    time.sleep(0.4)  # 次の操作までの短い遅延
+            
+            elif most_greenless_section == "None":
+                log_message("None cone picture")
+                #robot.start()
+                robot.turn(20)
+                robot.stop()
+                time.sleep(0.4)
+
+            time.sleep(0.8)  # 次の操作までの短い遅延
+            
 
     except Exception as e:
-        print(f"An error occurred: {e}")
-
+        log_message(f"An error occurred: {e}")
     finally:
         camera.stop_camera()
         robot.stop()
-        print("Phase 4 completed.")
+        log_message("Phase 4 completed.")
 
 if __name__ == "__main__":
     phase4()

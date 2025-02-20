@@ -43,5 +43,6 @@ def start():
 
 if __name__ == "__main__":
     move(0.75, 5)
-    # turn(90)
+    stop()
+    turn(90)
     stop()
