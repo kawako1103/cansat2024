@@ -36,21 +36,29 @@ def phase3(goal_pos):
             writer = csv.writer(file)
             writer.writerow([time.time(), gps_pos[0], gps_pos[1], azimuth, deg, distance, velocity_value])
         
-        while abs(deg) > 15 and times < 5: #5
-            rt.update()
+        #get deg from update in start()
+        while abs(deg) > 15.0 and times < 40: #5
+            print(f"before turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
+            # rt.update()
             #robot.turn(deg/100.0)
-            robot.turn(deg/2.5)
             print("Turn!")
+            # robot.turn(deg/5.0)
+            if(deg > 0):
+                robot.turn(-10)
+            else:
+                robot.turn(10)
+            # robot.turn(10)
             robot.stop()
             time.sleep(1)
             
+            rt.update() #get deg from update after turn
             deg = rt.getAngleDiff()
             gps_pos = rt.getGpsPos()
             azimuth = rt.getAzimuth()
             distance = rt.getDistance()
             velocity = rt.getVelocity()
             
-            print(f"GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
+            print(f"after turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
             
             velocity_value = velocity[-1] if isinstance(velocity, list) and len(velocity) > 0 else 0.0
             
@@ -60,8 +68,8 @@ def phase3(goal_pos):
             
             times += 1
         
-        robot.move(0.75, 5)
         print("Move")
+        robot.move(0.75, 5)
         robot.stop()
         rt.stop()
     

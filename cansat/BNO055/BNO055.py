@@ -323,6 +323,15 @@ class BNO055:
         if quat != (0, 0, 0, 0):
             rot = Rotation.from_quat(quat)
             euler_angles = rot.as_euler("xyz", degrees=True)
+            
+            # 
+            # euler_angles[0]=(euler_angles[0]+180)%360-180
+            if(euler_angles[0] > 0):
+                euler_angles[0] =  euler_angles[0] - 180
+            else:
+                euler_angles[0] = 180 + euler_angles[0]
+            # 
+
             return euler_angles
         else:
             return 0, 0, 0
@@ -366,12 +375,31 @@ class BNO055:
 
 
 if __name__ == "__main__":
+    
     bno = BNO055()
     if bno.begin() is not True:
         print("Error initializing device")
         exit()
     time.sleep(1)
     bno.setExternalCrystalUse(True)
+
+    # 
+    # flip
+    bus = smbus.SMBus(1)  # SMBus
+    current_sign = bus.read_byte_data(0x28, 0x42)
+
+    # with smbus.SMBus(1) as bus:
+    #     current_sign = bus.read_byte_data(0x28, 0x42)
+    #     # flipped_sign = current_sign ^ 0x01 #x axis bit
+    updated_sign = current_sign | 0x04 #bit 2 to 1
+    bus.write_byte_data(0x28,0x42,updated_sign)
+    time.sleep(0.1)
+    new_sign = bus.read_byte_data(0x28, 0x42)
+
+    print(f'bin : {current_sign:#010b}')
+    print(f'new_new_bin : {new_sign:#010b}')
+    # flip
+    # 
 
     while True:
         print(bno.getCalibration())

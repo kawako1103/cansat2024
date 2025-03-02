@@ -90,6 +90,13 @@ class Router:
             self.calcAngleDist() #calculate angle and distance after GPS value
 
         self.angle_N = self.bno.getEulerInQuat()[0]
+        # if(self.angle_N > 0):
+        #     self.angle_N = 180 - self.angle_N 
+        # else:
+        #     self.angle_N = 180 + self.angle_N 
+
+        print("angle_N in update=",self.angle_N)
+
         #Check Later
         accy = self.bno.getVector(self.bno.VECTOR_LINEARACCEL)[1] * -1
         print(f"Acceleration Y: {accy}")  #check the value accurately
