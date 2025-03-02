@@ -42,13 +42,16 @@ if __name__ == '__main__':
 			sys.exit()                                  # プログラム終了
 	"""
  
+#もし4m以上なら返り値はNONEとする
 import RPi.GPIO as GPIO
 import time
 
 trig_pin = 20                           # GPIO 38
 echo_pin = 16                           # GPIO 36
-speed_of_sound = 34370                  # Speed of sound at 20°C (cm/s)
-timeout = 0.03                         # Timeout duration (30ms) 34370*0.03/2=5.16m
+#speed_of_sound = 34370                  # Speed of sound at 20°C (cm/s)
+speed_of_sound = 34050                  # Speed of sound at 15°C (cm/s)
+
+timeout = 0.03                          # Timeout duration (20ms)
 
 def setup():
     """Initialize GPIO settings"""

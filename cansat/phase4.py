@@ -18,70 +18,81 @@ def log_message(message):
 # camera is reverse. Left is right. Right is left.                
 def phase4():
     camera = Camera()
-    count = 0
     
     try:
         while True:
-            count = count + 1
-            if count >= 100:
-                break
-                
-            # カメラで画像を撮影し緑が少ない方向を判定
+            # capture and search a cone
             image_path = camera.capture_and_save()
             most_greenless_section, _ = camera.redthreshold_left_center_right(image_path)
 
-            # 判定結果に応じて動作
+            # Action based on the judgments results
             if most_greenless_section == "Right": #camera is reverse.
                 log_message("Turning left")
-                robot.turn(-20)  # 左に10度回転
+                log_message("robot.sleep(2)")
+                log_message("robot.turn(-10)")
+                time.sleep(2)  
+                robot.turn(-10)
                 robot.stop()
-                time.sleep(0.4)
-            
+                log_message("robot.sleep(2)")
+                time.sleep(2)
+                
             elif most_greenless_section == "Left": #camera is reverse.
+                log_message("robot.sleep(2)")
                 log_message("Turning right")
-                #robot.start()
-                robot.turn(20)  # 右に10度回転
+                time.sleep(2)
+                log_message("robot.turn(10)")
+                robot.turn(10)
                 robot.stop()
-                time.sleep(0.4)
-            
+                log_message("robot.sleep(2)")
+                time.sleep(2)
+                
+                
             elif most_greenless_section == "Center":
                 log_message("Moving forward")
-                #robot.start()
-                robot.move(0.5, 1)  # 前方に進む、速度0.3,時間0.54秒
+                log_message("robot.sleep(2)")
+                time.sleep(2)
+                log_message("robot.move(0.2,0.4)")
+                robot.move(0.2, 0.4)
                 robot.stop()
-                time.sleep(0.4)  # 次の操作までの短い遅延                    
-                # 距離を測定
+                log_message("robot.sleep(2)")
+                time.sleep(2)
+                    
+                # Measuring distance
                 #current_distance = distance_filtered()
-                #current_distance = get_distance()
-                ##if current_distance is None:
-                #    log_message("Measurement timeout!")
-                #    robot.turn(0.5)
-                #    time.sleep(0.4)
+                current_distance = get_distance()
+                if current_distance is None:
+                    log_message("Measurement timeout!")
+                    log_message("robot.sleep(2)")
+                    time.sleep(2)
+                    log_message("robot.turn(10)")
+                    robot.turn(10)
+                    robot.stop()
+                    log_message("robot.sleep(2)")
+                    time.sleep(2)
 
-                #else:
-                    #log_message(f"Current Distance: {current_distance:.1f} cm")
+                else:
+                    log_message(f"Current Distance: {current_distance:.1f} cm")
                     #current_distance = 1 #for test                
-                    # 5cm以下で終了
-                    #if current_distance <= 5:
-                    #    log_message("Goal reached!")
-                    #    break
-                    #elif current_distance >= 5:
-                    #    log_message("Moving forward")
-                    #    robot.move(0.3, 0.1)  # 前方に進む、速度0.3,時間0.54秒
-                    #    time.sleep(0.4)  # 次の操作までの短い遅延
-            
-            elif most_greenless_section == "None":
-                log_message("None cone picture")
-                #robot.start()
-                robot.turn(20)
-                robot.stop()
-                time.sleep(0.4)
-
-            time.sleep(0.8)  # 次の操作までの短い遅延
-            
+                    # if 5cm or less, it's over.
+                    if current_distance <= 5:
+                        log_message("Goal reached!")
+                        break
+                    elif current_distance >= 5.0:
+                        log_message("Moving forward")
+                        time.sleep(2)
+                        log_message("robot.move(0.2,0.4)")
+                        robot.move(0.2, 0.4)
+                        log_message("robot.sleep(2)")
+                        time.sleep(2)
+                        robot.stop()
+            log_message("robot.sleep(2)")            
+            time.sleep(2)
 
     except Exception as e:
+        time.sleep(2)
         log_message(f"An error occurred: {e}")
+        robot.stop()
+        
     finally:
         camera.stop_camera()
         robot.stop()

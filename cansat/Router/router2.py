@@ -63,7 +63,16 @@ class Router:
         #kawako change the code like below
         lon1, lat1 = self.gps_pos[0], self.gps_pos[1]
         lon2, lat2 = self.goal_pos[0], self.goal_pos[1]
+        
+        #do not calculate when  GPS = ()0.0)
+        if (lon1 == 0.0 and lat1 == 0.0) or (lon2 == 0.0 and lat2 == 0.0):
+            print("GPS data is not updated yet, skipping angle calculation.")
+            return
+
         self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(lon1, lat1, lon2, lat2)
+        #debug output
+        print(f"GPS Position: {self.gps_pos}, Goal: {self.goal_pos}")
+        print(f"Calculated Azimuth: {self.azimuth}, Distance: {self.distance}")
         #previous code is below(by koyama)
         #c2g_pos = (self.gps_pos[0], self.gps_pos[1], self.goal_pos[0], self.goal_pos[1])
         #self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(c2g_pos)
@@ -73,18 +82,26 @@ class Router:
             self.goal_flag = True
 
     def update(self):
-        pos = gps.getLonLat(DEG=True)
+        pos = gps.getLonLat(DEG=False)
+        print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
         if sum(pos) != 0:
-            self.gps_pos = pos
+            #self.gps_pos = pos
+            self.gps_pos = [pos[0] / 100.0, pos[1] / 100.0]  # make GPS value x1/100
+            self.calcAngleDist() #calculate angle and distance after GPS value
 
         self.angle_N = self.bno.getEulerInQuat()[0]
         #Check Later
         accy = self.bno.getVector(self.bno.VECTOR_LINEARACCEL)[1] * -1
+        print(f"Acceleration Y: {accy}")  #check the value accurately
+
         self.acc_data.append(accy)
         timestamp = round((time.monotonic() - self.start_time) / 10, 2)
         self.time_data.append(timestamp)
-        self.vel = cumtrapz(self.acc_data, self.time_data)
-        self.calcAngleDist()
+        
+        if len(self.acc_data) > 1:
+            self.vel = cumtrapz(self.acc_data, self.time_data, initial=0)[-1]
+        
+        #self.calcAngleDist() move this method after gps_pos
         self.checkGoal()
 
     def start(self, interval= 0.05):
@@ -121,4 +138,3 @@ if __name__ == "__main__":
         router.getAzimuth()
         router.getDistance()
         print("")
-        time.sleep(0.01)

@@ -47,7 +47,7 @@ class Camera:
         log_message(f"Image captured and saved to {filename}.")
         return filename
 
-    def redthreshold_left_center_right(self, image_path, red_threshold=80, green_threshold=60, black_threshold=50):
+    def redthreshold_left_center_right(self, image_path, red_threshold=150, green_threshold=40, black_threshold=50):
         # 画像を読み込み
         image = Image.open(image_path)
         image_rgb = np.array(image)
@@ -84,22 +84,17 @@ class Camera:
         total_pixels = height * section_width
         counts = [np.sum(section == 255) for section in sections]
         percentages = [(count / total_pixels) * 100 for count in counts]
-        
-        
+
         # 最も赤色領域が多いセクションを判定
         max_count_index = np.argmax(counts)
-        sections_labels = ["Left", "Center", "Right", ]
+        sections_labels = ["Left", "Center", "Right"]
         most_red_section = sections_labels[max_count_index]
 
         # ログに記録
         for label, percent in zip(sections_labels, percentages):
             log_message(f"{label}: {percent:.2f}% red area")
         log_message(f"Most red section: {most_red_section}")
-        # all section <= 0.05% return None
-        if all(percent <= 0.05 for percent in percentages):
-                log_message("Red area is below 0.05% in all sections. Returning None.")
-                return "None", 0
-                
+
         return most_red_section, percentages
 
     def stop_camera(self):

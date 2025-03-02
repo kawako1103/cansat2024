@@ -3,7 +3,7 @@ import time
 # import multiprocessing
 import phase1
 import phase2
-import phase3_1
+import phase3
 #add phase4
 import phase4 as phase4
 
@@ -24,7 +24,7 @@ phase2.phase2()
 phase2_time = stamp(start)
 print(f"Time taken for Phase 2: {phase2_time}s")
 
-phase3_1.phase3(goal_pos)
+phase3.phase3(goal_pos)
 phase3_time = stamp(start)
 print(f"Time taken for Phase 3: {phase3_time}s")
 

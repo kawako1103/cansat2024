@@ -58,15 +58,17 @@ class Router:
     def calcAngleDist(self):
         c2g_pos = (self.gps_pos[0], self.gps_pos[1], self.goal_pos[0], self.goal_pos[1])
         self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(c2g_pos)
+        
 
     def checkGoal(self):
         if self.distance < 10:
             self.goal_flag = True
 
     def update(self):
-        pos = gps.getLonLat(DEG=True)
+        pos = gps.getLonLat(DEG=False) #True
         if sum(pos) != 0:
-            self.gps_pos = pos
+            #self.gps_pos = pos
+            self.gps_pos = [pos[0] / 100, pos[1] / 100]  # GPS value x1/100
 
         self.angle_N = self.bno.getEulerInQuat()[0]
         # Check Later
