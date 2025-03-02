@@ -3,9 +3,11 @@ import time
 # import multiprocessing
 import phase1
 import phase2
-import phase3
+import phase3_1 as phase3
 #add phase4
 import phase4 as phase4
+
+goal_pos = [139.514296921, 35.461619311]
 
 
 def stamp(start):

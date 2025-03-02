@@ -22,8 +22,8 @@ def phase3(goal_pos):
         distance = rt.getDistance()
         velocity = rt.getVelocity()
         
-        # デバッグ用出力
-        print(f"GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
+        # # デバッグ用出力
+        # print(f"GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
         
         # GPSが正しく取得されているか確認
         if gps_pos[0] == 0.0 and gps_pos[1] == 0.0:
@@ -36,10 +36,11 @@ def phase3(goal_pos):
             writer = csv.writer(file)
             writer.writerow([time.time(), gps_pos[0], gps_pos[1], azimuth, deg, distance, velocity_value])
         
-        while abs(deg) > 15 and times < 1: #5
+        while abs(deg) > 15 and times < 5: #5
             rt.update()
             #robot.turn(deg/100.0)
             robot.turn(deg/2.5)
+            print("Turn!")
             robot.stop()
             time.sleep(1)
             
@@ -59,7 +60,8 @@ def phase3(goal_pos):
             
             times += 1
         
-        robot.move(0.75, 10)
+        robot.move(0.75, 5)
+        print("Move")
         robot.stop()
         rt.stop()
     

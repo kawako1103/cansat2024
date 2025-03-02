@@ -23,10 +23,14 @@ def cutWire():
             time.sleep(1.0)
             i += 1
     except KeyboardInterrupt:
-        GPIO.cleanup()
+        # GPIO.cleanup()
+        GPIO.cleanup(21)
+        GPIO.cleanup(26)
 
     finally:
-        GPIO.cleanup()
+        # GPIO.cleanup()
+        GPIO.cleanup(21)
+        GPIO.cleanup(26)
 
 
 if __name__ == "__main__":

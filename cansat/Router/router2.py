@@ -71,8 +71,8 @@ class Router:
 
         self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(lon1, lat1, lon2, lat2)
         #debug output
-        print(f"GPS Position: {self.gps_pos}, Goal: {self.goal_pos}")
-        print(f"Calculated Azimuth: {self.azimuth}, Distance: {self.distance}")
+        # print(f"GPS Position: {self.gps_pos}, Goal: {self.goal_pos}")
+        # print(f"Calculated Azimuth: {self.azimuth}, Distance: {self.distance}")
         #previous code is below(by koyama)
         #c2g_pos = (self.gps_pos[0], self.gps_pos[1], self.goal_pos[0], self.goal_pos[1])
         #self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(c2g_pos)
@@ -83,7 +83,7 @@ class Router:
 
     def update(self):
         pos = gps.getLonLat(DEG=False)
-        print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
+        # print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
         if sum(pos) != 0:
             #self.gps_pos = pos
             self.gps_pos = [pos[0] / 100.0, pos[1] / 100.0]  # make GPS value x1/100
