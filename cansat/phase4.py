@@ -18,6 +18,10 @@ def log_message(message):
 # camera is reverse. Left is right. Right is left.                
 def phase4():
     camera = Camera()
+
+    ##0303
+    setup() #HCSr04pinsetup
+    ##
     
     try:
         while True:

@@ -10,6 +10,15 @@ PIN_BIN2 = 19
 
 robot = Robot(left=(PIN_BIN1, PIN_BIN2), right=(PIN_AIN1, PIN_AIN2))
 
+##0303
+def initialize():
+    # 
+    global robot  # 既存の `robot` を更新する
+    if robot is not None:
+        robot.close()  # 既存の `robot` を閉じて GPIO を解放
+    # 
+    robot = Robot(left=(PIN_BIN1, PIN_BIN2), right=(PIN_AIN1, PIN_AIN2))
+##
 
 def move(target_speed, mtime, speed=0.1, step=0.01):
     while target_speed > speed and mtime > 0.0:

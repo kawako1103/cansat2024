@@ -10,6 +10,13 @@ GPIO.setup(26, GPIO.OUT, initial=GPIO.LOW)
 
 
 def cutWire():
+    ##0303
+    GPIO.cleanup()
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(21, GPIO.OUT, initial=GPIO.LOW)
+    GPIO.setup(26, GPIO.OUT, initial=GPIO.LOW)
+    ##
+
     try:
         i = 0
         while i < 5:

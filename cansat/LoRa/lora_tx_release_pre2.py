@@ -23,6 +23,11 @@ class LoRaTransmitter:
         Set up the GPIO pin for resetting the LoRa module.
         """
         GPIO.setwarnings(False)
+        ##0303
+        # if GPIO.getmode() is None:
+        #     GPIO.setmode(GPIO.BOARD)
+        GPIO.cleanup()
+        ## 
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(self.reset_pin, GPIO.OUT)
 
@@ -130,8 +135,8 @@ class LoRaTransmitter:
             self.send_latlon(vec_latlon)
             time.sleep(0.5)
 
-
-if __name__ == "__main__":
+#function 0303
+def lora_tx_release_pre2():
     # Parameters for the LoRa transmitter
     PORT = "/dev/ttyS0"
     BAUDRATE = 115200
@@ -145,3 +150,23 @@ if __name__ == "__main__":
 
     # Start the main loop
     lora_tx.run()
+
+
+if __name__ == "__main__":
+    # # Parameters for the LoRa transmitter
+    # PORT = "/dev/ttyS0"
+    # BAUDRATE = 115200
+    # RESET_PIN = 22
+    # FILE_PATH = "/home/cansat-stu/cansat/GPS_20240911.log"
+    # LOG_FILE_PATH = "/home/cansat-stu/cansat/sent_data_20240911.log"  # Path for saving sent data
+
+    # # Create a LoRaTransmitter object and initialize it
+    # lora_tx = LoRaTransmitter(PORT, BAUDRATE, RESET_PIN, FILE_PATH, LOG_FILE_PATH)
+    # lora_tx.initialize_device()
+
+    # # Start the main loop
+    # lora_tx.run()
+
+    ##0303
+    lora_tx_release_pre2()
+    ##
