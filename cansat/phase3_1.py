@@ -21,6 +21,11 @@ def phase3(goal_pos):
         azimuth = rt.getAzimuth()
         distance = rt.getDistance()
         velocity = rt.getVelocity()
+
+        # #debug 03031642 no GPS
+        # start_time = time.time()
+        # deg = -270
+        # 
         
         # # デバッグ用出力
         # print(f"GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
@@ -36,27 +41,77 @@ def phase3(goal_pos):
             writer = csv.writer(file)
             writer.writerow([time.time(), gps_pos[0], gps_pos[1], azimuth, deg, distance, velocity_value])
         
-        #get deg from update in start()
+        
+        ##
+        ##decide deg based on sign and value(add 2025/3/3)
+        if (deg > 0):
+            if abs(deg) < abs(deg - 360):
+                # direction = "+" #use deg's sign
+                deg = deg
+            else:
+                #direction = "-" #use (deg - 360)'s sign
+                deg = deg - 360
+        else: #deg < 0
+            if abs(deg) < abs(deg + 360):
+                #direction = "+" #use deg's sign
+                deg = deg
+            else:
+                #direction = "-" #use (deg + 360)'s sign
+                deg = deg + 360
+        ##(add 2025/3/3)
+        ##
+        
+        
+        #get deg from update in start() (~20250302)
+        #get deg to turn from upper code (20250303~)
         while abs(deg) > 15.0 and times < 40: #5
             print(f"before turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
             # rt.update()
             #robot.turn(deg/100.0)
             print("Turn!")
             # robot.turn(deg/5.0)
+            
+            # ##
+            # if (deg > 0):
+            #     if abs(deg) < abs(deg - 360):
+            #         # direction = "+" #use deg's sign
+            #         deg = deg
+            #     else:
+            #         #direction = "-" #use (deg - 360)'s sign
+            #         deg = deg - 360
+            # else: #deg < 0
+            #     if abs(deg) < abs(deg + 360):
+            #         #direction = "+" #use deg's sign
+            #         deg = deg
+            #     else:
+            #         #direction = "-" #use (deg + 360)'s sign
+            #         deg = deg + 360
+            #  ##
+        
             if(deg > 0):
-                robot.turn(-10)
-            else:
                 robot.turn(10)
+            else:
+                robot.turn(-10)
+            
+
+            # ##
             # robot.turn(10)
             robot.stop()
             time.sleep(1)
+
+            # ##030316:50 no GPS
+            # if time.time() - start_time > 10:
+            #     deg = 5
+            # ##030316:50
             
+            #debug 03031642 use these code when rover can get gps
             rt.update() #get deg from update after turn
             deg = rt.getAngleDiff()
             gps_pos = rt.getGpsPos()
             azimuth = rt.getAzimuth()
             distance = rt.getDistance()
             velocity = rt.getVelocity()
+            #debug 
             
             print(f"after turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
             

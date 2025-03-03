@@ -21,7 +21,7 @@ def phase1():
     acc = 0
     acc0 = 15
     alt_upth = alt0 + 1.0#2000
-    alt_lowth = alt0 + 0.2#10
+    alt_lowth = alt0 + 0.4#10
     counter = 0
     stop_time = 100
 
@@ -43,7 +43,7 @@ def phase1():
             print("Done check1")
 
         # Check Point 3: Check if the rocer is stop
-        if (acc < acc0) ^ checkpoint.count(True) == 2:
+        if (acc < acc0) and checkpoint.count(True) == 2: #
             counter += 1
             if counter > stop_time:
                 checkpoint[2] = True
