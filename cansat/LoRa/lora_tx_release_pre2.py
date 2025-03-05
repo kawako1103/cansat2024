@@ -26,9 +26,16 @@ class LoRaTransmitter:
         ##0303
         # if GPIO.getmode() is None:
         #     GPIO.setmode(GPIO.BOARD)
-        GPIO.cleanup()
+        GPIO.cleanup() #i want to delete this if possible(0305)
         ## 
-        GPIO.setmode(GPIO.BOARD)
+
+        ##
+        GPIO.setmode(GPIO.BOARD) #~0305
+        ##
+        # GPIO.setmode(GPIO.BCM) #~0305
+        ##
+
+
         GPIO.setup(self.reset_pin, GPIO.OUT)
 
     def reset(self):
@@ -140,7 +147,9 @@ def lora_tx_release_pre2():
     # Parameters for the LoRa transmitter
     PORT = "/dev/ttyS0"
     BAUDRATE = 115200
-    RESET_PIN = 22
+    RESET_PIN = 22 #~0305
+    # RESET_PIN = 18 #0305~
+
     FILE_PATH = "/home/cansat-stu/cansat/GPS_20240911.log"
     LOG_FILE_PATH = "/home/cansat-stu/cansat/sent_data_20240911.log"  # Path for saving sent data
 
