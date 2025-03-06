@@ -89,9 +89,9 @@ def phase3(goal_pos):
             #  ##
         
             if(deg > 0):
-                robot.turn(10)
+                robot.turn(20) #
             else:
-                robot.turn(-10)
+                robot.turn(-20)
             
 
             # ##
@@ -124,14 +124,17 @@ def phase3(goal_pos):
             times += 1
         
         print("Move")
-        robot.move(0.75, 5)
+        robot.move(0.75, 3) #5
         robot.stop()
         rt.stop()
     
     print("Arrived!!")
 
 if __name__ == "__main__":
-    goal_pos = [139.514296921, 35.461619311]
+    # goal_pos = [130.554131524, 30.261690416]
+    goal_pos = [130.5758851, 30.2248274]
+    # 13057.58780 , Latitude: 3022.48232 130.5758851, 30.2248274
+    # goal_pos = [139.514296921, 35.461619311]
     #goal_pos = [13951.4296921, 3546.1619311]
     #goal_pos = [1.664396, 0.5961997]
     phase3(goal_pos)

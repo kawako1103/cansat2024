@@ -35,7 +35,7 @@ def phase4():
                 log_message("robot.sleep(2)")
                 log_message("robot.turn(-10)")
                 time.sleep(2)  
-                robot.turn(-10)
+                robot.turn(-20) #-10
                 robot.stop()
                 log_message("robot.sleep(2)")
                 time.sleep(2)
@@ -45,7 +45,7 @@ def phase4():
                 log_message("Turning right")
                 time.sleep(2)
                 log_message("robot.turn(10)")
-                robot.turn(10)
+                robot.turn(20) #10
                 robot.stop()
                 log_message("robot.sleep(2)")
                 time.sleep(2)
@@ -69,7 +69,7 @@ def phase4():
                     log_message("robot.sleep(2)")
                     time.sleep(2)
                     log_message("robot.turn(10)")
-                    robot.turn(10)
+                    robot.turn(20) #10
                     robot.stop()
                     log_message("robot.sleep(2)")
                     time.sleep(2)
