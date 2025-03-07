@@ -53,15 +53,21 @@ def getLonLat(DEG=False): #False
                 # print("Above DEG!")
                 
                 ###0307_1401
-                # if DEG == True:
-                #     read_lon = nmea2deg(read_lon)
-                #     read_lat = nmea2deg(read_lat)
+                if DEG == True:
+                    # read_lon = nmea2deg(read_lon)
+                    # read_lat = nmea2deg(read_lat)
+                    read_lon = dms2deg(read_lon)
+                    read_lat = dms2deg(read_lat)
                 #     print("read!")
                 ###
 
+                ###0307_1645 
+                # read_lon = dms2deg(read_lon)
+                # read_lat = dms2deg(read_lat)
+
                 ###0307_1626 
-                read_lon = nmea2deg(read_lon)
-                read_lat = nmea2deg(read_lat)
+                # read_lon = nmea2deg(read_lon)
+                # read_lat = nmea2deg(read_lat)
                 # print("read!")
                 ###
 
@@ -74,7 +80,36 @@ def getLonLat(DEG=False): #False
         #        # print("nmea_cat:",nmea_cat,end=", ")
         #        msg = pynmea2.parse(data_nmea_arr[index_i])
         #        # print("timestamp:",msg.timestamp)
-        #        read_time = msg.timestamp
+
+def getLonLat(DEG=False):
+    data_nmea = read_data_gps()
+    # Separate with newline
+    data_nmea_arr = data_nmea.split("\r\n")
+    # Dummy data if not received
+    read_lon = 00000.00000
+    read_lat = 00000.00000
+    # read_time = "00:00:00+00:00"
+
+    for index_i in range(len(data_nmea_arr)):
+        # print(data_nmea_arr[index_i], end=" ")
+        start_index = data_nmea_arr[index_i].find("$") + 3
+        end_index = data_nmea_arr[index_i].find(",")
+        nmea_cat = data_nmea_arr[index_i][start_index:end_index]
+        # print("nmea_cat:",nmea_cat,end="")
+        if nmea_cat == "RMC" or nmea_cat == "GGA" or nmea_cat == "GLL":
+            try:
+                # print("nmea_cat:",nmea_cat,end=", ")
+                msg = pynmea2.parse(data_nmea_arr[index_i])
+                # print("longitude:",msg.lon,", latitude:", msg.lat)
+                read_lon = float(msg.lon)
+                read_lat = float(msg.lat)
+
+                if DEG == True:
+                    read_lon = dms2deg(read_lon)
+                    read_lat = dms2deg(read_lat)
+            
+            except Exception as e:
+                print("", end="")       #        read_time = msg.timestamp
         #    except Exception as e:
         #        print("", end="")
 
@@ -89,11 +124,11 @@ def dms2deg(dms):
 
     return decdeg
 
-def nmea2deg(nmea):
+#def nmea2deg(nmea):
     # deg = int(math.floor(nmea/100)) + (nmea%100.0) / 60.0
-    deg = int(nmea/100) + (nmea%100.0) / 60.0
+#    deg = int(nmea/100) + (nmea%100.0) / 60.0
 
-    return deg
+#    return deg
 
 def read_data_gps():
     try:
@@ -125,8 +160,8 @@ def read_data_gps():
 
 if __name__ == "__main__":
     while True:
-        DEG = True
-        read_lon, read_lat = getLonLat(DEG=True)
+        DEG = False #True
+        read_lon, read_lat = getLonLat(DEG=False) #True
         recordLog()
         print("Longitude:", read_lon, ", Latitude:", read_lat)
         time.sleep(3)

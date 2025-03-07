@@ -11,7 +11,12 @@ def phase3(goal_pos):
         writer = csv.writer(file)
         writer.writerow(["Timestamp", "Latitude", "Longitude", "Azimuth", "AngleDiff", "Distance", "Velocity"])
     
-    while not rt.isGoal():
+    rt.start()
+    time.sleep(1)
+    gps_pos = [0.0,0.0]
+
+
+    while (not rt.isGoal()) and (gps_pos[0] == 0.0 or gps_pos[1] == 0.0):
         times = 0
         rt.start()
         time.sleep(1)
@@ -22,6 +27,8 @@ def phase3(goal_pos):
         distance = rt.getDistance()
         velocity = rt.getVelocity()
 
+        print(f"0whilebefore turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
+
         # #debug 03031642 no GPS
         # start_time = time.time()
         # deg = -270
@@ -31,6 +38,7 @@ def phase3(goal_pos):
         # print(f"GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
         
         # GPSが正しく取得されているか確認
+        
         if gps_pos[0] == 0.0 and gps_pos[1] == 0.0:
             print("Warning: GPS data is (0.0, 0.0), check if GPS is working correctly.")
         
@@ -61,10 +69,14 @@ def phase3(goal_pos):
         ##(add 2025/3/3)
         ##
         
+        print("large deg")
         
+        print(f"1whilebefore turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
+
         #get deg from update in start() (~20250302)
         #get deg to turn from upper code (20250303~)
         while abs(deg) > 15.0 and times < 40: #5
+            
             print(f"before turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
             # rt.update()
             #robot.turn(deg/100.0)
@@ -133,7 +145,7 @@ def phase3(goal_pos):
 if __name__ == "__main__":
     # goal_pos = [130.554131524, 30.261690416]
     # goal_pos = [130.5758851, 30.2248274]
-    goal_pos = [130.90121416666668, 30.415220833333333]#deg? aozora_park@tanegashima
+    goal_pos = [130.9015805, 30.41536416666667]#deg? aozora_park@tanegashima
     # 13057.58780 , Latitude: 3022.48232 130.5758851, 30.2248274
     # goal_pos = [139.514296921, 35.461619311]
     #goal_pos = [13951.4296921, 3546.1619311]

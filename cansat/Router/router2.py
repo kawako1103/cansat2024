@@ -78,20 +78,37 @@ class Router:
         #self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(c2g_pos)
 
     def checkGoal(self):
-        if self.distance < 3:#10
+        if self.distance < 1:#10
+            print("last distance is :{self.distance}")
             self.goal_flag = True
 
     def update(self):
-        pos = gps.getLonLat(DEG=True)
-        print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
-        # if sum(pos) != 0:
+        pos = gps.getLonLat(DEG=False)
+        #print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
+        if sum(pos) != 0:
         #    #self.gps_pos = pos
         #    self.gps_pos = [pos[0] / 100.0, pos[1] / 100.0]  # make GPS value x1/100
-        #    self.calcAngleDist() #calculate angle and distance after GPS value
+            latitude = int(pos[1] / 100) + (pos[1] % 100.0) / 60.0
+            longitude = int(pos[0] / 100) + (pos[0] % 100.0) / 60.0
+            self.gps_pos = [longitude, latitude]
+             
+                # Update only if latitude >= 30 and longitude >= 130
+            if latitude >= 30 and longitude >= 130:
+                self.gps_pos = [longitude, latitude]
+                print(f"Updated GPS Position: Longitude = {longitude}, Latitude = {latitude}")
+                self.calcAngleDist()  # Only update calculations if the GPS data is valid
+            else:
+                print(f"Invalid GPS data detected. Keeping previous values. New: Lat={latitude}, Lon={longitude}")
+            
+            self.calcAngleDist() #calculate angle and distance after GPS value
+
+            print(f"latitude:{latitude}") 
+            print(f"longitude:{longitude}")
+            print(f"distance:{self.distance}")
 
         self.angle_N = self.bno.getEulerInQuat()[0]
         # if(self.angle_N > 0):
-        #     self.angle_N = 180 - self.angle_N 
+        #     self.angle_N = 180 - self.angle_N
         # else:
         #     self.angle_N = 180 + self.angle_N 
 
