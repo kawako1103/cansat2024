@@ -20,7 +20,9 @@ import phase3_1 as phase3
 import phase4 as phase4
 
 
-goal_pos = [139.514296921, 35.461619311]
+# goal_pos = [139.514296921, 35.461619311]
+goal_pos = [130.90121416666668, 30.415220833333333]#deg? aozora_park@tanegashima
+    
 
 
 def stamp(start):

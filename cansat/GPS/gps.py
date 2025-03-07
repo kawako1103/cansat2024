@@ -1,6 +1,7 @@
 import smbus
 import time
 import pynmea2
+import math
 
 I2C_BUS = 1
 GPS_ADDRESS = 0x42
@@ -25,7 +26,8 @@ def recordLog():
             f.write(f"{timestamp},{read_lon:08.5f},{read_lat:08.5f}\n")
 
 
-def getLonLat(DEG=False):
+def getLonLat(DEG=False): #False
+    # print("getLonLat")
     data_nmea = read_data_gps()
     # Separate with newline
     data_nmea_arr = data_nmea.split("\r\n")
@@ -48,9 +50,20 @@ def getLonLat(DEG=False):
                 read_lon = float(msg.lon)
                 read_lat = float(msg.lat)
 
-                if DEG == True:
-                    read_lon = nmea2deg(read_lon)
-                    read_lat = nmea2deg(read_lat)
+                # print("Above DEG!")
+                
+                ###0307_1401
+                # if DEG == True:
+                #     read_lon = nmea2deg(read_lon)
+                #     read_lat = nmea2deg(read_lat)
+                #     print("read!")
+                ###
+
+                ###0307_1626 
+                read_lon = nmea2deg(read_lon)
+                read_lat = nmea2deg(read_lat)
+                # print("read!")
+                ###
 
             except Exception as e:
                 print("", end="")
@@ -77,11 +90,12 @@ def dms2deg(dms):
     return decdeg
 
 def nmea2deg(nmea):
-    deg = int(math.floor(nmea/100)) + (nmea%100.0) / 60.0
+    # deg = int(math.floor(nmea/100)) + (nmea%100.0) / 60.0
+    deg = int(nmea/100) + (nmea%100.0) / 60.0
 
     return deg
 
- read_data_gps():
+def read_data_gps():
     try:
         rx_data_nmea = ""
         check = 0
@@ -111,7 +125,8 @@ def nmea2deg(nmea):
 
 if __name__ == "__main__":
     while True:
-        read_lon, read_lat = getLonLat()
+        DEG = True
+        read_lon, read_lat = getLonLat(DEG=True)
         recordLog()
         print("Longitude:", read_lon, ", Latitude:", read_lat)
         time.sleep(3)

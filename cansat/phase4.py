@@ -32,33 +32,33 @@ def phase4():
             # Action based on the judgments results
             if most_greenless_section == "Right": #camera is reverse.
                 log_message("Turning left")
-                log_message("robot.sleep(2)")
+                log_message("time.sleep(2)")
                 log_message("robot.turn(-20)")
                 time.sleep(2)  
                 robot.turn(-20) #-10
                 robot.stop()
-                log_message("robot.sleep(2)")
+                log_message("time.sleep(2)")
                 time.sleep(2)
                 
             elif most_greenless_section == "Left": #camera is reverse.
-                log_message("robot.sleep(2)")
+                log_message("time.sleep(2)")
                 log_message("Turning right")
                 time.sleep(2)
                 log_message("robot.turn(20)")
                 robot.turn(20) #10
                 robot.stop()
-                log_message("robot.sleep(2)")
+                log_message("time.sleep(2)")
                 time.sleep(2)
                 
                 
             elif most_greenless_section == "Center":
                 log_message("Moving forward")
-                log_message("robot.sleep(2)")
+                log_message("time.sleep(2)")
                 time.sleep(2)
                 log_message("robot.move(0.2,0.4)")
                 robot.move(0.2, 0.4)
                 robot.stop()
-                log_message("robot.sleep(2)")
+                log_message("time.sleep(2)")
                 time.sleep(2)
                     
                 # Measuring distance
@@ -66,31 +66,53 @@ def phase4():
                 current_distance = get_distance()
                 if current_distance is None:
                     log_message("Measurement timeout!")
-                    log_message("robot.sleep(2)")
+                    log_message("time.sleep(2)")
                     time.sleep(2)
                     log_message("robot.turn(20)")
                     robot.turn(20) #10
                     robot.stop()
-                    log_message("robot.sleep(2)")
+                    log_message("time.sleep(2)")
                     time.sleep(2)
 
                 else:
                     log_message(f"Current Distance: {current_distance:.1f} cm")
-                    #current_distance = 1 #for test                
-                    # if 5cm or less, it's over.
-                    if current_distance <= 5.0:
+                    ######current_distance = 1 #for test                
+                    # if 10cm or less, it's over.
+                    if current_distance <= 10.0:
+                        
+                        log_message("Moving forward about 10cm")
+                        time.sleep(2)
+                        log_message("robot.move(0.1,0.1)")
+                        robot.move(0.1, 0.1)
+                        log_message("time.sleep(2)")
+                        time.sleep(2)
+                        robot.stop()
                         log_message("Goal reached!")
                         break
-                    elif current_distance >= 5.0:
+                        
+                    elif current_distance >= 10.0:
                         log_message("Moving forward")
                         time.sleep(2)
                         log_message("robot.move(0.2,0.4)")
                         robot.move(0.2, 0.4)
-                        log_message("robot.sleep(2)")
+                        log_message("time.sleep(2)")
                         time.sleep(2)
                         robot.stop()
-            log_message("robot.sleep(2)")            
+
+
+            elif most_greenless_section == "none_cone":
+                log_message("None_cone")
+                log_message("time.sleep(2)")
+                log_message("robot.turn(40)")
+                time.sleep(2)
+                robot.turn(40)
+                robot.stop()
+                log_message("time.sleep(2)")
+                time.sleep(2)
+            
+            log_message("time.sleep(2)")
             time.sleep(2)
+            
 
     except Exception as e:
         time.sleep(2)

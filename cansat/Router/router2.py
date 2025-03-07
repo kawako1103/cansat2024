@@ -78,16 +78,16 @@ class Router:
         #self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(c2g_pos)
 
     def checkGoal(self):
-        if self.distance < 10:
+        if self.distance < 3:#10
             self.goal_flag = True
 
     def update(self):
-        pos = gps.getLonLat(DEG=False)
-        # print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
-        if sum(pos) != 0:
-            #self.gps_pos = pos
-            self.gps_pos = [pos[0] / 100.0, pos[1] / 100.0]  # make GPS value x1/100
-            self.calcAngleDist() #calculate angle and distance after GPS value
+        pos = gps.getLonLat(DEG=True)
+        print(f"<update>Raw GPS Data: {pos}, Type: {type(pos)}")
+        # if sum(pos) != 0:
+        #    #self.gps_pos = pos
+        #    self.gps_pos = [pos[0] / 100.0, pos[1] / 100.0]  # make GPS value x1/100
+        #    self.calcAngleDist() #calculate angle and distance after GPS value
 
         self.angle_N = self.bno.getEulerInQuat()[0]
         # if(self.angle_N > 0):
