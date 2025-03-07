@@ -372,48 +372,6 @@ class BNO055:
                     % (timestamp, bufE[0], bufE[1], bufE[2], bufA[0], bufA[1], bufA[2]),
                     file=f,
                 )
-    
-    def calibrate_magnetometer(bno, duration=10):
-        """
-        BNO055の地磁気センサ（コンパス）をキャリブレーションする関数。
-        センサを回転させながら磁場データを収集し、オフセットを補正するための値を計算。
-
-        Parameters:
-            bno (BNO055): BNO055オブジェクト
-            duration (int): サンプリングする時間（秒）
-
-        Returns:
-            dict: x, y, z軸のオフセット値
-        """
-        print("キャリブレーション開始: センサを回転させてください")
-        
-        mag_x, mag_y, mag_z = [], [], []
-
-        start_time = time.time()
-        while time.time() - start_time < duration:
-            mag_data = bno.getVector(BNO055.VECTOR_MAGNETOMETER)
-            
-            mag_x.append(mag_data[0])
-            mag_y.append(mag_data[1])
-            mag_z.append(mag_data[2])
-            
-            print(f"Magnetometer Data: X={mag_data[0]:.2f}, Y={mag_data[1]:.2f}, Z={mag_data[2]:.2f}")
-            time.sleep(0.1)
-
-        # 最小値と最大値を取得
-        min_x, max_x = min(mag_x), max(mag_x)
-        min_y, max_y = min(mag_y), max(mag_y)
-        min_z, max_z = min(mag_z), max(mag_z)
-
-        # オフセット計算
-        offset_x = (max_x + min_x) / 2
-        offset_y = (max_y + min_y) / 2
-        offset_z = (max_z + min_z) / 2
-
-        print("\nキャリブレーション完了！")
-        print(f"オフセット値: X={offset_x:.2f}, Y={offset_y:.2f}, Z={offset_z:.2f}")
-
-        return {"x": offset_x, "y": offset_y, "z": offset_z}
 
 
 if __name__ == "__main__":
@@ -422,14 +380,8 @@ if __name__ == "__main__":
     if bno.begin() is not True:
         print("Error initializing device")
         exit()
-
     time.sleep(1)
     bno.setExternalCrystalUse(True)
-
-    ##
-    offsets = calibrate_magnetometer(bno, duration=10)
-    ##
-
 
     # # 
     # # flip

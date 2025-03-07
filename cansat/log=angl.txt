@@ -1,0 +1,252 @@
+angle_N= 93.10286063384825
+Acceleration Y: -1.0
+angle_N= 93.09400849293968
+Acceleration Y: -0.0
+before turn GPS: [139.5171534, 35.4625793], Azimuth: -112.33094281628465, AngleDiff: -205.42495130922433, Distance: 280.3119136911521, Velocity: -0.05
+Turn!
+angle_N= 72.44536541253791
+Acceleration Y: -5.0
+angle_N= 72.90095912718346
+Acceleration Y: -12.0
+angle_N= 72.90026208475639
+Acceleration Y: -12.0
+after turn GPS: [139.5171506, 35.4625787], Azimuth: -112.33810356983628, AngleDiff: -185.23836565459266, Distance: 280.0515231915083, Velocity: -0.9999999999999999
+before turn GPS: [139.5171506, 35.4625787], Azimuth: -112.33810356983628, AngleDiff: -185.23836565459266, Distance: 280.0515231915083, Velocity: -0.9999999999999999
+Turn!
+angle_N= -40.98852553797314
+Acceleration Y: 146.0
+angle_N= -42.097300761993125
+Acceleration Y: 10.0
+angle_N= -41.95667545893199
+Acceleration Y: 1.0
+angle_N= -41.95667545893199
+Acceleration Y: 1.0
+after turn GPS: [139.51717, 35.4625896], Azimuth: -112.42933408089704, AngleDiff: -70.47265862196505, Distance: 282.14033641651054, Velocity: 6.700000000000002
+before turn GPS: [139.51717, 35.4625896], Azimuth: -112.42933408089704, AngleDiff: -70.47265862196505, Distance: 282.14033641651054, Velocity: 6.700000000000002
+Turn!
+angle_N= -54.547482419636644
+Acceleration Y: 2.0
+angle_N= -54.53709926885262
+Acceleration Y: 1.0
+angle_N= -54.52693280685586
+Acceleration Y: 3.0
+after turn GPS: [139.51719649999998, 35.4625999], Azimuth: -112.45719090324911, AngleDiff: -57.93025809639325, Distance: 284.7998620225824, Velocity: 7.055000000000002
+angle_N= 44.85761732610278
+Acceleration Y: 3.0
+before turn GPS: [139.51719649999998, 35.4625999], Azimuth: -112.45719090324911, AngleDiff: -57.93025809639325, Distance: 284.7998620225824, Velocity: 7.055000000000002
+Turn!
+angle_N= -59.3449736907839
+Acceleration Y: 1.0
+angle_N= -59.338738760360435
+Acceleration Y: 1.0
+angle_N= -59.338738760360435
+Acceleration Y: 1.0
+angle_N= -59.338738760360435
+Acceleration Y: 1.0
+after turn GPS: [139.51, 35.462595900000004], Azimuth: 105.52384357486096, AngleDiff: 164.8625823352214, Distance: 404.81020681015303, Velocity: 7.305000000000002
+before turn GPS: [139.51, 35.462595900000004], Azimuth: 105.52384357486096, AngleDiff: 164.8625823352214, Distance: 404.81020681015303, Velocity: 7.305000000000002
+Turn!
+angle_N= -32.54903827001301
+Acceleration Y: 9.0
+angle_N= -32.53135358305906
+Acceleration Y: 10.0
+angle_N= -32.50540262685797
+Acceleration Y: 6.0
+after turn GPS: [139.51716770000002, 35.4625976], Azimuth: -112.61202938563221, AngleDiff: -80.10662675877424, Distance: 282.2874461000458, Velocity: 8.815000000000001
+angle_N= -32.50540262685797
+Acceleration Y: 7.0
+Move
+angle_N= -34.64878628259148
+Acceleration Y: 157.0
+angle_N= -34.42575361412428
+Acceleration Y: -27.0
+angle_N= -15.533873887671064
+Acceleration Y: -86.0
+angle_N= -9.168145385531464
+Acceleration Y: -778.0
+angle_N= -5.057420597511246
+Acceleration Y: 138.0
+angle_N= -3.943718314361278
+Acceleration Y: -111.0
+angle_N= -2.197289550387062
+Acceleration Y: -110.0
+angle_N= 4.548067661068578
+Acceleration Y: 141.0
+angle_N= 6.263271789259142
+Acceleration Y: 167.0
+angle_N= 11.049777056986214
+Acceleration Y: -142.0
+angle_N= 12.00038637341661
+Acceleration Y: 269.0
+angle_N= 20.532277544944307
+Acceleration Y: 74.0
+angle_N= 20.592892556831266
+Acceleration Y: 706.0
+angle_N= 19.706348433978185
+Acceleration Y: 13.0
+angle_N= 19.706348433978185
+Acceleration Y: -39.0
+before turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -132.74933461636826, Distance: 280.7461172820704, Velocity: 15.119999999999997
+Turn!
+angle_N= 14.913078513824388
+Acceleration Y: 119.0
+angle_N= 14.913078513824388
+Acceleration Y: 119.0
+angle_N= -1.1598101456178014
+Acceleration Y: -174.0
+angle_N= -73.00533076590095
+Acceleration Y: -6.0
+angle_N= -72.8549277297706
+Acceleration Y: -6.0
+angle_N= -72.00601352719481
+Acceleration Y: 14.0
+angle_N= -72.00719441766441
+Acceleration Y: 14.0
+angle_N= -71.96038660255408
+Acceleration Y: 13.0
+angle_N= -71.96038660255408
+Acceleration Y: 14.0
+after turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -41.082599579836, Distance: 280.7461172820704, Velocity: 14.159999999999998
+angle_N= -71.96038660255408
+Acceleration Y: 14.0
+before turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -41.082599579836, Distance: 280.7461172820704, Velocity: 14.159999999999998
+Turn!
+angle_N= -76.14938921383234
+Acceleration Y: 13.0
+angle_N= -76.12759815232465
+Acceleration Y: 10.0
+angle_N= -76.12759815232465
+Acceleration Y: 10.0
+angle_N= -76.10369255627431
+Acceleration Y: 8.0
+after turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -36.93929362611577, Distance: 280.7461172820704, Velocity: 15.834999999999997
+angle_N= -76.00458705100026
+Acceleration Y: 5.0
+angle_N= -76.10369255627431
+Acceleration Y: 5.0
+before turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -36.93929362611577, Distance: 280.7461172820704, Velocity: 15.834999999999997
+Turn!
+angle_N= -82.50976878362734
+Acceleration Y: 6.0
+angle_N= -82.50976878362734
+Acceleration Y: 3.0
+angle_N= -82.48127091591081
+Acceleration Y: 4.0
+after turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -30.56171526647927, Distance: 280.7461172820704, Velocity: 16.439999999999998
+angle_N= -82.48127091591081
+Acceleration Y: 6.0
+angle_N= -82.48127091591081
+Acceleration Y: 6.0
+before turn GPS: [139.517143, 35.4626098], Azimuth: -113.04298618239008, AngleDiff: -30.56171526647927, Distance: 280.7461172820704, Velocity: 16.439999999999998
+Turn!
+angle_N= -84.42547250410065
+Acceleration Y: 6.0
+angle_N= -84.42547250410065
+Acceleration Y: 2.0
+angle_N= -84.4204789519195
+Acceleration Y: 4.0
+angle_N= -84.4204789519195
+Acceleration Y: 1.0
+angle_N= -84.4204789519195
+Acceleration Y: 2.0
+after turn GPS: [1.39, 35.4626365], Azimuth: 33.36113343047365, AngleDiff: 117.78161238239315, Distance: 11037264.105265701, Velocity: 17.025
+angle_N= -84.4204789519195
+Acceleration Y: 2.0
+angle_N= -84.4204789519195
+Acceleration Y: 3.0
+before turn GPS: [1.39, 35.4626365], Azimuth: 33.36113343047365, AngleDiff: 117.78161238239315, Distance: 11037264.105265701, Velocity: 17.025
+Turn!
+angle_N= -47.15914189200427
+Acceleration Y: 18.0
+angle_N= -47.268702612693346
+Acceleration Y: 18.0
+angle_N= -47.42520810142993
+Acceleration Y: 17.0
+angle_N= -47.42425274521882
+Acceleration Y: 17.0
+angle_N= -47.35488549141505
+Acceleration Y: 10.0
+after turn GPS: [1.39, 35.4626365], Azimuth: 33.36113343047365, AngleDiff: 80.71601892188869, Distance: 11037264.105265701, Velocity: 19.599999999999994
+angle_N= -47.35488549141505
+Acceleration Y: 9.0
+angle_N= -47.35488549141505
+Acceleration Y: 9.0
+Move
+angle_N= -45.612043048148145
+Acceleration Y: 27.0
+angle_N= -45.68446524170813
+Acceleration Y: 37.0
+angle_N= -41.96619454266888
+Acceleration Y: 882.0
+angle_N= -40.66913878106123
+Acceleration Y: 187.0
+angle_N= -40.39345434891168
+Acceleration Y: 403.0
+angle_N= -27.281223087416294
+Acceleration Y: 22.0
+angle_N= -27.138719179141837
+Acceleration Y: -1566.0
+angle_N= -16.750405474952757
+Acceleration Y: -944.0
+angle_N= -16.750405474952757
+Acceleration Y: 494.0
+angle_N= -13.374765342980579
+Acceleration Y: 295.0
+angle_N= -13.431975190445472
+Acceleration Y: 302.0
+angle_N= 5.614598437233029
+Acceleration Y: 44.0
+angle_N= 6.558042673444057
+Acceleration Y: 44.0
+angle_N= 7.63705650536272
+Acceleration Y: -190.0
+angle_N= 8.153973619941613
+Acceleration Y: -190.0
+angle_N= 9.05389690636316
+Acceleration Y: 199.0
+angle_N= 9.05389690636316
+Acceleration Y: -801.0
+angle_N= 5.811392775438327
+Acceleration Y: 159.0
+angle_N= 5.856985053220833
+Acceleration Y: 159.0
+angle_N= 2.6831202990452203
+Acceleration Y: 513.0
+angle_N= 2.6831202990452203
+Acceleration Y: 513.0
+angle_N= 6.739562617333014
+Acceleration Y: 410.0
+angle_N= 6.246075339799509
+Acceleration Y: 410.0
+angle_N= 13.720087747353743
+Acceleration Y: 167.0
+angle_N= 13.131981554671738
+Acceleration Y: 167.0
+angle_N= 25.51782169810656
+Acceleration Y: 117.0
+angle_N= 25.74523139929909
+Acceleration Y: 117.0
+angle_N= 36.06218962673673
+Acceleration Y: 21.0
+angle_N= 36.06218962673673
+Acceleration Y: 21.0
+angle_N= 47.75384683200983
+Acceleration Y: 89.0
+angle_N= 47.75384683200983
+Acceleration Y: 89.0
+angle_N= 49.406022787326066
+Acceleration Y: 40.0
+angle_N= 49.39997386660278
+Acceleration Y: 40.0
+angle_N= 24.49370233941117
+Acceleration Y: 62.0
+angle_N= 24.49370233941117
+Acceleration Y: 62.0
+angle_N= 20.205191359073115
+Acceleration Y: 45.0
+angle_N= 19.917744175075946
+Acceleration Y: 38.0
+angle_N= 16.609904887893702
+Acceleration Y: -62.0
+angle_N= 16.609904887893702
+Acceleration Y: -65.0

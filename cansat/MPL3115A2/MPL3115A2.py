@@ -47,7 +47,7 @@ class MPL3115A2:
 
     def __init__(self, mode):
 
-        mode = mode
+        self.mode = mode
         self.bus = smbus.SMBus(1)
 
         if self.mode == MPL3115A2.PRESSURE_MODE:

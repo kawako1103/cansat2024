@@ -1,0 +1,108 @@
+2025-03-05 22:22:53 - robot.sleep(2)
+2025-03-05 22:22:53 - Turning right
+2025-03-05 22:22:55 - robot.turn(10)
+2025-03-05 22:22:55 - robot.sleep(2)
+2025-03-05 22:22:57 - robot.sleep(2)
+2025-03-05 22:22:59 - robot.sleep(2)
+2025-03-05 22:22:59 - Turning right
+2025-03-05 22:23:01 - robot.turn(10)
+2025-03-05 22:23:01 - robot.sleep(2)
+2025-03-05 22:23:03 - robot.sleep(2)
+2025-03-05 22:23:05 - robot.sleep(2)
+2025-03-05 22:23:05 - Turning right
+2025-03-05 22:23:07 - robot.turn(10)
+2025-03-05 22:23:07 - robot.sleep(2)
+2025-03-05 22:23:09 - robot.sleep(2)
+2025-03-05 22:23:11 - robot.sleep(2)
+2025-03-05 22:23:11 - Turning right
+2025-03-05 22:23:13 - robot.turn(10)
+2025-03-05 22:23:13 - robot.sleep(2)
+2025-03-05 22:23:15 - robot.sleep(2)
+2025-03-05 22:23:17 - robot.sleep(2)
+2025-03-05 22:23:17 - Turning right
+2025-03-05 22:23:19 - robot.turn(10)
+2025-03-05 22:23:19 - robot.sleep(2)
+2025-03-05 22:23:21 - robot.sleep(2)
+2025-03-05 22:23:24 - robot.sleep(2)
+2025-03-05 22:23:24 - Turning right
+2025-03-05 22:23:26 - robot.turn(10)
+2025-03-05 22:23:26 - robot.sleep(2)
+2025-03-05 22:23:28 - robot.sleep(2)
+2025-03-05 22:23:30 - robot.sleep(2)
+2025-03-05 22:23:30 - Turning right
+2025-03-05 22:23:32 - robot.turn(10)
+2025-03-05 22:23:32 - robot.sleep(2)
+2025-03-05 22:23:34 - robot.sleep(2)
+2025-03-05 22:23:36 - robot.sleep(2)
+2025-03-05 22:23:36 - Turning right
+2025-03-05 22:23:38 - robot.turn(10)
+2025-03-05 22:23:38 - robot.sleep(2)
+2025-03-05 22:23:40 - robot.sleep(2)
+2025-03-05 22:23:42 - robot.sleep(2)
+2025-03-05 22:23:42 - Turning right
+2025-03-05 22:23:44 - robot.turn(10)
+2025-03-05 22:23:44 - robot.sleep(2)
+2025-03-05 22:23:46 - robot.sleep(2)
+2025-03-05 22:23:48 - robot.sleep(2)
+2025-03-05 22:23:48 - Turning right
+2025-03-05 22:23:50 - robot.turn(10)
+2025-03-05 22:23:50 - robot.sleep(2)
+2025-03-05 22:23:52 - robot.sleep(2)
+2025-03-05 22:23:54 - robot.sleep(2)
+2025-03-05 22:23:54 - Turning right
+2025-03-05 22:23:56 - robot.turn(10)
+2025-03-05 22:23:56 - robot.sleep(2)
+2025-03-05 22:23:58 - robot.sleep(2)
+2025-03-05 22:24:01 - robot.sleep(2)
+2025-03-05 22:24:01 - Turning right
+2025-03-05 22:24:03 - robot.turn(10)
+2025-03-05 22:24:03 - robot.sleep(2)
+2025-03-05 22:24:05 - robot.sleep(2)
+2025-03-05 22:24:07 - robot.sleep(2)
+2025-03-05 22:24:07 - Turning right
+2025-03-05 22:24:09 - robot.turn(10)
+2025-03-05 22:24:09 - robot.sleep(2)
+2025-03-05 22:24:11 - robot.sleep(2)
+2025-03-05 22:24:13 - robot.sleep(2)
+2025-03-05 22:24:13 - Turning right
+2025-03-05 22:24:15 - robot.turn(10)
+2025-03-05 22:24:15 - robot.sleep(2)
+2025-03-05 22:24:17 - robot.sleep(2)
+2025-03-05 22:24:19 - robot.sleep(2)
+2025-03-05 22:24:19 - Turning right
+2025-03-05 22:24:21 - robot.turn(10)
+2025-03-05 22:24:21 - robot.sleep(2)
+2025-03-05 22:24:23 - robot.sleep(2)
+2025-03-05 22:24:25 - robot.sleep(2)
+2025-03-05 22:24:25 - Turning right
+2025-03-05 22:24:27 - robot.turn(10)
+2025-03-05 22:24:27 - robot.sleep(2)
+2025-03-05 22:24:29 - robot.sleep(2)
+2025-03-05 22:24:31 - Moving forward
+2025-03-05 22:24:31 - robot.sleep(2)
+2025-03-05 22:24:33 - robot.move(0.2,0.4)
+2025-03-05 22:24:34 - robot.sleep(2)
+2025-03-05 22:24:36 - Measurement timeout!
+2025-03-05 22:24:36 - robot.sleep(2)
+2025-03-05 22:24:38 - robot.turn(10)
+2025-03-05 22:24:38 - robot.sleep(2)
+2025-03-05 22:24:40 - robot.sleep(2)
+2025-03-05 22:24:42 - Turning left
+2025-03-05 22:24:42 - robot.sleep(2)
+2025-03-05 22:24:42 - robot.turn(-10)
+2025-03-05 22:24:44 - robot.sleep(2)
+2025-03-05 22:24:46 - robot.sleep(2)
+2025-03-05 22:24:48 - Moving forward
+2025-03-05 22:24:48 - robot.sleep(2)
+2025-03-05 22:24:50 - robot.move(0.2,0.4)
+2025-03-05 22:24:51 - robot.sleep(2)
+2025-03-05 22:24:53 - Current Distance: 25.5 cm
+2025-03-05 22:24:53 - Moving forward
+2025-03-05 22:24:55 - robot.move(0.2,0.4)
+2025-03-05 22:24:55 - robot.sleep(2)
+2025-03-05 22:24:57 - robot.sleep(2)
+2025-03-05 22:24:59 - robot.sleep(2)
+2025-03-05 22:24:59 - Turning right
+2025-03-05 22:25:01 - robot.turn(10)
+2025-03-05 22:25:01 - robot.sleep(2)
+2025-03-05 22:25:01 - Phase 4 completed.

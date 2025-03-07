@@ -129,7 +129,7 @@ class LoRaTransmitter:
         self.send_serial("rcvid 1")
         self.send_serial("transmode 2")
         self.send_serial("rssi 1")
-        self.send_serial("sf 7")
+        self.send_serial("sf 7") 
         self.send_serial("save")
         self.send_serial("start")
 
@@ -159,7 +159,7 @@ def lora_tx_release_pre2():
     lora_tx.initialize_device()
 
     # Start the main loop
-    lora_tx.run()
+    lora_tx.run()###
 
 
 if __name__ == "__main__":

@@ -10,7 +10,7 @@ GPIO.setup(26, GPIO.OUT, initial=GPIO.LOW)
 
 
 def cutWire():
-    ##0303
+    ##
     GPIO.cleanup()
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(21, GPIO.OUT, initial=GPIO.LOW)

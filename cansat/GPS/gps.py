@@ -49,8 +49,8 @@ def getLonLat(DEG=False):
                 read_lat = float(msg.lat)
 
                 if DEG == True:
-                    read_lon = dms2deg(read_lon)
-                    read_lat = dms2deg(read_lat)
+                    read_lon = nmea2deg(read_lon)
+                    read_lat = nmea2deg(read_lat)
 
             except Exception as e:
                 print("", end="")
@@ -76,8 +76,12 @@ def dms2deg(dms):
 
     return decdeg
 
+def nmea2deg(nmea):
+    deg = int(math.floor(nmea/100)) + (nmea%100.0) / 60.0
 
-def read_data_gps():
+    return deg
+
+ read_data_gps():
     try:
         rx_data_nmea = ""
         check = 0

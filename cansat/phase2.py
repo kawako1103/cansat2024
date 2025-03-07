@@ -7,7 +7,7 @@ def phase2():
     tegusu.cutWire()
     time.sleep(3)
 
-    ##GPIO setup 0303
+    ##GPIO setup
     robot.initialize()
     ##
 

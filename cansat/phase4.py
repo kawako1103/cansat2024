@@ -33,7 +33,7 @@ def phase4():
             if most_greenless_section == "Right": #camera is reverse.
                 log_message("Turning left")
                 log_message("robot.sleep(2)")
-                log_message("robot.turn(-10)")
+                log_message("robot.turn(-20)")
                 time.sleep(2)  
                 robot.turn(-20) #-10
                 robot.stop()
@@ -44,7 +44,7 @@ def phase4():
                 log_message("robot.sleep(2)")
                 log_message("Turning right")
                 time.sleep(2)
-                log_message("robot.turn(10)")
+                log_message("robot.turn(20)")
                 robot.turn(20) #10
                 robot.stop()
                 log_message("robot.sleep(2)")
@@ -68,7 +68,7 @@ def phase4():
                     log_message("Measurement timeout!")
                     log_message("robot.sleep(2)")
                     time.sleep(2)
-                    log_message("robot.turn(10)")
+                    log_message("robot.turn(20)")
                     robot.turn(20) #10
                     robot.stop()
                     log_message("robot.sleep(2)")
@@ -78,7 +78,7 @@ def phase4():
                     log_message(f"Current Distance: {current_distance:.1f} cm")
                     #current_distance = 1 #for test                
                     # if 5cm or less, it's over.
-                    if current_distance <= 5:
+                    if current_distance <= 5.0:
                         log_message("Goal reached!")
                         break
                     elif current_distance >= 5.0:

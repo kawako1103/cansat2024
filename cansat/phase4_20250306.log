@@ -1,0 +1,242 @@
+2025-03-06 11:08:29 - robot.sleep(2)
+2025-03-06 11:08:29 - Turning right
+2025-03-06 11:08:31 - robot.turn(10)
+2025-03-06 11:08:31 - robot.sleep(2)
+2025-03-06 11:08:33 - robot.sleep(2)
+2025-03-06 11:08:35 - robot.sleep(2)
+2025-03-06 11:08:35 - Turning right
+2025-03-06 11:08:37 - robot.turn(10)
+2025-03-06 11:08:37 - robot.sleep(2)
+2025-03-06 11:08:39 - robot.sleep(2)
+2025-03-06 11:08:41 - robot.sleep(2)
+2025-03-06 11:08:41 - Turning right
+2025-03-06 11:08:43 - robot.turn(10)
+2025-03-06 11:08:43 - robot.sleep(2)
+2025-03-06 11:08:45 - robot.sleep(2)
+2025-03-06 11:08:47 - robot.sleep(2)
+2025-03-06 11:08:47 - Turning right
+2025-03-06 11:08:49 - robot.turn(10)
+2025-03-06 11:08:49 - robot.sleep(2)
+2025-03-06 11:08:51 - robot.sleep(2)
+2025-03-06 11:08:53 - robot.sleep(2)
+2025-03-06 11:08:53 - Turning right
+2025-03-06 11:08:55 - robot.turn(10)
+2025-03-06 11:08:55 - robot.sleep(2)
+2025-03-06 11:08:57 - robot.sleep(2)
+2025-03-06 11:08:59 - robot.sleep(2)
+2025-03-06 11:08:59 - Turning right
+2025-03-06 11:09:01 - robot.turn(10)
+2025-03-06 11:09:01 - robot.sleep(2)
+2025-03-06 11:09:03 - robot.sleep(2)
+2025-03-06 11:09:05 - robot.sleep(2)
+2025-03-06 11:09:05 - Turning right
+2025-03-06 11:09:07 - robot.turn(10)
+2025-03-06 11:09:07 - robot.sleep(2)
+2025-03-06 11:09:09 - robot.sleep(2)
+2025-03-06 11:09:11 - robot.sleep(2)
+2025-03-06 11:09:11 - Turning right
+2025-03-06 11:09:13 - robot.turn(10)
+2025-03-06 11:09:13 - robot.sleep(2)
+2025-03-06 11:09:15 - robot.sleep(2)
+2025-03-06 11:09:17 - robot.sleep(2)
+2025-03-06 11:09:17 - Turning right
+2025-03-06 11:09:19 - robot.turn(10)
+2025-03-06 11:09:19 - robot.sleep(2)
+2025-03-06 11:09:21 - robot.sleep(2)
+2025-03-06 11:09:23 - robot.sleep(2)
+2025-03-06 11:09:23 - Turning right
+2025-03-06 11:09:25 - robot.turn(10)
+2025-03-06 11:09:26 - robot.sleep(2)
+2025-03-06 11:09:28 - robot.sleep(2)
+2025-03-06 11:09:30 - robot.sleep(2)
+2025-03-06 11:09:30 - Turning right
+2025-03-06 11:09:32 - robot.turn(10)
+2025-03-06 11:09:32 - robot.sleep(2)
+2025-03-06 11:09:34 - robot.sleep(2)
+2025-03-06 11:09:36 - robot.sleep(2)
+2025-03-06 11:09:36 - Turning right
+2025-03-06 11:09:38 - robot.turn(10)
+2025-03-06 11:09:38 - robot.sleep(2)
+2025-03-06 11:09:40 - robot.sleep(2)
+2025-03-06 11:09:42 - robot.sleep(2)
+2025-03-06 11:09:42 - Turning right
+2025-03-06 11:09:44 - robot.turn(10)
+2025-03-06 11:09:44 - robot.sleep(2)
+2025-03-06 11:09:46 - robot.sleep(2)
+2025-03-06 11:09:48 - robot.sleep(2)
+2025-03-06 11:09:48 - Turning right
+2025-03-06 11:09:50 - robot.turn(10)
+2025-03-06 11:09:50 - robot.sleep(2)
+2025-03-06 11:09:52 - robot.sleep(2)
+2025-03-06 11:09:54 - robot.sleep(2)
+2025-03-06 11:09:54 - Turning right
+2025-03-06 11:09:56 - robot.turn(10)
+2025-03-06 11:09:56 - robot.sleep(2)
+2025-03-06 11:09:58 - robot.sleep(2)
+2025-03-06 11:10:00 - robot.sleep(2)
+2025-03-06 11:10:00 - Turning right
+2025-03-06 11:10:02 - robot.turn(10)
+2025-03-06 11:10:02 - robot.sleep(2)
+2025-03-06 11:10:04 - robot.sleep(2)
+2025-03-06 11:10:06 - robot.sleep(2)
+2025-03-06 11:10:06 - Turning right
+2025-03-06 11:10:08 - robot.turn(10)
+2025-03-06 11:10:08 - robot.sleep(2)
+2025-03-06 11:10:10 - robot.sleep(2)
+2025-03-06 11:10:12 - Moving forward
+2025-03-06 11:10:12 - robot.sleep(2)
+2025-03-06 11:10:14 - robot.move(0.2,0.4)
+2025-03-06 11:10:15 - robot.sleep(2)
+2025-03-06 11:10:17 - Current Distance: 17.5 cm
+2025-03-06 11:10:17 - Moving forward
+2025-03-06 11:10:19 - robot.move(0.2,0.4)
+2025-03-06 11:10:19 - robot.sleep(2)
+2025-03-06 11:10:21 - robot.sleep(2)
+2025-03-06 11:10:23 - Moving forward
+2025-03-06 11:10:23 - robot.sleep(2)
+2025-03-06 11:10:25 - robot.move(0.2,0.4)
+2025-03-06 11:10:26 - robot.sleep(2)
+2025-03-06 11:10:28 - Measurement timeout!
+2025-03-06 11:10:28 - robot.sleep(2)
+2025-03-06 11:10:30 - robot.turn(10)
+2025-03-06 11:10:30 - robot.sleep(2)
+2025-03-06 11:10:32 - robot.sleep(2)
+2025-03-06 11:10:34 - Moving forward
+2025-03-06 11:10:34 - robot.sleep(2)
+2025-03-06 11:10:36 - robot.move(0.2,0.4)
+2025-03-06 11:10:36 - robot.sleep(2)
+2025-03-06 11:10:38 - Measurement timeout!
+2025-03-06 11:10:38 - robot.sleep(2)
+2025-03-06 11:10:40 - robot.turn(10)
+2025-03-06 11:10:40 - robot.sleep(2)
+2025-03-06 11:10:42 - robot.sleep(2)
+2025-03-06 11:10:44 - robot.sleep(2)
+2025-03-06 11:10:44 - Turning right
+2025-03-06 11:10:46 - robot.turn(10)
+2025-03-06 11:10:46 - robot.sleep(2)
+2025-03-06 11:10:48 - robot.sleep(2)
+2025-03-06 11:10:50 - Moving forward
+2025-03-06 11:10:50 - robot.sleep(2)
+2025-03-06 11:10:52 - robot.move(0.2,0.4)
+2025-03-06 11:10:53 - robot.sleep(2)
+2025-03-06 11:10:55 - Current Distance: 47.1 cm
+2025-03-06 11:10:55 - Moving forward
+2025-03-06 11:10:57 - robot.move(0.2,0.4)
+2025-03-06 11:10:57 - robot.sleep(2)
+2025-03-06 11:10:59 - robot.sleep(2)
+2025-03-06 11:11:01 - Turning left
+2025-03-06 11:11:01 - robot.sleep(2)
+2025-03-06 11:11:01 - robot.turn(-10)
+2025-03-06 11:11:03 - robot.sleep(2)
+2025-03-06 11:11:05 - robot.sleep(2)
+2025-03-06 11:11:07 - Moving forward
+2025-03-06 11:11:07 - robot.sleep(2)
+2025-03-06 11:11:09 - robot.move(0.2,0.4)
+2025-03-06 11:11:10 - robot.sleep(2)
+2025-03-06 11:11:12 - Current Distance: 2.7 cm
+2025-03-06 11:11:12 - Goal reached!
+2025-03-06 11:11:12 - Phase 4 completed.
+2025-03-06 14:40:35 - robot.sleep(2)
+2025-03-06 14:40:35 - Turning right
+2025-03-06 14:40:37 - robot.turn(10)
+2025-03-06 14:40:37 - robot.sleep(2)
+2025-03-06 14:40:39 - robot.sleep(2)
+2025-03-06 14:40:42 - robot.sleep(2)
+2025-03-06 14:40:42 - Turning right
+2025-03-06 14:40:44 - robot.turn(10)
+2025-03-06 14:40:44 - robot.sleep(2)
+2025-03-06 14:40:46 - robot.sleep(2)
+2025-03-06 14:40:47 - Phase 4 completed.
+2025-03-06 14:42:26 - robot.sleep(2)
+2025-03-06 14:42:26 - Turning right
+2025-03-06 14:42:28 - robot.turn(10)
+2025-03-06 14:42:28 - robot.sleep(2)
+2025-03-06 14:42:30 - robot.sleep(2)
+2025-03-06 14:42:32 - robot.sleep(2)
+2025-03-06 14:42:32 - Turning right
+2025-03-06 14:42:34 - robot.turn(10)
+2025-03-06 14:42:34 - robot.sleep(2)
+2025-03-06 14:42:36 - robot.sleep(2)
+2025-03-06 14:42:38 - robot.sleep(2)
+2025-03-06 14:42:38 - Turning right
+2025-03-06 14:42:40 - robot.turn(10)
+2025-03-06 14:42:40 - robot.sleep(2)
+2025-03-06 14:42:42 - robot.sleep(2)
+2025-03-06 14:42:44 - robot.sleep(2)
+2025-03-06 14:42:44 - Turning right
+2025-03-06 14:42:46 - robot.turn(10)
+2025-03-06 14:42:46 - robot.sleep(2)
+2025-03-06 14:42:48 - robot.sleep(2)
+2025-03-06 14:42:51 - robot.sleep(2)
+2025-03-06 14:42:51 - Turning right
+2025-03-06 14:42:53 - robot.turn(10)
+2025-03-06 14:42:53 - robot.sleep(2)
+2025-03-06 14:42:55 - robot.sleep(2)
+2025-03-06 14:42:57 - robot.sleep(2)
+2025-03-06 14:42:57 - Turning right
+2025-03-06 14:42:59 - robot.turn(10)
+2025-03-06 14:42:59 - robot.sleep(2)
+2025-03-06 14:43:01 - robot.sleep(2)
+2025-03-06 14:43:03 - robot.sleep(2)
+2025-03-06 14:43:03 - Turning right
+2025-03-06 14:43:05 - robot.turn(10)
+2025-03-06 14:43:05 - robot.sleep(2)
+2025-03-06 14:43:07 - robot.sleep(2)
+2025-03-06 14:43:09 - robot.sleep(2)
+2025-03-06 14:43:09 - Turning right
+2025-03-06 14:43:11 - robot.turn(10)
+2025-03-06 14:43:11 - robot.sleep(2)
+2025-03-06 14:43:13 - robot.sleep(2)
+2025-03-06 14:43:15 - robot.sleep(2)
+2025-03-06 14:43:15 - Turning right
+2025-03-06 14:43:17 - robot.turn(10)
+2025-03-06 14:43:17 - robot.sleep(2)
+2025-03-06 14:43:19 - robot.sleep(2)
+2025-03-06 14:43:21 - robot.sleep(2)
+2025-03-06 14:43:21 - Turning right
+2025-03-06 14:43:23 - robot.turn(10)
+2025-03-06 14:43:23 - robot.sleep(2)
+2025-03-06 14:43:25 - robot.sleep(2)
+2025-03-06 14:43:27 - robot.sleep(2)
+2025-03-06 14:43:27 - Turning right
+2025-03-06 14:43:29 - robot.turn(10)
+2025-03-06 14:43:30 - robot.sleep(2)
+2025-03-06 14:43:32 - robot.sleep(2)
+2025-03-06 14:43:34 - robot.sleep(2)
+2025-03-06 14:43:34 - Turning right
+2025-03-06 14:43:36 - robot.turn(10)
+2025-03-06 14:43:36 - robot.sleep(2)
+2025-03-06 14:43:38 - robot.sleep(2)
+2025-03-06 14:43:40 - robot.sleep(2)
+2025-03-06 14:43:40 - Turning right
+2025-03-06 14:43:42 - robot.turn(10)
+2025-03-06 14:43:42 - robot.sleep(2)
+2025-03-06 14:43:44 - robot.sleep(2)
+2025-03-06 14:43:46 - robot.sleep(2)
+2025-03-06 14:43:46 - Turning right
+2025-03-06 14:43:48 - robot.turn(10)
+2025-03-06 14:43:48 - robot.sleep(2)
+2025-03-06 14:43:50 - robot.sleep(2)
+2025-03-06 14:43:52 - robot.sleep(2)
+2025-03-06 14:43:52 - Turning right
+2025-03-06 14:43:54 - robot.turn(10)
+2025-03-06 14:43:54 - robot.sleep(2)
+2025-03-06 14:43:56 - robot.sleep(2)
+2025-03-06 14:43:58 - robot.sleep(2)
+2025-03-06 14:43:58 - Turning right
+2025-03-06 14:44:00 - robot.turn(10)
+2025-03-06 14:44:00 - robot.sleep(2)
+2025-03-06 14:44:02 - robot.sleep(2)
+2025-03-06 14:44:04 - robot.sleep(2)
+2025-03-06 14:44:04 - Turning right
+2025-03-06 14:44:06 - robot.turn(10)
+2025-03-06 14:44:07 - robot.sleep(2)
+2025-03-06 14:44:09 - robot.sleep(2)
+2025-03-06 14:44:11 - robot.sleep(2)
+2025-03-06 14:44:11 - Turning right
+2025-03-06 14:44:13 - robot.turn(10)
+2025-03-06 14:44:13 - robot.sleep(2)
+2025-03-06 14:44:15 - robot.sleep(2)
+2025-03-06 14:44:17 - robot.sleep(2)
+2025-03-06 14:44:17 - Turning right
+2025-03-06 14:44:18 - Phase 4 completed.

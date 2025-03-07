@@ -1,0 +1,127 @@
+2025-03-07 01:10:59 - robot.sleep(2)
+2025-03-07 01:10:59 - Turning right
+2025-03-07 01:11:02 - robot.turn(20)
+2025-03-07 01:11:02 - robot.sleep(2)
+2025-03-07 01:11:04 - robot.sleep(2)
+2025-03-07 01:11:06 - Moving forward
+2025-03-07 01:11:06 - robot.sleep(2)
+2025-03-07 01:11:08 - robot.move(0.2,0.4)
+2025-03-07 01:11:08 - robot.sleep(2)
+2025-03-07 01:11:10 - Current Distance: 37.4 cm
+2025-03-07 01:11:10 - Moving forward
+2025-03-07 01:11:12 - robot.move(0.2,0.4)
+2025-03-07 01:11:13 - robot.sleep(2)
+2025-03-07 01:11:15 - robot.sleep(2)
+2025-03-07 01:11:17 - robot.sleep(2)
+2025-03-07 01:11:17 - Turning right
+2025-03-07 01:11:19 - robot.turn(20)
+2025-03-07 01:11:19 - robot.sleep(2)
+2025-03-07 01:11:21 - robot.sleep(2)
+2025-03-07 01:11:23 - robot.sleep(2)
+2025-03-07 01:11:23 - Turning right
+2025-03-07 01:11:25 - robot.turn(20)
+2025-03-07 01:11:25 - robot.sleep(2)
+2025-03-07 01:11:27 - robot.sleep(2)
+2025-03-07 01:11:29 - robot.sleep(2)
+2025-03-07 01:11:29 - Turning right
+2025-03-07 01:11:31 - robot.turn(20)
+2025-03-07 01:11:32 - robot.sleep(2)
+2025-03-07 01:11:34 - robot.sleep(2)
+2025-03-07 01:11:36 - robot.sleep(2)
+2025-03-07 01:11:36 - Turning right
+2025-03-07 01:11:38 - robot.turn(20)
+2025-03-07 01:11:38 - robot.sleep(2)
+2025-03-07 01:11:40 - robot.sleep(2)
+2025-03-07 01:11:42 - Moving forward
+2025-03-07 01:11:42 - robot.sleep(2)
+2025-03-07 01:11:44 - robot.move(0.2,0.4)
+2025-03-07 01:11:44 - robot.sleep(2)
+2025-03-07 01:11:46 - Current Distance: 32.9 cm
+2025-03-07 01:11:46 - Moving forward
+2025-03-07 01:11:48 - robot.move(0.2,0.4)
+2025-03-07 01:11:49 - robot.sleep(2)
+2025-03-07 01:11:51 - robot.sleep(2)
+2025-03-07 01:11:53 - robot.sleep(2)
+2025-03-07 01:11:53 - Turning right
+2025-03-07 01:11:55 - robot.turn(20)
+2025-03-07 01:11:55 - robot.sleep(2)
+2025-03-07 01:11:57 - robot.sleep(2)
+2025-03-07 01:11:59 - Moving forward
+2025-03-07 01:11:59 - robot.sleep(2)
+2025-03-07 01:12:01 - robot.move(0.2,0.4)
+2025-03-07 01:12:01 - robot.sleep(2)
+2025-03-07 01:12:03 - Current Distance: 33.4 cm
+2025-03-07 01:12:03 - Moving forward
+2025-03-07 01:12:05 - robot.move(0.2,0.4)
+2025-03-07 01:12:06 - robot.sleep(2)
+2025-03-07 01:12:08 - robot.sleep(2)
+2025-03-07 01:12:10 - robot.sleep(2)
+2025-03-07 01:12:10 - Turning right
+2025-03-07 01:12:12 - robot.turn(20)
+2025-03-07 01:12:12 - robot.sleep(2)
+2025-03-07 01:12:14 - robot.sleep(2)
+2025-03-07 01:12:16 - robot.sleep(2)
+2025-03-07 01:12:16 - Turning right
+2025-03-07 01:12:18 - robot.turn(20)
+2025-03-07 01:12:18 - robot.sleep(2)
+2025-03-07 01:12:20 - robot.sleep(2)
+2025-03-07 01:12:22 - robot.sleep(2)
+2025-03-07 01:12:22 - Turning right
+2025-03-07 01:12:24 - robot.turn(20)
+2025-03-07 01:12:24 - robot.sleep(2)
+2025-03-07 01:12:26 - robot.sleep(2)
+2025-03-07 01:12:28 - robot.sleep(2)
+2025-03-07 01:12:28 - Turning right
+2025-03-07 01:12:30 - robot.turn(20)
+2025-03-07 01:12:31 - robot.sleep(2)
+2025-03-07 01:12:33 - robot.sleep(2)
+2025-03-07 01:12:35 - Turning left
+2025-03-07 01:12:35 - robot.sleep(2)
+2025-03-07 01:12:35 - robot.turn(-20)
+2025-03-07 01:12:37 - robot.sleep(2)
+2025-03-07 01:12:39 - robot.sleep(2)
+2025-03-07 01:12:41 - Turning left
+2025-03-07 01:12:41 - robot.sleep(2)
+2025-03-07 01:12:41 - robot.turn(-20)
+2025-03-07 01:12:43 - robot.sleep(2)
+2025-03-07 01:12:45 - robot.sleep(2)
+2025-03-07 01:12:47 - Turning left
+2025-03-07 01:12:47 - robot.sleep(2)
+2025-03-07 01:12:47 - robot.turn(-20)
+2025-03-07 01:12:49 - robot.sleep(2)
+2025-03-07 01:12:51 - robot.sleep(2)
+2025-03-07 01:12:53 - Turning left
+2025-03-07 01:12:53 - robot.sleep(2)
+2025-03-07 01:12:53 - robot.turn(-20)
+2025-03-07 01:12:55 - robot.sleep(2)
+2025-03-07 01:12:57 - robot.sleep(2)
+2025-03-07 01:12:59 - Turning left
+2025-03-07 01:12:59 - robot.sleep(2)
+2025-03-07 01:12:59 - robot.turn(-20)
+2025-03-07 01:13:02 - robot.sleep(2)
+2025-03-07 01:13:04 - robot.sleep(2)
+2025-03-07 01:13:06 - robot.sleep(2)
+2025-03-07 01:13:06 - Turning right
+2025-03-07 01:13:08 - robot.turn(20)
+2025-03-07 01:13:08 - robot.sleep(2)
+2025-03-07 01:13:10 - robot.sleep(2)
+2025-03-07 01:13:12 - robot.sleep(2)
+2025-03-07 01:13:12 - Turning right
+2025-03-07 01:13:14 - robot.turn(20)
+2025-03-07 01:13:14 - robot.sleep(2)
+2025-03-07 01:13:16 - robot.sleep(2)
+2025-03-07 01:13:18 - robot.sleep(2)
+2025-03-07 01:13:18 - Turning right
+2025-03-07 01:13:20 - robot.turn(20)
+2025-03-07 01:13:20 - robot.sleep(2)
+2025-03-07 01:13:22 - robot.sleep(2)
+2025-03-07 01:13:24 - robot.sleep(2)
+2025-03-07 01:13:24 - Turning right
+2025-03-07 01:13:26 - robot.turn(20)
+2025-03-07 01:13:27 - robot.sleep(2)
+2025-03-07 01:13:29 - robot.sleep(2)
+2025-03-07 01:13:31 - robot.sleep(2)
+2025-03-07 01:13:31 - Turning right
+2025-03-07 01:13:33 - robot.turn(20)
+2025-03-07 01:13:33 - robot.sleep(2)
+2025-03-07 01:14:19 - robot.sleep(2)

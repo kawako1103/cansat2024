@@ -90,7 +90,6 @@ class Router:
             self.calcAngleDist() #calculate angle and distance after GPS value
 
         self.angle_N = self.bno.getEulerInQuat()[0]
-        #change in the bno
         # if(self.angle_N > 0):
         #     self.angle_N = 180 - self.angle_N 
         # else:

@@ -5,7 +5,7 @@ import csv
 
 def phase3(goal_pos):
     rt = router.Router(goal_pos)
-    log_file = "test_log.csv"
+    log_file = "test_log_mayu.csv"
     
     with open(log_file, mode='w', newline='') as file:
         writer = csv.writer(file)

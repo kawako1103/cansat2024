@@ -1,0 +1,85 @@
+nmea_cat: RMC, longitude: 13057.58121 , latitude: 3022.48828
+nmea_cat: GGA, 
+nmea_cat: GLL, longitude: 13057.58121 , latitude: 3022.48828
+nmea_cat: GLL, timestamp: 08:19:21+00:00
+Longitude: 13057.58121 , Latitude: 3022.48828
+nmea_cat: RMC, longitude: 13057.58188 , latitude: 3022.48845
+nmea_cat: GGA, longitude: 13057.58188 , latitude: 3022.48845
+nmea_cat: GLL, 
+nmea_cat: GLL, 
+Longitude: 13057.58188 , Latitude: 3022.48845
+Longitude: 0 , Latitude: 0
+nmea_cat: RMC, 
+nmea_cat: GGA, longitude: 13057.58296 , latitude: 3022.48851
+nmea_cat: GLL, longitude: 13057.58296 , latitude: 3022.48851
+nmea_cat: GLL, timestamp: 08:19:38+00:00
+Longitude: 13057.58296 , Latitude: 3022.48851
+nmea_cat: RMC, longitude: 13057.58310 , latitude: 3022.48871
+nmea_cat: GGA, longitude: 13057.58310 , latitude: 3022.48871
+nmea_cat: GLL, longitude: 13057.58310 , latitude: 3022.48871
+nmea_cat: GLL, timestamp: 08:19:44+00:00
+Longitude: 13057.58310 , Latitude: 3022.48871
+nmea_cat: RMC, longitude: 13057.58420 , latitude: 3022.48919
+nmea_cat: GGA, longitude: 13057.58420 , latitude: 3022.48919
+nmea_cat: GLL, longitude: 13057.58420 , latitude: 3022.48919
+nmea_cat: GLL, timestamp: 08:19:50+00:00
+Longitude: 13057.58420 , Latitude: 3022.48919
+Error reading from GPS module: [Errno 121] Remote I/O error
+Longitude: 0 , Latitude: 0
+nmea_cat: GLL, longitude: 13057.58518 , latitude: 3022.48968
+nmea_cat: GLL, timestamp: 08:20:02+00:00
+Longitude: 13057.58518 , Latitude: 3022.48968
+nmea_cat: RMC, longitude: 13057.58489 , latitude: 3022.48948
+nmea_cat: GGA, 
+nmea_cat: GLL, longitude: 13057.58489 , latitude: 3022.48948
+nmea_cat: GLL, timestamp: 08:20:08+00:00
+Longitude: 13057.58489 , Latitude: 3022.48948
+nmea_cat: GGA, longitude: 13057.58514 , latitude: 3022.48959
+nmea_cat: GLL, 
+nmea_cat: GLL, 
+Longitude: 13057.58514 , Latitude: 3022.48959
+nmea_cat: GGA, longitude: 13057.58564 , latitude: 3022.48968
+nmea_cat: GLL, longitude: 13057.58564 , latitude: 3022.48968
+nmea_cat: GLL, timestamp: 08:20:20+00:00
+Longitude: 13057.58564 , Latitude: 3022.48968
+Error reading from GPS module: [Errno 121] Remote I/O error
+Longitude: 0 , Latitude: 0
+Longitude: 0 , Latitude: 0
+nmea_cat: GGA, 
+nmea_cat: GLL, 
+nmea_cat: GLL, 
+Longitude: 0 , Latitude: 0
+nmea_cat: RMC, longitude: 13057.58612 , latitude: 3022.48912
+nmea_cat: GGA, 
+nmea_cat: GLL, longitude: 13057.58612 , latitude: 3022.48912
+nmea_cat: GLL, timestamp: 08:20:42+00:00
+Longitude: 13057.58612 , Latitude: 3022.48912
+nmea_cat: RMC, longitude: 13057.58285 , latitude: 3022.48877
+nmea_cat: GGA, longitude: 13057.58285 , latitude: 3022.48877
+nmea_cat: GLL, longitude: 13057.58285 , latitude: 3022.48877
+nmea_cat: GLL, timestamp: 08:20:48+00:00
+Longitude: 13057.58285 , Latitude: 3022.48877
+nmea_cat: RMC, longitude: 13057.58196 , latitude: 3022.48853
+nmea_cat: GGA, longitude: 13057.58196 , latitude: 3022.48853
+nmea_cat: GLL, 
+nmea_cat: GLL, 
+Longitude: 13057.58196 , Latitude: 3022.48853
+nmea_cat: GGA, longitude: 13057.58258 , latitude: 3022.48876
+nmea_cat: GLL, longitude: 13057.58258 , latitude: 3022.48876
+nmea_cat: GLL, timestamp: 08:21:00+00:00
+Longitude: 13057.58258 , Latitude: 3022.48876
+Error reading from GPS module: [Errno 121] Remote I/O error
+Longitude: 0 , Latitude: 0
+nmea_cat: RMC, longitude: 13057.58354 , latitude: 3022.48862
+nmea_cat: GGA, longitude: 13057.58354 , latitude: ³022.48862
+nmea_cat: GLL, 
+nmea_cat: GLL, 
+Longitude: 13057.58354 , Latitude: ³022.48862
+nmea_cat: GLL, longitude: 13057.58358 , latitude: 3022.48867
+nmea_cat: GLL, timestamp: 08:21:17+00:00
+Longitude: 13057.58358 , Latitude: 3022.48867
+nmea_cat: RMC, 
+nmea_cat: GGA, longitude: 13057.58358 , latitude: 3022.48878
+nmea_cat: GLL, longitude: 13057.58358 , latitude: 3022.48878
+nmea_cat: GLL, timestamp: 08:21:23+00:00
+Longitude: 13057.58358 , Latitude: 3022.48878
