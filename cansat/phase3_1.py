@@ -11,9 +11,9 @@ def phase3(goal_pos):
         writer = csv.writer(file)
         writer.writerow(["Timestamp", "Latitude", "Longitude", "Azimuth", "AngleDiff", "Distance", "Velocity"])
     
-    rt.start()
-    time.sleep(1)
-    gps_pos = [0.0,0.0]
+    # rt.start()
+    # time.sleep(1)
+    # gps_pos = [0.0,0.0]
 
 
     while not (rt.isGoal() and rt.longitude_flag==True and rt.latitude_flag==True):

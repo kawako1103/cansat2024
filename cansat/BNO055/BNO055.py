@@ -412,8 +412,8 @@ if __name__ == "__main__":
 
     while True:
         print(bno.getCalibration())
-        print(f"Euler x y z[deg]: {bno.getEulerInQuat()}")
-        print(f"Acc x y z[m/s]: {bno.getVector(BNO055.VECTOR_LINEARACCEL)}")
-        print(f"Acc[m/s]: %.2f" % bno.getABSAccelaration())
+        # print(f"Euler x y z[deg]: {bno.getEulerInQuat()}")
+        # print(f"Acc x y z[m/s]: {bno.getVector(BNO055.VECTOR_LINEARACCEL)}")
+        # print(f"Acc[m/s]: %.2f" % bno.getABSAccelaration())
         bno.recordLog()
         time.sleep(0.1)
