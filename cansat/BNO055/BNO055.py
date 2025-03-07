@@ -326,11 +326,20 @@ class BNO055:
             
             # 
             # euler_angles[0]=(euler_angles[0]+180)%360-180
+            
+            ##03072152
+            euler_angles[0] = euler_angles[0] + 60
+            ##
+            if(euler_angles[0] > 180):
+                euler_angles[0] += -360
+            ##03072152
+
             if(euler_angles[0] > 0):
                 euler_angles[0] =  euler_angles[0] - 180
             else:
                 euler_angles[0] = 180 + euler_angles[0]
             # 
+
 
             return euler_angles
         else:

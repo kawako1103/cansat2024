@@ -31,6 +31,8 @@ class Router:
         self.time_data = [0.0]
         self.vel = 0.0
         self.running = True
+        self.longitude_flag=False
+        self.latitude_flag= False
 
     def initialize(self):
         self.acc_data = [0]
@@ -78,8 +80,8 @@ class Router:
         #self.azimuth, self.bwk_azimuth, self.distance = self.geod.inv(c2g_pos)
 
     def checkGoal(self):
-        if self.distance < 1:#10
-            print("last distance is :{self.distance}")
+        if self.distance < 4:#10 #1
+            print(f"last distance is :{self.distance}")
             self.goal_flag = True
 
     def update(self):
@@ -90,7 +92,7 @@ class Router:
         #    self.gps_pos = [pos[0] / 100.0, pos[1] / 100.0]  # make GPS value x1/100
             latitude = int(pos[1] / 100) + (pos[1] % 100.0) / 60.0
             longitude = int(pos[0] / 100) + (pos[0] % 100.0) / 60.0
-            self.gps_pos = [longitude, latitude]
+            # self.gps_pos = [longitude, latitude]
              
                 # Update only if latitude >= 30 and longitude >= 130
             if latitude >= 30 and longitude >= 130:

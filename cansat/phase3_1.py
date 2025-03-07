@@ -16,7 +16,7 @@ def phase3(goal_pos):
     gps_pos = [0.0,0.0]
 
 
-    while (not rt.isGoal()) and (gps_pos[0] == 0.0 or gps_pos[1] == 0.0):
+    while not (rt.isGoal() and rt.longitude_flag==True and rt.latitude_flag==True):
         times = 0
         rt.start()
         time.sleep(1)
@@ -124,7 +124,18 @@ def phase3(goal_pos):
             distance = rt.getDistance()
             velocity = rt.getVelocity()
             #debug 
-            
+            #####0307
+            if gps_pos[0] < 130:
+                rt.longitude_flag = False
+            else:
+                rt.longitude_flag = True
+                
+
+            if gps_pos[1] < 30:
+                rt.latitude_flag = False
+            else:
+                rt.latitude_flag = True
+            #####               
             print(f"after turn GPS: {gps_pos}, Azimuth: {azimuth}, AngleDiff: {deg}, Distance: {distance}, Velocity: {velocity}")
             
             velocity_value = velocity[-1] if isinstance(velocity, list) and len(velocity) > 0 else 0.0
@@ -135,17 +146,33 @@ def phase3(goal_pos):
             
             times += 1
         
-        print("Move")
-        robot.move(0.75, 3) #5
-        robot.stop()
-        rt.stop()
+        ##for last move 20250308 0152~
+
+        if rt.isGoal():
+            print("Move and exit")
+            robot.move(0.75, 1) #5
+            robot.stop()
+            rt.stop()
+        else:
+            print("Move and continue")
+            robot.move(0.75, 3) #5
+            robot.stop()
+            rt.stop()
+
+        # ##~0308 0152
+        # print("Move")
+        # robot.move(0.75, 3) #5
+        # robot.stop()
+        # rt.stop()
+        # ##~0308 0152
     
     print("Arrived!!")
 
 if __name__ == "__main__":
     # goal_pos = [130.554131524, 30.261690416]
     # goal_pos = [130.5758851, 30.2248274]
-    goal_pos = [130.9015805, 30.41536416666667]#deg? aozora_park@tanegashima
+    # goal_pos = [130.9015805, 30.41536416666667]#deg? hazi_aozora_park@tanegashima
+    goal_pos = [130.9012733, 30.41519633333333]#deg? center aozora_park@tanegashima
     # 13057.58780 , Latitude: 3022.48232 130.5758851, 30.2248274
     # goal_pos = [139.514296921, 35.461619311]
     #goal_pos = [13951.4296921, 3546.1619311]
