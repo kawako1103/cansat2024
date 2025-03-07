@@ -18,6 +18,12 @@ def phase3(goal_pos):
 
     while not (rt.isGoal() and rt.longitude_flag==True and rt.latitude_flag==True):
         times = 0
+
+        ##03080544gpsのみで航法する条件となるカウント
+        # 追加変数
+        distance_increase_count = 0  # 連続して距離が増加した回数を記録
+        ##03080544gpsのみで航法する条件となるカウント
+
         rt.start()
         time.sleep(1)
         
@@ -146,18 +152,111 @@ def phase3(goal_pos):
             
             times += 1
         
+        #######
+        ##03080536if latest distance > previous distance for 5 times continuously
+        # **回避行動モードの開始**
+        # if distance > previous_distance * 1.3:
+        #     print("Entering avoidance mode...")
+        #     avoidance_mode = True
+
+        # **回避行動モードの開始条件**
+        if distance > previous_distance:
+            distance_increase_count += 1
+        else:
+            distance_increase_count = 0  # 距離が減ったらカウントリセット
+
+        if distance_increase_count >= 5:
+            print("Entering avoidance mode...")
+            avoidance_mode = True
+        
+        ####03080536
+
+        while avoidance_mode and not rt.isGoal():
+            print("Avoidance phase started")
+
+            # **Step 1: 現在の地点の距離を取得**
+            initial_distance = rt.getDistance()
+            print(f"Initial Distance: {initial_distance}")
+
+            # **Step 2: 前進して距離を取得**
+            print("move")
+            robot.move(0.75, 2)
+            time.sleep(1)
+            rt.update()
+            forward_distance = rt.getDistance()
+            print(f"Forward Distance: {forward_distance}")
+
+            # **Step 3: どちらの距離が小さいかを判断**
+            if forward_distance > initial_distance:
+                print("Going back to previous location")
+                print("turn 180 deg and move")
+                robot.turn(80) #180 deg
+                robot.move(0.75, 2)
+            else:
+                print("Staying at new location")
+
+            # **Step 4: 90度回転して距離を取得**
+            print("turn 90 deg")
+            robot.turn(40) #90 deg
+            time.sleep(1)
+            rt.update()
+            perpendicular_distance = rt.getDistance()
+            print(f"Perpendicular Distance: {perpendicular_distance}")
+
+            # **Step 5: 前進して再び距離を取得**
+            print("move")
+            robot.move(0.75, 2)
+            time.sleep(1)
+            rt.update()
+            new_perpendicular_distance = rt.getDistance()
+            print(f"New Perpendicular Distance: {new_perpendicular_distance}")
+
+            # **Step 6: どちらの距離が小さいかを判断**
+            if new_perpendicular_distance > perpendicular_distance:
+                print("Going back to perpendicular start location")
+                print("turn 180 deg and move")
+                robot.turn(80) #180 deg
+                robot.move(0.75, 2)
+            else:
+                print("Staying at new perpendicular location")
+
+            # **ゴール判定**
+            if rt.isGoal():
+                print("Goal reached in avoidance mode")
+                avoidance_mode = False
+        ##
+        ##
+        # **通常モードでの移動**
+        if not avoidance_mode:
+            if rt.isGoal():
+                print("Move and exit")
+                robot.move(0.75, 1) #5
+                robot.stop()
+                rt.stop()
+                break
+            else:
+                print("Move and continue")
+                robot.move(0.75, 3) #5
+                robot.stop()
+                rt.stop()
+
+        rt.stop()
+        previous_distance = distance  # 現在の距離を保存
+        ##
+        ####03080536
+
         ##for last move 20250308 0152~
 
-        if rt.isGoal():
-            print("Move and exit")
-            robot.move(0.75, 1) #5
-            robot.stop()
-            rt.stop()
-        else:
-            print("Move and continue")
-            robot.move(0.75, 3) #5
-            robot.stop()
-            rt.stop()
+        # if rt.isGoal():
+        #     print("Move and exit")
+        #     robot.move(0.75, 1) #5
+        #     robot.stop()
+        #     rt.stop()
+        # else:
+        #     print("Move and continue")
+        #     robot.move(0.75, 3) #5
+        #     robot.stop()
+        #     rt.stop()
 
         # ##~0308 0152
         # print("Move")
