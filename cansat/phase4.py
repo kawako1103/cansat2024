@@ -1,5 +1,5 @@
 from Motor import robot
-from Camera.camera import Camera
+from Camera.camera_hsv import Camera
 #from HCSR04.hcsr04 import distance_filtered
 from HCSR04.hcsr04 import get_distance, setup
 import time
@@ -27,7 +27,7 @@ def phase4():
         while True:
             # capture and search a cone
             image_path = camera.capture_and_save()
-            most_greenless_section, _ = camera.redthreshold_left_center_right(image_path)
+            most_greenless_section, percent = camera.redthreshold_left_center_right(image_path)
 
             # Action based on the judgments results
             if most_greenless_section == "Right": #camera is reverse.
@@ -44,8 +44,8 @@ def phase4():
                 log_message("time.sleep(2)")
                 log_message("Turning right")
                 time.sleep(2)
-                log_message("robot.turn(20)")
-                robot.turn(20) #10
+                log_message("robot.turn(15)")
+                robot.turn(15) #10
                 robot.stop()
                 log_message("time.sleep(2)")
                 time.sleep(2)
@@ -56,7 +56,7 @@ def phase4():
                 log_message("time.sleep(2)")
                 time.sleep(2)
                 log_message("robot.move(0.2,0.4)")
-                robot.move(0.2, 0.4)
+                robot.move(0.8, 0.8)
                 robot.stop()
                 log_message("time.sleep(2)")
                 time.sleep(2)
@@ -68,8 +68,8 @@ def phase4():
                     log_message("Measurement timeout!")
                     log_message("time.sleep(2)")
                     time.sleep(2)
-                    log_message("robot.turn(20)")
-                    robot.turn(20) #10
+                    log_message("robot.turn(15)")
+                    robot.turn(15) #10
                     robot.stop()
                     log_message("time.sleep(2)")
                     time.sleep(2)
@@ -78,23 +78,24 @@ def phase4():
                     log_message(f"Current Distance: {current_distance:.1f} cm")
                     ######current_distance = 1 #for test                
                     # if 10cm or less, it's over.
-                    if current_distance <= 10.0:
+                    if (current_distance <= 40.0) or (most_greenless_section=="Center" and percent >= 80.0) :
                         
                         log_message("Moving forward about 10cm")
                         time.sleep(2)
                         log_message("robot.move(0.1,0.1)")
-                        robot.move(0.1, 0.1)
+                        robot.move(0.8, 0.8)
                         log_message("time.sleep(2)")
                         time.sleep(2)
                         robot.stop()
                         log_message("Goal reached!")
                         break
-                        
-                    elif current_distance >= 10.0:
+                    
+                    else:
+                    # elif current_distance >= 40.0:
                         log_message("Moving forward")
                         time.sleep(2)
                         log_message("robot.move(0.2,0.4)")
-                        robot.move(0.2, 0.4)
+                        robot.move(0.8, 0.8)
                         log_message("time.sleep(2)")
                         time.sleep(2)
                         robot.stop()

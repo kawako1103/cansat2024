@@ -8,8 +8,8 @@ import threading
 # sys.path.append(os.path.abspath("/LoRa/lora_tx_release_pre2"))
 # from lora_tx_release_pre2 import LoRaTransmitter
 ## 
-# from LoRa import lora_tx_release_pre2
-from LoRa.lora_tx_release_pre2 import lora_tx_release_pre2
+from LoRa import lora_tx_release_pre2
+# from LoRa.lora_tx_release_pre2 import lora_tx_release_pre2
 # 
 
 # import multiprocessing
@@ -21,7 +21,10 @@ import phase4 as phase4
 
 
 # goal_pos = [139.514296921, 35.461619311]
-goal_pos = [130.90121416666668, 30.415220833333333]#deg? aozora_park@tanegashima
+# goal_pos = [130.90121416666668, 30.415220833333333]#deg? aozora_park@tanegashima
+# goal_pos = [130.960085000, 30.374149666]#deg? contest
+goal_pos = [130.9879500, 30.730806500]#deg? center of minato park
+# 130.9602166666666 30.374381499999995
     
 
 

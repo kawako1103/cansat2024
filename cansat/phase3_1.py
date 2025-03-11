@@ -1,9 +1,12 @@
 from Router import router2 as router
+import lora_tx_release_pre2 as LoRaTX
 from Motor import robot
 import time
 import csv
+import os
 
 def phase3(goal_pos):
+# def phase3(goal_pos, port, baudrate, reset_pin, file_path_lora,file_path_al):
     rt = router.Router(goal_pos)
     log_file = "test_log_mayu.csv"
     
@@ -15,15 +18,17 @@ def phase3(goal_pos):
     # time.sleep(1)
     # gps_pos = [0.0,0.0]
 
+    avoidance_mode = False  # 回避行動モードのフラグ
+    previous_distance = float('inf')  # 初回のため、最大値をセット
+    ##03080544gpsのみで航法する条件となるカウント
+    # 追加変数
+    distance_increase_count = 0  # 連続して距離が増加した回数を記録
+    ##03080544gpsのみで航法する条件となるカウント
+
+
 
     while not (rt.isGoal() and rt.longitude_flag==True and rt.latitude_flag==True):
         times = 0
-
-        ##03080544gpsのみで航法する条件となるカウント
-        # 追加変数
-        distance_increase_count = 0  # 連続して距離が増加した回数を記録
-        ##03080544gpsのみで航法する条件となるカウント
-
         rt.start()
         time.sleep(1)
         
@@ -271,7 +276,8 @@ if __name__ == "__main__":
     # goal_pos = [130.554131524, 30.261690416]
     # goal_pos = [130.5758851, 30.2248274]
     # goal_pos = [130.9015805, 30.41536416666667]#deg? hazi_aozora_park@tanegashima
-    goal_pos = [130.9012733, 30.41519633333333]#deg? center aozora_park@tanegashima
+    # goal_pos = [130.9012733, 30.41519633333333]#deg? center aozora_park@tanegashima
+    goal_pos = [130.960085000, 30.374149666]#deg? contest
     # 13057.58780 , Latitude: 3022.48232 130.5758851, 30.2248274
     # goal_pos = [139.514296921, 35.461619311]
     #goal_pos = [13951.4296921, 3546.1619311]

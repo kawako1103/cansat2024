@@ -1,0 +1,1415 @@
+"before turn|| GPS:[130.90200666666667, 30.41033033333333], Azimuth: -7.441995891711089, AngleDiff: -179.6585168878588, Distance: 544.0248012662124, Velocity: 0.8250000000000001"
+before turn|| AngleDiff is -179.6585168878588
+"after turn|| GPS:[130.9020075, 30.41033033333333], Azimuth: -7.450357363988631, AngleDiff: -179.6681956553478, Distance: 544.0351782296075, Velocity: 1.9999999999999998"
+after turn|| AngleDiff is -179.6681956553478
+"after turn|| GPS:[130.9020115, 30.410329666666666], Azimuth: -7.48947353816269, AngleDiff: -179.70863600493493, Distance: 544.1584245922893, Velocity: 4.2299999999999995"
+after turn|| AngleDiff is -179.70863600493493
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90201100000002, 30.410335166666663], Azimuth: -7.492830141068392, AngleDiff: -179.71271092329567, Distance: 543.5476384085108"
+before turn|| AngleDiff is -179.71271092329567
+Turn left! status:10
+"after turn|| GPS:[130.90201966666666, 30.410329499999996], Azimuth: -7.571116783910381, AngleDiff: -179.7915643241243, Distance: 544.2795783260963"
+after turn|| AngleDiff is -179.7915643241243
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90201966666666, 30.410329499999996], Azimuth: -7.571116783910381, AngleDiff: -179.7915643241243, Distance: 544.2795783260963"
+before turn|| AngleDiff is -179.7915643241243
+Turn left! status:10
+"after turn|| GPS:[130.90202383333332, 30.410326], Azimuth: -7.607482106417326, AngleDiff: -179.82198181730863, Distance: 544.7170636487732"
+after turn|| AngleDiff is -179.82198181730863
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90202383333332, 30.410326], Azimuth: -7.607482106417326, AngleDiff: -179.82198181730863, Distance: 544.7170636487732"
+before turn|| AngleDiff is -179.82198181730863
+Turn left! status:10
+"after turn|| GPS:[130.90203316666666, 30.410321333333332], Azimuth: -7.693673714618022, AngleDiff: -179.90835035774404, Distance: 545.3491960694489"
+after turn|| AngleDiff is -179.90835035774404
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90203316666666, 30.410321333333332], Azimuth: -7.693673714618022, AngleDiff: -179.90835035774404, Distance: 545.3491960694489"
+before turn|| AngleDiff is -179.90835035774404
+Turn left! status:10
+"after turn|| GPS:[130.90204266666666, 30.410314333333336], Azimuth: -7.7776570307376485, AngleDiff: -180.00787972628268, Distance: 546.2410190185068"
+after turn|| AngleDiff is -180.00787972628268
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90204266666666, 30.410314333333336], Azimuth: -7.7776570307376485, AngleDiff: -180.00787972628268, Distance: 546.2410190185068"
+before turn|| AngleDiff is -180.00787972628268
+Turn left! status:10
+"after turn|| GPS:[130.90204633333332, 30.41031233333333], Azimuth: -7.811106635407028, AngleDiff: -180.0354000413948, Distance: 546.5084702645879"
+after turn|| AngleDiff is -180.0354000413948
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90204633333332, 30.41031233333333], Azimuth: -7.811106635407028, AngleDiff: -180.0354000413948, Distance: 546.5084702645879"
+before turn|| AngleDiff is -180.0354000413948
+Turn left! status:10
+"after turn|| GPS:[130.902058, 30.410303666666664], Azimuth: -7.9136400016346045, AngleDiff: -180.13808454551585, Distance: 547.6135682343479"
+after turn|| AngleDiff is -180.13808454551585
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.902058, 30.410303666666664], Azimuth: -7.9136400016346045, AngleDiff: -180.13808454551585, Distance: 547.6135682343479"
+before turn|| AngleDiff is -180.13808454551585
+Turn left! status:10
+"after turn|| GPS:[130.90206166666667, 30.410300833333334], Azimuth: -7.945603827166912, AngleDiff: -180.17001357207351, Distance: 547.9732711747229"
+after turn|| AngleDiff is -180.17001357207351
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206166666667, 30.410300833333334], Azimuth: -7.945603827166912, AngleDiff: -180.17001357207351, Distance: 547.9732711747229"
+before turn|| AngleDiff is -180.17001357207351
+Turn left! status:10
+"after turn|| GPS:[130.90206633333335, 30.410298333333337], Azimuth: -7.988004564620237, AngleDiff: -180.21230702921153, Distance: 548.3098934845322"
+after turn|| AngleDiff is -180.21230702921153
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206633333335, 30.410298333333337], Azimuth: -7.988004564620237, AngleDiff: -180.21230702921153, Distance: 548.3098934845322"
+before turn|| AngleDiff is -180.21230702921153
+Turn left! status:10
+"after turn|| GPS:[130.90206866666668, 30.410297333333332], Azimuth: -8.009588821140937, AngleDiff: -180.23427964457676, Distance: 548.4508726516533"
+after turn|| AngleDiff is -180.23427964457676
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206866666668, 30.410297333333332], Azimuth: -8.009588821140937, AngleDiff: -180.23427964457676, Distance: 548.4508726516533"
+before turn|| AngleDiff is -180.23427964457676
+Turn left! status:10
+"after turn|| GPS:[130.90207216666667, 30.410291666666662], Azimuth: -8.03520178727659, AngleDiff: -180.26031037168204, Distance: 549.1198626674262"
+after turn|| AngleDiff is -180.26031037168204
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90207216666667, 30.410291666666662], Azimuth: -8.03520178727659, AngleDiff: -180.26031037168204, Distance: 549.1198626674262"
+before turn|| AngleDiff is -180.26031037168204
+Turn left! status:10
+"after turn|| GPS:[130.90207516666666, 30.41028833333333], Azimuth: -8.059574796255152, AngleDiff: -180.2908108908776, Distance: 549.526109269051"
+after turn|| AngleDiff is -180.2908108908776
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90207516666666, 30.41028833333333], Azimuth: -8.059574796255152, AngleDiff: -180.2908108908776, Distance: 549.526109269051"
+before turn|| AngleDiff is -180.2908108908776
+Turn left! status:10
+"after turn|| GPS:[130.90207783333332, 30.410286499999998], Azimuth: -8.083044170299853, AngleDiff: -180.32438140526216, Distance: 549.763314521729"
+after turn|| AngleDiff is -180.32438140526216
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90207783333332, 30.410286499999998], Azimuth: -8.083044170299853, AngleDiff: -180.32438140526216, Distance: 549.763314521729"
+before turn|| AngleDiff is -180.32438140526216
+Turn left! status:10
+"after turn|| GPS:[130.90207866666665, 30.410287], Azimuth: -8.092118899865945, AngleDiff: -180.3333884395112, Distance: 549.7197012421427"
+after turn|| AngleDiff is -180.3333884395112
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90207866666665, 30.410287], Azimuth: -8.092118899865945, AngleDiff: -180.3333884395112, Distance: 549.7197012421427"
+before turn|| AngleDiff is -180.3333884395112
+Turn left! status:10
+"after turn|| GPS:[130.9020755, 30.410288833333333], Azimuth: -8.063691764635369, AngleDiff: -180.3049635604383, Distance: 549.4757190284809"
+after turn|| AngleDiff is -180.3049635604383
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9020755, 30.410288833333333], Azimuth: -8.063691764635369, AngleDiff: -180.3049635604383, Distance: 549.4757190284809"
+before turn|| AngleDiff is -180.3049635604383
+Turn left! status:10
+"after turn|| GPS:[130.902072, 30.410292166666668], Azimuth: -8.034355659047137, AngleDiff: -180.27550919486993, Distance: 549.0627386925637"
+after turn|| AngleDiff is -180.27550919486993
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.902072, 30.410292166666668], Azimuth: -8.034355659047137, AngleDiff: -180.27550919486993, Distance: 549.0627386925637"
+before turn|| AngleDiff is -180.27550919486993
+Turn left! status:10
+"after turn|| GPS:[130.90206866666668, 30.410294833333335], Azimuth: -8.005556526482907, AngleDiff: -180.24648781151728, Distance: 548.7253188271226"
+after turn|| AngleDiff is -180.24648781151728
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206866666668, 30.410294833333335], Azimuth: -8.005556526482907, AngleDiff: -180.24648781151728, Distance: 548.7253188271226"
+before turn|| AngleDiff is -180.24648781151728
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90212000000002, 30.410266833333335], Azimuth: -8.467226603834254, AngleDiff: 179.170447538205, Distance: 552.5040077057603"
+before turn|| AngleDiff is 179.170447538205
+Turn right! status:01
+"after turn|| GPS:[130.9, 30.410267166666667], Azimuth: 12.619606294955029, AngleDiff: -159.74355464405068, Distance: 559.973079898614"
+after turn|| AngleDiff is -159.74355464405068
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9, 30.410267166666667], Azimuth: 12.619606294955029, AngleDiff: -159.74355464405068, Distance: 559.973079898614"
+before turn|| AngleDiff is -159.74355464405068
+Turn left! status:10
+"after turn|| GPS:[130.90212133333335, 30.410267166666667], Azimuth: -8.480931686874147, AngleDiff: -180.84111080186605, Distance: 552.4863374189505"
+after turn|| AngleDiff is -180.84111080186605
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90212133333335, 30.410267166666667], Azimuth: -8.480931686874147, AngleDiff: -180.84111080186605, Distance: 552.4863374189505"
+before turn|| AngleDiff is -180.84111080186605
+Turn left! status:10
+"after turn|| GPS:[130.9021163333333, 30.410266833333335], Azimuth: -8.431087141937478, AngleDiff: -180.80085014805437, Distance: 552.4522409032676"
+after turn|| AngleDiff is -180.80085014805437
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9021163333333, 30.410266833333335], Azimuth: -8.431087141937478, AngleDiff: -180.80085014805437, Distance: 552.4522409032676"
+before turn|| AngleDiff is -180.80085014805437
+Turn left! status:10
+"after turn|| GPS:[130.90211433333334, 30.410266166666663], Azimuth: -8.410250725875862, AngleDiff: -180.78009630590657, Distance: 552.4972085013235"
+after turn|| AngleDiff is -180.78009630590657
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90211433333334, 30.410266166666663], Azimuth: -8.410250725875862, AngleDiff: -180.78009630590657, Distance: 552.4972085013235"
+before turn|| AngleDiff is -180.78009630590657
+Turn left! status:10
+"after turn|| GPS:[130.90210833333333, 30.410266166666663], Azimuth: -8.351100510408852, AngleDiff: -180.72104601595208, Distance: 552.4131808361145"
+after turn|| AngleDiff is -180.72104601595208
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90210833333333, 30.410266166666663], Azimuth: -8.351100510408852, AngleDiff: -180.72104601595208, Distance: 552.4131808361145"
+before turn|| AngleDiff is -180.72104601595208
+Turn left! status:10
+"after turn|| GPS:[130.9021025, 30.410266166666663], Azimuth: -8.293576161260182, AngleDiff: -180.66370561620437, Distance: 552.3320519161832"
+after turn|| AngleDiff is -180.66370561620437
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9021025, 30.410266166666663], Azimuth: -8.293576161260182, AngleDiff: -180.66370561620437, Distance: 552.3320519161832"
+before turn|| AngleDiff is -180.66370561620437
+Turn left! status:10
+"after turn|| GPS:[130.9020975, 30.410266166666663], Azimuth: -8.24425616563363, AngleDiff: -180.61493730438306, Distance: 552.2629561115922"
+after turn|| AngleDiff is -180.61493730438306
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9020975, 30.410266166666663], Azimuth: -8.24425616563363, AngleDiff: -180.61493730438306, Distance: 552.2629561115922"
+before turn|| AngleDiff is -180.61493730438306
+Turn left! status:10
+"after turn|| GPS:[130.90209349999998, 30.410265666666668], Azimuth: -8.20397061558905, AngleDiff: -180.57433826873253, Distance: 552.2628365683029"
+after turn|| AngleDiff is -180.57433826873253
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90209349999998, 30.410265666666668], Azimuth: -8.20397061558905, AngleDiff: -180.57433826873253, Distance: 552.2628365683029"
+before turn|| AngleDiff is -180.57433826873253
+Turn left! status:10
+"after turn|| GPS:[130.902085, 30.410261999999996], Azimuth: -8.11413637036995, AngleDiff: -182.8772010663317, Distance: 552.5492937402255"
+after turn|| AngleDiff is -182.8772010663317
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.902085, 30.410261999999996], Azimuth: -8.11413637036995, AngleDiff: -182.8772010663317, Distance: 552.5492937402255"
+before turn|| AngleDiff is -182.8772010663317
+Turn left! status:10
+"after turn|| GPS:[130.90208233333334, 30.410261999999996], Azimuth: -8.087832412939164, AngleDiff: -140.50420275463102, Distance: 552.513186001389"
+after turn|| AngleDiff is -140.50420275463102
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90208233333334, 30.410261999999996], Azimuth: -8.087832412939164, AngleDiff: -140.50420275463102, Distance: 552.513186001389"
+before turn|| AngleDiff is -140.50420275463102
+Turn left! status:10
+"after turn|| GPS:[130.90208316666667, 30.410261999999996], Azimuth: -8.096052768882616, AngleDiff: -134.63093214880718, Distance: 552.5244571589272"
+after turn|| AngleDiff is -134.63093214880718
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90208316666667, 30.410261999999996], Azimuth: -8.096052768882616, AngleDiff: -134.63093214880718, Distance: 552.5244571589272"
+before turn|| AngleDiff is -134.63093214880718
+Turn left! status:10
+"after turn|| GPS:[130.9020756666667, 30.410261999999996], Azimuth: -8.02205752371043, AngleDiff: -108.5536364723431, Distance: 552.4234262643591"
+after turn|| AngleDiff is -108.5536364723431
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9020756666667, 30.410261999999996], Azimuth: -8.02205752371043, AngleDiff: -108.5536364723431, Distance: 552.4234262643591"
+before turn|| AngleDiff is -108.5536364723431
+Turn left! status:10
+"after turn|| GPS:[130.9, 30.410265666666668], Azimuth: 12.615890091690707, AngleDiff: -52.60006176357769, Distance: 560.1353529532996"
+after turn|| AngleDiff is -52.60006176357769
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9, 30.410265666666668], Azimuth: 12.615890091690707, AngleDiff: -52.60006176357769, Distance: 560.1353529532996"
+before turn|| AngleDiff is -52.60006176357769
+Turn left! status:10
+"after turn|| GPS:[130.90206116666667, 30.4102645], Azimuth: -7.8828675546096205, AngleDiff: -56.222187839146386, Distance: 551.9561831326283"
+after turn|| AngleDiff is -56.222187839146386
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206116666667, 30.4102645], Azimuth: -7.8828675546096205, AngleDiff: -56.222187839146386, Distance: 551.9561831326283"
+before turn|| AngleDiff is -56.222187839146386
+Turn left! status:10
+"after turn|| GPS:[130.902063, 30.41026883333333], Azimuth: -7.90783964632382, AngleDiff: -30.41063191367718, Distance: 551.5045442586886"
+after turn|| AngleDiff is -30.41063191367718
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.902063, 30.41026883333333], Azimuth: -7.90783964632382, AngleDiff: -30.41063191367718, Distance: 551.5045442586886"
+before turn|| AngleDiff is -30.41063191367718
+Turn left! status:10
+"after turn|| GPS:[130.90205, 30.410272499999998], Azimuth: -7.7849903941433665, AngleDiff: -13.23942140939241, Distance: 550.9313363017284"
+after turn|| AngleDiff is -13.23942140939241
+End Turn-phase ! AngleDiff is -13.23942140939241
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.90205, 30.410272499999998], Azimuth: -7.7849903941433665, AngleDiff: -13.23942140939241, Distance: 550.9313363017284"
+Move forward!
+"after move forward|| [130.90205, 30.410272499999998], Azimuth: -7.7849903941433665, AngleDiff: -13.23942140939241, Distance: 550.9313363017284"
+End Turn-phase ! AngleDiff is 3.6951906838490043
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.90204633333332, 30.4102795], Azimuth: -7.759583697147521, AngleDiff: 3.6951906838490043, Distance: 550.114803256233"
+Move forward!
+"after move forward|| [130.90204633333332, 30.4102795], Azimuth: -7.759583697147521, AngleDiff: 3.6951906838490043, Distance: 550.114803256233"
+End Turn-phase ! AngleDiff is 13.412172219197037
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.9, 30.410304333333336], Azimuth: 12.712378280730297, AngleDiff: 13.412172219197037, Distance: 555.9530721773895"
+Move forward!
+"after move forward|| [130.9, 30.410304333333336], Azimuth: 12.712378280730297, AngleDiff: 13.412172219197037, Distance: 555.9530721773895"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9020478333333, 30.410307269738336], Azimuth: -7.8180705549530956, AngleDiff: -34.215000390546294, Distance: 547.0842013003453"
+before turn|| AngleDiff is -34.215000390546294
+Turn left! status:10
+"after turn|| GPS:[130.90203333333332, 30.410317333333335], Azimuth: -7.6891075617244224, AngleDiff: -30.510641743285074, Distance: 545.7907874846036"
+after turn|| AngleDiff is -30.510641743285074
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90203333333332, 30.410317333333335], Azimuth: -7.6891075617244224, AngleDiff: -30.510641743285074, Distance: 545.7907874846036"
+before turn|| AngleDiff is -30.510641743285074
+Turn left! status:10
+"after turn|| GPS:[130.9, 30.41032433333333], Azimuth: 12.762857751319276, AngleDiff: -9.030506653054742, Distance: 553.7904492502879"
+after turn|| AngleDiff is -9.030506653054742
+End Turn-phase ! AngleDiff is -9.030506653054742
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.9, 30.41032433333333], Azimuth: 12.762857751319276, AngleDiff: -9.030506653054742, Distance: 553.7904492502879"
+Move forward!
+"after move forward|| [130.9, 30.41032433333333], Azimuth: 12.762857751319276, AngleDiff: -9.030506653054742, Distance: 553.7904492502879"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9, 30.410315333333333], Azimuth: 12.740093285907156, AngleDiff: 124.35440464880806, Distance: 554.7635762575003"
+before turn|| AngleDiff is 124.35440464880806
+Turn right! status:01
+"after turn|| GPS:[130.9, 30.410315333333333], Azimuth: 12.740093285907156, AngleDiff: 76.95625132559472, Distance: 554.7635762575003"
+after turn|| AngleDiff is 76.95625132559472
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9, 30.410315333333333], Azimuth: 12.740093285907156, AngleDiff: 76.95625132559472, Distance: 554.7635762575003"
+before turn|| AngleDiff is 76.95625132559472
+Turn right! status:01
+"after turn|| GPS:[130.90200000000002, 30.4103165], Azimuth: -7.354415000577208, AngleDiff: 12.097948025328204, Distance: 545.4631061097159"
+after turn|| AngleDiff is 12.097948025328204
+End Turn-phase ! AngleDiff is 12.097948025328204
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.90200000000002, 30.4103165], Azimuth: -7.354415000577208, AngleDiff: 12.097948025328204, Distance: 545.4631061097159"
+Move forward!
+"after move forward|| [130.90200000000002, 30.4103165], Azimuth: -7.354415000577208, AngleDiff: 12.097948025328204, Distance: 545.4631061097159"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206116666667, 30.410323166666664], Azimuth: -7.976552742590102, AngleDiff: 178.69089136278632, Distance: 545.514618811935"
+before turn|| AngleDiff is 178.69089136278632
+Turn right! status:01
+"after turn|| GPS:[130.90206116666667, 30.41032116666667], Azimuth: -7.973322517700582, AngleDiff: -121.96458519391656, Distance: 545.7341933089353"
+after turn|| AngleDiff is -121.96458519391656
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206116666667, 30.41032116666667], Azimuth: -7.973322517700582, AngleDiff: -121.96458519391656, Distance: 545.7341933089353"
+before turn|| AngleDiff is -121.96458519391656
+Turn left! status:10
+"after turn|| GPS:[130.90206116666667, 30.41032116666667], Azimuth: -7.973322517700582, AngleDiff: -143.2733673156769, Distance: 545.7341933089353"
+after turn|| AngleDiff is -143.2733673156769
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90206116666667, 30.41032116666667], Azimuth: -7.973322517700582, AngleDiff: -143.2733673156769, Distance: 545.7341933089353"
+before turn|| AngleDiff is -143.2733673156769
+Turn left! status:10
+"after turn|| GPS:[130.9020525, 30.410308833333335], Azimuth: -7.867072227145467, AngleDiff: -80.91855226739632, Distance: 546.9736690749943"
+after turn|| AngleDiff is -80.91855226739632
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9020525, 30.410308833333335], Azimuth: -7.867072227145467, AngleDiff: -80.91855226739632, Distance: 546.9736690749943"
+before turn|| AngleDiff is -80.91855226739632
+Turn left! status:10
+"after turn|| GPS:[130.90200000000002, 30.41030466666667], Azimuth: -7.336818170969755, AngleDiff: -39.511166283525704, Distance: 546.7641759097235"
+after turn|| AngleDiff is -39.511166283525704
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90200000000002, 30.41030466666667], Azimuth: -7.336818170969755, AngleDiff: -39.511166283525704, Distance: 546.7641759097235"
+before turn|| AngleDiff is -39.511166283525704
+Turn left! status:10
+"after turn|| GPS:[130.9, 30.410299833333337], Azimuth: 12.70107447741027, AngleDiff: 14.414145010110484, Distance: 556.4397215236754"
+after turn|| AngleDiff is 14.414145010110484
+End Turn-phase ! AngleDiff is 14.414145010110484
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.9, 30.410299833333337], Azimuth: 12.70107447741027, AngleDiff: 14.414145010110484, Distance: 556.4397215236754"
+Move forward!
+"after move forward|| [130.9, 30.410299833333337], Azimuth: 12.70107447741027, AngleDiff: 14.414145010110484, Distance: 556.4397215236754"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9, 30.410291500000003], Azimuth: 12.680193635954542, AngleDiff: 80.49019824226134, Distance: 557.340981063656"
+before turn|| AngleDiff is 80.49019824226134
+Turn right! status:01
+"after turn|| GPS:[130.90215099999998, 30.4102855], Azimuth: -8.805319124712918, AngleDiff: 55.37230449311358, Distance: 550.9053737012985"
+after turn|| AngleDiff is 55.37230449311358
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.90215099999998, 30.4102855], Azimuth: -8.805319124712918, AngleDiff: 55.37230449311358, Distance: 550.9053737012985"
+before turn|| AngleDiff is 55.37230449311358
+Turn right! status:01
+"after turn|| GPS:[130.902146, 30.41028233333333], Azimuth: -8.750382250681815, AngleDiff: 42.88683575699812, Distance: 551.1790005694756"
+after turn|| AngleDiff is 42.88683575699812
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.902146, 30.41028233333333], Azimuth: -8.750382250681815, AngleDiff: 42.88683575699812, Distance: 551.1790005694756"
+before turn|| AngleDiff is 42.88683575699812
+Turn right! status:01
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882616666668, 30.374301833333334], Azimuth: -50.6451698940426, AngleDiff: 97.30092388262236, Distance: 7151.52533996302"
+before turn|| AngleDiff is 97.30092388262236
+Turn right! status:01
+"after turn|| GPS:[130.95882650000001, 30.374301], Azimuth: -50.64476020964873, AngleDiff: 129.02573683423054, Distance: 7151.608696681019"
+after turn|| AngleDiff is 129.02573683423054
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882650000001, 30.374301], Azimuth: -50.64476020964873, AngleDiff: 129.02573683423054, Distance: 7151.608696681019"
+before turn|| AngleDiff is 129.02573683423054
+Turn right! status:01
+"after turn|| GPS:[130.9588293333333, 30.374298999999997], Azimuth: -50.64476889842448, AngleDiff: -226.7342259851787, Distance: 7151.959879607089"
+after turn|| AngleDiff is -226.7342259851787
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588293333333, 30.374298999999997], Azimuth: -50.64476889842448, AngleDiff: -226.7342259851787, Distance: 7151.959879607089"
+before turn|| AngleDiff is -226.7342259851787
+Turn left! status:10
+"after turn|| GPS:[130.95883133333334, 30.374299833333332], Azimuth: -50.64631675160473, AngleDiff: 115.57344562546785, Distance: 7152.049949050631"
+after turn|| AngleDiff is 115.57344562546785
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883133333334, 30.374299833333332], Azimuth: -50.64631675160473, AngleDiff: 115.57344562546785, Distance: 7152.049949050631"
+before turn|| AngleDiff is 115.57344562546785
+Turn right! status:01
+"after turn|| GPS:[130.9586666666667, 30.374305166666666], Azimuth: -50.56952213310568, AngleDiff: -223.9747397239616, Distance: 7139.442425267061"
+after turn|| AngleDiff is -223.9747397239616
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9586666666667, 30.374305166666666], Azimuth: -50.56952213310568, AngleDiff: -223.9747397239616, Distance: 7139.442425267061"
+before turn|| AngleDiff is -223.9747397239616
+Turn left! status:10
+"after turn|| GPS:[130.95882716666668, 30.374306], Azimuth: -50.64851932513504, AngleDiff: 116.60222908281999, Distance: 7151.306769183297"
+after turn|| AngleDiff is 116.60222908281999
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882716666668, 30.374306], Azimuth: -50.64851932513504, AngleDiff: 116.60222908281999, Distance: 7151.306769183297"
+before turn|| AngleDiff is 116.60222908281999
+Turn right! status:01
+"after turn|| GPS:[130.95882716666668, 30.374306], Azimuth: -50.64851932513504, AngleDiff: 110.70463657900076, Distance: 7151.306769183297"
+after turn|| AngleDiff is 110.70463657900076
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882716666668, 30.374306], Azimuth: -50.64851932513504, AngleDiff: 110.70463657900076, Distance: 7151.306769183297"
+before turn|| AngleDiff is 110.70463657900076
+Turn right! status:01
+"after turn|| GPS:[130.95, 30.374306333333333], Azimuth: -45.91836139156642, AngleDiff: 103.43855430920728, Distance: 6517.392231560282"
+after turn|| AngleDiff is 103.43855430920728
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95, 30.374306333333333], Azimuth: -45.91836139156642, AngleDiff: 103.43855430920728, Distance: 6517.392231560282"
+before turn|| AngleDiff is 103.43855430920728
+Turn right! status:01
+"after turn|| GPS:[130.95883883333332, 30.374306333333333], Azimuth: -50.65443869460975, AngleDiff: 75.29276586481039, Distance: 7152.150541530601"
+after turn|| AngleDiff is 75.29276586481039
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883883333332, 30.374306333333333], Azimuth: -50.65443869460975, AngleDiff: 75.29276586481039, Distance: 7152.150541530601"
+before turn|| AngleDiff is 75.29276586481039
+Turn right! status:01
+"after turn|| GPS:[130.95884116666667, 30.374306333333333], Azimuth: -50.65557661513787, AngleDiff: 74.53866808155797, Distance: 7152.323990656935"
+after turn|| AngleDiff is 74.53866808155797
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884116666667, 30.374306333333333], Azimuth: -50.65557661513787, AngleDiff: 74.53866808155797, Distance: 7152.323990656935"
+before turn|| AngleDiff is 74.53866808155797
+Turn right! status:01
+"after turn|| GPS:[130.95883883333332, 30.374310833333332], Azimuth: -50.65752938850681, AngleDiff: -198.43993980448707, Distance: 7151.834273834355"
+after turn|| AngleDiff is -198.43993980448707
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883883333332, 30.374310833333332], Azimuth: -50.65752938850681, AngleDiff: -198.43993980448707, Distance: 7151.834273834355"
+before turn|| AngleDiff is -198.43993980448707
+Turn left! status:10
+"after turn|| GPS:[130.9588355, 30.37431033333333], Azimuth: -50.655560299328656, AngleDiff: 128.437778135779, Distance: 7151.621624369534"
+after turn|| AngleDiff is 128.437778135779
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588355, 30.37431033333333], Azimuth: -50.655560299328656, AngleDiff: 128.437778135779, Distance: 7151.621624369534"
+before turn|| AngleDiff is 128.437778135779
+Turn right! status:01
+"after turn|| GPS:[130.958829, 30.37430883333333], Azimuth: -50.65135964175268, AngleDiff: -227.01310717563427, Distance: 7151.243883615193"
+after turn|| AngleDiff is -227.01310717563427
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958829, 30.37430883333333], Azimuth: -50.65135964175268, AngleDiff: -227.01310717563427, Distance: 7151.243883615193"
+before turn|| AngleDiff is -227.01310717563427
+Turn left! status:10
+"after turn|| GPS:[130.95882616666668, 30.374312999999997], Azimuth: -50.652839549532466, AngleDiff: -184.8532983685704, Distance: 7150.740410919141"
+after turn|| AngleDiff is -184.8532983685704
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882616666668, 30.374312999999997], Azimuth: -50.652839549532466, AngleDiff: -184.8532983685704, Distance: 7150.740410919141"
+before turn|| AngleDiff is -184.8532983685704
+Turn left! status:10
+"after turn|| GPS:[130.958824, 30.374315666666668], Azimuth: -50.65361443718177, AngleDiff: -186.31238238166532, Distance: 7150.3919262374575"
+after turn|| AngleDiff is -186.31238238166532
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958824, 30.374315666666668], Azimuth: -50.65361443718177, AngleDiff: -186.31238238166532, Distance: 7150.3919262374575"
+before turn|| AngleDiff is -186.31238238166532
+Turn left! status:10
+"after turn|| GPS:[130.95882166666667, 30.374313666666662], Azimuth: -50.651102274835544, AngleDiff: -199.61042805578958, Distance: 7150.359057974885"
+after turn|| AngleDiff is -199.61042805578958
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882166666667, 30.374313666666662], Azimuth: -50.651102274835544, AngleDiff: -199.61042805578958, Distance: 7150.359057974885"
+before turn|| AngleDiff is -199.61042805578958
+Turn left! status:10
+"after turn|| GPS:[130.95881849999998, 30.374316], Azimuth: -50.6511602589502, AngleDiff: -198.36100651739778, Distance: 7149.959668211056"
+after turn|| AngleDiff is -198.36100651739778
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881849999998, 30.374316], Azimuth: -50.6511602589502, AngleDiff: -198.36100651739778, Distance: 7149.959668211056"
+before turn|| AngleDiff is -198.36100651739778
+Turn left! status:10
+"after turn|| GPS:[130.95881783333334, 30.374314833333333], Azimuth: -50.65003355012303, AngleDiff: -198.98959216176405, Distance: 7149.992119187228"
+after turn|| AngleDiff is -198.98959216176405
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881783333334, 30.374314833333333], Azimuth: -50.65003355012303, AngleDiff: -198.98959216176405, Distance: 7149.992119187228"
+before turn|| AngleDiff is -198.98959216176405
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -197.18639427255192, Distance: 7149.815048088362"
+after turn|| AngleDiff is -197.18639427255192
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -197.18639427255192, Distance: 7149.815048088362"
+before turn|| AngleDiff is -197.18639427255192
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -198.02366085596987, Distance: 7149.815048088362"
+after turn|| AngleDiff is -198.02366085596987
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -198.02366085596987, Distance: 7149.815048088362"
+before turn|| AngleDiff is -198.02366085596987
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -198.96869731551425, Distance: 7149.815048088362"
+after turn|| AngleDiff is -198.96869731551425
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -198.96869731551425, Distance: 7149.815048088362"
+before turn|| AngleDiff is -198.96869731551425
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -206.90363555420228, Distance: 7149.815048088362"
+after turn|| AngleDiff is -206.90363555420228
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -206.90363555420228, Distance: 7149.815048088362"
+before turn|| AngleDiff is -206.90363555420228
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -182.37342041967247, Distance: 7149.815048088362"
+after turn|| AngleDiff is -182.37342041967247
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -182.37342041967247, Distance: 7149.815048088362"
+before turn|| AngleDiff is -182.37342041967247
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -189.9042358055765, Distance: 7149.815048088362"
+after turn|| AngleDiff is -189.9042358055765
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: -189.9042358055765, Distance: 7149.815048088362"
+before turn|| AngleDiff is -189.9042358055765
+Turn left! status:10
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 91.96224158731357, Distance: 7149.815048088362"
+after turn|| AngleDiff is 91.96224158731357
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 91.96224158731357, Distance: 7149.815048088362"
+before turn|| AngleDiff is 91.96224158731357
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 86.96098297469209, Distance: 7149.815048088362"
+after turn|| AngleDiff is 86.96098297469209
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 86.96098297469209, Distance: 7149.815048088362"
+before turn|| AngleDiff is 86.96098297469209
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 68.5615330652312, Distance: 7149.815048088362"
+after turn|| AngleDiff is 68.5615330652312
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 68.5615330652312, Distance: 7149.815048088362"
+before turn|| AngleDiff is 68.5615330652312
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 44.709123484664154, Distance: 7149.815048088362"
+after turn|| AngleDiff is 44.709123484664154
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 44.709123484664154, Distance: 7149.815048088362"
+before turn|| AngleDiff is 44.709123484664154
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 51.90787732856197, Distance: 7149.815048088362"
+after turn|| AngleDiff is 51.90787732856197
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 51.90787732856197, Distance: 7149.815048088362"
+before turn|| AngleDiff is 51.90787732856197
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 48.60257967677628, Distance: 7149.815048088362"
+after turn|| AngleDiff is 48.60257967677628
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 48.60257967677628, Distance: 7149.815048088362"
+before turn|| AngleDiff is 48.60257967677628
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 48.163732944705835, Distance: 7149.815048088362"
+after turn|| AngleDiff is 48.163732944705835
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 48.163732944705835, Distance: 7149.815048088362"
+before turn|| AngleDiff is 48.163732944705835
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 46.28995988311605, Distance: 7149.815048088362"
+after turn|| AngleDiff is 46.28995988311605
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 46.28995988311605, Distance: 7149.815048088362"
+before turn|| AngleDiff is 46.28995988311605
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 48.88762055644856, Distance: 7149.815048088362"
+after turn|| AngleDiff is 48.88762055644856
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 48.88762055644856, Distance: 7149.815048088362"
+before turn|| AngleDiff is 48.88762055644856
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 50.706967588053224, Distance: 7149.815048088362"
+after turn|| AngleDiff is 50.706967588053224
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 50.706967588053224, Distance: 7149.815048088362"
+before turn|| AngleDiff is 50.706967588053224
+Turn right! status:01
+"after turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 29.601114767898615, Distance: 7149.815048088362"
+after turn|| AngleDiff is 29.601114767898615
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881749999998, 30.374316999999998], Azimuth: -50.65135935600323, AngleDiff: 29.601114767898615, Distance: 7149.815048088362"
+before turn|| AngleDiff is 29.601114767898615
+Turn right! status:01
+"after turn|| GPS:[130.9586666666667, 30.374204166666665], Azimuth: -50.65135935600323, AngleDiff: 19.618504923858218, Distance: 7149.815048088362"
+after turn|| AngleDiff is 19.618504923858218
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9586666666667, 30.374204166666665], Azimuth: -50.65135935600323, AngleDiff: 19.618504923858218, Distance: 7149.815048088362"
+before turn|| AngleDiff is 19.618504923858218
+Turn right! status:01
+"after turn|| GPS:[130.95876116666668, 30.3741915], Azimuth: -50.537732474776256, AngleDiff: 21.63356386075413, Distance: 7154.463002611668"
+after turn|| AngleDiff is 21.63356386075413
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95876116666668, 30.3741915], Azimuth: -50.537732474776256, AngleDiff: 21.63356386075413, Distance: 7154.463002611668"
+before turn|| AngleDiff is 21.63356386075413
+Turn right! status:01
+"after turn|| GPS:[130.95873416666666, 30.374213500000003], Azimuth: -50.539616508775346, AngleDiff: 19.466813510374386, Distance: 7150.90923518696"
+after turn|| AngleDiff is 19.466813510374386
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95873416666666, 30.374213500000003], Azimuth: -50.539616508775346, AngleDiff: 19.466813510374386, Distance: 7150.90923518696"
+before turn|| AngleDiff is 19.466813510374386
+Turn right! status:01
+"after turn|| GPS:[130.958728, 30.374243333333332], Azimuth: -50.557066536523386, AngleDiff: 33.15208958730903, Distance: 7148.349994792436"
+after turn|| AngleDiff is 33.15208958730903
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958728, 30.374243333333332], Azimuth: -50.557066536523386, AngleDiff: 33.15208958730903, Distance: 7148.349994792436"
+before turn|| AngleDiff is 33.15208958730903
+Turn right! status:01
+"after turn|| GPS:[130.9587525, 30.37425933333333], Azimuth: -50.5800230808275, AngleDiff: 20.231000961642394, Distance: 7149.042357023064"
+after turn|| AngleDiff is 20.231000961642394
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9587525, 30.37425933333333], Azimuth: -50.5800230808275, AngleDiff: 20.231000961642394, Distance: 7149.042357023064"
+before turn|| AngleDiff is 20.231000961642394
+Turn right! status:01
+"after turn|| GPS:[130.95875233333334, 30.37426383333333], Azimuth: -50.583030379060574, AngleDiff: 38.67233685662154, Distance: 7148.713212048321"
+after turn|| AngleDiff is 38.67233685662154
+End Turn-phase ! AngleDiff is 38.67233685662154
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.95875233333334, 30.37426383333333], Azimuth: -50.583030379060574, AngleDiff: 38.67233685662154, Distance: 7148.713212048321"
+Move forward!
+"after move forward|| [130.95875233333334, 30.37426383333333], Azimuth: -50.583030379060574, AngleDiff: 38.67233685662154, Distance: 7148.713212048321"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9586666666667, 30.374282166666664], Azimuth: -50.55372066384175, AngleDiff: 46.128925529577366, Distance: 7141.062149954542"
+before turn|| AngleDiff is 46.128925529577366
+Turn right! status:01
+"after turn|| GPS:[130.95877483333334, 30.374291333333336], Azimuth: -50.61290303644483, AngleDiff: 49.73096804716868, Distance: 7148.449258380106"
+after turn|| AngleDiff is 49.73096804716868
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95877483333334, 30.374291333333336], Azimuth: -50.61290303644483, AngleDiff: 49.73096804716868, Distance: 7148.449258380106"
+before turn|| AngleDiff is 49.73096804716868
+Turn right! status:01
+"after turn|| GPS:[130.95877666666667, 30.3742935], Azimuth: -50.61528633043231, AngleDiff: 51.80043168969938, Distance: 7148.433047236147"
+after turn|| AngleDiff is 51.80043168969938
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95877666666667, 30.3742935], Azimuth: -50.61528633043231, AngleDiff: 51.80043168969938, Distance: 7148.433047236147"
+before turn|| AngleDiff is 51.80043168969938
+Turn right! status:01
+"after turn|| GPS:[130.95877716666666, 30.374303333333334], Azimuth: -50.62228431270701, AngleDiff: 53.228264780729845, Distance: 7147.778544962272"
+after turn|| AngleDiff is 53.228264780729845
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95877716666666, 30.374303333333334], Azimuth: -50.62228431270701, AngleDiff: 53.228264780729845, Distance: 7147.778544962272"
+before turn|| AngleDiff is 53.228264780729845
+Turn right! status:01
+"after turn|| GPS:[130.95877716666666, 30.374303333333334], Azimuth: -50.62228431270701, AngleDiff: 54.461940348822964, Distance: 7147.778544962272"
+after turn|| AngleDiff is 54.461940348822964
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95877716666666, 30.374303333333334], Azimuth: -50.62228431270701, AngleDiff: 54.461940348822964, Distance: 7147.778544962272"
+before turn|| AngleDiff is 54.461940348822964
+Turn right! status:01
+"after turn|| GPS:[130.9587838333333, 30.374308333333335], Azimuth: -50.6289741495269, AngleDiff: 62.316409373411844, Distance: 7147.922269905064"
+after turn|| AngleDiff is 62.316409373411844
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9587838333333, 30.374308333333335], Azimuth: -50.6289741495269, AngleDiff: 62.316409373411844, Distance: 7147.922269905064"
+before turn|| AngleDiff is 62.316409373411844
+Turn right! status:01
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881966666667, 30.374333333333333], Azimuth: -50.66363887972684, AngleDiff: -50.66363887972684, Distance: 7148.828216118543"
+before turn|| AngleDiff is -50.66363887972684
+Turn left! status:10
+"after turn|| GPS:[130.95882383333335, 30.37433283333333], Azimuth: -50.66532779452589, AngleDiff: -50.66532779452589, Distance: 7149.173123098458"
+after turn|| AngleDiff is -50.66532779452589
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882383333335, 30.37433283333333], Azimuth: -50.66532779452589, AngleDiff: -50.66532779452589, Distance: 7149.173123098458"
+before turn|| AngleDiff is -50.66532779452589
+Turn left! status:10
+"after turn|| GPS:[130.95833333333334, 30.37432533333333], Azimuth: -50.41968281807384, AngleDiff: -50.41968281807384, Distance: 7113.298713333508"
+after turn|| AngleDiff is -50.41968281807384
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95833333333334, 30.37432533333333], Azimuth: -50.41968281807384, AngleDiff: -50.41968281807384, Distance: 7113.298713333508"
+before turn|| AngleDiff is -50.41968281807384
+Turn left! status:10
+"after turn|| GPS:[130.95883133333334, 30.37432516666667], Azimuth: -50.66371799900059, AngleDiff: -50.66371799900059, Distance: 7150.269442391265"
+after turn|| AngleDiff is -50.66371799900059
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883133333334, 30.37432516666667], Azimuth: -50.66371799900059, AngleDiff: -50.66371799900059, Distance: 7150.269442391265"
+before turn|| AngleDiff is -50.66371799900059
+Turn left! status:10
+"after turn|| GPS:[130.95883366666666, 30.374325666666664], Azimuth: -50.66519952397998, AngleDiff: -50.66519952397998, Distance: 7150.407780419926"
+after turn|| AngleDiff is -50.66519952397998
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883366666666, 30.374325666666664], Azimuth: -50.66519952397998, AngleDiff: -50.66519952397998, Distance: 7150.407780419926"
+before turn|| AngleDiff is -50.66519952397998
+Turn left! status:10
+"after turn|| GPS:[130.958832, 30.37432366666667], Azimuth: -50.663012569996816, AngleDiff: -50.663012569996816, Distance: 7150.424411196972"
+after turn|| AngleDiff is -50.663012569996816
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958832, 30.37432366666667], Azimuth: -50.663012569996816, AngleDiff: -50.663012569996816, Distance: 7150.424411196972"
+before turn|| AngleDiff is -50.663012569996816
+Turn left! status:10
+"after turn|| GPS:[130.95883800000001, 30.374325833333334], Azimuth: -50.667427300456076, AngleDiff: -50.667427300456076, Distance: 7150.718241217931"
+after turn|| AngleDiff is -50.667427300456076
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883800000001, 30.374325833333334], Azimuth: -50.667427300456076, AngleDiff: -50.667427300456076, Distance: 7150.718241217931"
+before turn|| AngleDiff is -50.667427300456076
+Turn left! status:10
+"after turn|| GPS:[130.958831, 30.374324166666664], Azimuth: -50.66286836737576, AngleDiff: -50.66286836737576, Distance: 7150.314931785203"
+after turn|| AngleDiff is -50.66286836737576
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958831, 30.374324166666664], Azimuth: -50.66286836737576, AngleDiff: -50.66286836737576, Distance: 7150.314931785203"
+before turn|| AngleDiff is -50.66286836737576
+Turn left! status:10
+"after turn|| GPS:[130.958835, 30.374324333333334], Azimuth: -50.66493371171866, AngleDiff: -50.66493371171866, Distance: 7150.600599274268"
+after turn|| AngleDiff is -50.66493371171866
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958835, 30.374324333333334], Azimuth: -50.66493371171866, AngleDiff: -50.66493371171866, Distance: 7150.600599274268"
+before turn|| AngleDiff is -50.66493371171866
+Turn left! status:10
+"after turn|| GPS:[130.95883733333332, 30.374324166666664], Azimuth: -50.665957118339215, AngleDiff: -50.665957118339215, Distance: 7150.785785526451"
+after turn|| AngleDiff is -50.665957118339215
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883733333332, 30.374324166666664], Azimuth: -50.665957118339215, AngleDiff: -50.665957118339215, Distance: 7150.785785526451"
+before turn|| AngleDiff is -50.665957118339215
+Turn left! status:10
+"after turn|| GPS:[130.95883516666666, 30.3743265], Azimuth: -50.66650361596283, AngleDiff: -50.66650361596283, Distance: 7150.460744916561"
+after turn|| AngleDiff is -50.66650361596283
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883516666666, 30.3743265], Azimuth: -50.66650361596283, AngleDiff: -50.66650361596283, Distance: 7150.460744916561"
+before turn|| AngleDiff is -50.66650361596283
+Turn left! status:10
+"after turn|| GPS:[130.95883683333335, 30.37433], Azimuth: -50.669721223823714, AngleDiff: -50.669721223823714, Distance: 7150.338737885318"
+after turn|| AngleDiff is -50.669721223823714
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883683333335, 30.37433], Azimuth: -50.669721223823714, AngleDiff: -50.669721223823714, Distance: 7150.338737885318"
+before turn|| AngleDiff is -50.669721223823714
+Turn left! status:10
+"after turn|| GPS:[130.95883700000002, 30.374327166666664], Azimuth: -50.66785573009368, AngleDiff: -50.66785573009368, Distance: 7150.550206771124"
+after turn|| AngleDiff is -50.66785573009368
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883700000002, 30.374327166666664], Azimuth: -50.66785573009368, AngleDiff: -50.66785573009368, Distance: 7150.550206771124"
+before turn|| AngleDiff is -50.66785573009368
+Turn left! status:10
+"after turn|| GPS:[130.958836, 30.374328], Azimuth: -50.66794063331785, AngleDiff: -50.66794063331785, Distance: 7150.417304503294"
+after turn|| AngleDiff is -50.66794063331785
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958836, 30.374328], Azimuth: -50.66794063331785, AngleDiff: -50.66794063331785, Distance: 7150.417304503294"
+before turn|| AngleDiff is -50.66794063331785
+Turn left! status:10
+"after turn|| GPS:[130.95883883333332, 30.3743285], Azimuth: -50.66966586717649, AngleDiff: -50.66966586717649, Distance: 7150.592831552918"
+after turn|| AngleDiff is -50.66966586717649
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883883333332, 30.3743285], Azimuth: -50.66966586717649, AngleDiff: -50.66966586717649, Distance: 7150.592831552918"
+before turn|| AngleDiff is -50.66966586717649
+Turn left! status:10
+"after turn|| GPS:[130.95884183333334, 30.374318666666667], Azimuth: -50.66437308104274, AngleDiff: -50.66437308104274, Distance: 7151.5068169553115"
+after turn|| AngleDiff is -50.66437308104274
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884183333334, 30.374318666666667], Azimuth: -50.66437308104274, AngleDiff: -50.66437308104274, Distance: 7151.5068169553115"
+before turn|| AngleDiff is -50.66437308104274
+Turn left! status:10
+"after turn|| GPS:[130.958847, 30.3743205], Azimuth: -50.66815178973709, AngleDiff: -50.66815178973709, Distance: 7151.762123057211"
+after turn|| AngleDiff is -50.66815178973709
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958847, 30.3743205], Azimuth: -50.66815178973709, AngleDiff: -50.66815178973709, Distance: 7151.762123057211"
+before turn|| AngleDiff is -50.66815178973709
+Turn left! status:10
+"after turn|| GPS:[130.95884466666666, 30.374324833333336], Azimuth: -50.669991073112406, AngleDiff: -50.669991073112406, Distance: 7151.284169852514"
+after turn|| AngleDiff is -50.669991073112406
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884466666666, 30.374324833333336], Azimuth: -50.669991073112406, AngleDiff: -50.669991073112406, Distance: 7151.284169852514"
+before turn|| AngleDiff is -50.669991073112406
+Turn left! status:10
+"after turn|| GPS:[130.95883133333334, 30.37433283333333], Azimuth: -50.66898587413874, AngleDiff: -50.66898587413874, Distance: 7149.730734891531"
+after turn|| AngleDiff is -50.66898587413874
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883133333334, 30.37433283333333], Azimuth: -50.66898587413874, AngleDiff: -50.66898587413874, Distance: 7149.730734891531"
+before turn|| AngleDiff is -50.66898587413874
+Turn left! status:10
+"after turn|| GPS:[130.95881066666666, 30.374335499999997], Azimuth: -50.660737071521766, AngleDiff: -50.660737071521766, Distance: 7148.0068726076"
+after turn|| AngleDiff is -50.660737071521766
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881066666666, 30.374335499999997], Azimuth: -50.660737071521766, AngleDiff: -50.660737071521766, Distance: 7148.0068726076"
+before turn|| AngleDiff is -50.660737071521766
+Turn left! status:10
+"after turn|| GPS:[130.95881266666666, 30.374336166666662], Azimuth: -50.66217103693643, AngleDiff: -50.66217103693643, Distance: 7148.108707935484"
+after turn|| AngleDiff is -50.66217103693643
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881266666666, 30.374336166666662], Azimuth: -50.66217103693643, AngleDiff: -50.66217103693643, Distance: 7148.108707935484"
+before turn|| AngleDiff is -50.66217103693643
+Turn left! status:10
+"after turn|| GPS:[130.9588165, 30.374338333333338], Azimuth: -50.665530262283205, AngleDiff: -50.665530262283205, Distance: 7148.241444495594"
+after turn|| AngleDiff is -50.665530262283205
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588165, 30.374338333333338], Azimuth: -50.665530262283205, AngleDiff: -50.665530262283205, Distance: 7148.241444495594"
+before turn|| AngleDiff is -50.665530262283205
+Turn left! status:10
+"after turn|| GPS:[130.95881599999998, 30.374339833333337], Azimuth: -50.6663172688896, AngleDiff: -50.6663172688896, Distance: 7148.098870777415"
+after turn|| AngleDiff is -50.6663172688896
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881599999998, 30.374339833333337], Azimuth: -50.6663172688896, AngleDiff: -50.6663172688896, Distance: 7148.098870777415"
+before turn|| AngleDiff is -50.6663172688896
+Turn left! status:10
+"after turn|| GPS:[130.958815, 30.374341333333337], Azimuth: -50.666860382321026, AngleDiff: -50.666860382321026, Distance: 7147.919124385629"
+after turn|| AngleDiff is -50.666860382321026
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958815, 30.374341333333337], Azimuth: -50.666860382321026, AngleDiff: -50.666860382321026, Distance: 7147.919124385629"
+before turn|| AngleDiff is -50.666860382321026
+Turn left! status:10
+"after turn|| GPS:[130.95881666666668, 30.374341333333337], Azimuth: -50.667673454382715, AngleDiff: -50.667673454382715, Distance: 7148.043038303503"
+after turn|| AngleDiff is -50.667673454382715
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881666666668, 30.374341333333337], Azimuth: -50.667673454382715, AngleDiff: -50.667673454382715, Distance: 7148.043038303503"
+before turn|| AngleDiff is -50.667673454382715
+Turn left! status:10
+"after turn|| GPS:[130.95881733333331, 30.374340999999998], Azimuth: -50.66776957147508, AngleDiff: -50.66776957147508, Distance: 7148.116025573393"
+after turn|| AngleDiff is -50.66776957147508
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881733333331, 30.374340999999998], Azimuth: -50.66776957147508, AngleDiff: -50.66776957147508, Distance: 7148.116025573393"
+before turn|| AngleDiff is -50.66776957147508
+Turn left! status:10
+"after turn|| GPS:[130.958821, 30.374343], Azimuth: -50.67093283691712, AngleDiff: -50.67093283691712, Distance: 7148.248120900169"
+after turn|| AngleDiff is -50.67093283691712
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958821, 30.374343], Azimuth: -50.67093283691712, AngleDiff: -50.67093283691712, Distance: 7148.248120900169"
+before turn|| AngleDiff is -50.67093283691712
+Turn left! status:10
+"after turn|| GPS:[130.9588236666667, 30.374338166666668], Azimuth: -50.66891167061004, AngleDiff: -50.66891167061004, Distance: 7148.7859848184335"
+after turn|| AngleDiff is -50.66891167061004
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588236666667, 30.374338166666668], Azimuth: -50.66891167061004, AngleDiff: -50.66891167061004, Distance: 7148.7859848184335"
+before turn|| AngleDiff is -50.66891167061004
+Turn left! status:10
+"after turn|| GPS:[130.95882316666666, 30.37433566666667], Azimuth: -50.66694968300938, AngleDiff: -50.66694968300938, Distance: 7148.924469868004"
+after turn|| AngleDiff is -50.66694968300938
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882316666666, 30.37433566666667], Azimuth: -50.66694968300938, AngleDiff: -50.66694968300938, Distance: 7148.924469868004"
+before turn|| AngleDiff is -50.66694968300938
+Turn left! status:10
+"after turn|| GPS:[130.95882633333335, 30.3743385], Azimuth: -50.67044144157985, AngleDiff: -50.67044144157985, Distance: 7148.960833514007"
+after turn|| AngleDiff is -50.67044144157985
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882633333335, 30.3743385], Azimuth: -50.67044144157985, AngleDiff: -50.67044144157985, Distance: 7148.960833514007"
+before turn|| AngleDiff is -50.67044144157985
+Turn left! status:10
+"after turn|| GPS:[130.9588285, 30.37433866666667], Azimuth: -50.67161273661271, AngleDiff: -50.67161273661271, Distance: 7149.110220406181"
+after turn|| AngleDiff is -50.67161273661271
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588285, 30.37433866666667], Azimuth: -50.67161273661271, AngleDiff: -50.67161273661271, Distance: 7149.110220406181"
+before turn|| AngleDiff is -50.67161273661271
+Turn left! status:10
+"after turn|| GPS:[130.95883233333333, 30.374340500000002], Azimuth: -50.6747422258953, AngleDiff: -50.6747422258953, Distance: 7149.266443876836"
+after turn|| AngleDiff is -50.6747422258953
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883233333333, 30.374340500000002], Azimuth: -50.6747422258953, AngleDiff: -50.6747422258953, Distance: 7149.266443876836"
+before turn|| AngleDiff is -50.6747422258953
+Turn left! status:10
+"after turn|| GPS:[130.95883716666668, 30.374342666666667], Azimuth: -50.67858830197181, AngleDiff: -50.67858830197181, Distance: 7149.473632550065"
+after turn|| AngleDiff is -50.67858830197181
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883716666668, 30.374342666666667], Azimuth: -50.67858830197181, AngleDiff: -50.67858830197181, Distance: 7149.473632550065"
+before turn|| AngleDiff is -50.67858830197181
+Turn left! status:10
+"after turn|| GPS:[130.95883716666668, 30.374342666666667], Azimuth: -50.67858830197181, AngleDiff: -50.67858830197181, Distance: 7149.473632550065"
+after turn|| AngleDiff is -50.67858830197181
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883716666668, 30.374342666666667], Azimuth: -50.67858830197181, AngleDiff: -50.67858830197181, Distance: 7149.473632550065"
+before turn|| AngleDiff is -50.67858830197181
+Turn left! status:10
+"after turn|| GPS:[130.958842, 30.374345], Azimuth: -50.68254870565211, AngleDiff: -50.68254870565211, Distance: 7149.669146441118"
+after turn|| AngleDiff is -50.68254870565211
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958842, 30.374345], Azimuth: -50.68254870565211, AngleDiff: -50.68254870565211, Distance: 7149.669146441118"
+before turn|| AngleDiff is -50.68254870565211
+Turn left! status:10
+"after turn|| GPS:[130.95883333333333, 30.374343833333334], Azimuth: -50.6775208560811, AngleDiff: -50.6775208560811, Distance: 7149.106629786534"
+after turn|| AngleDiff is -50.6775208560811
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883333333333, 30.374343833333334], Azimuth: -50.6775208560811, AngleDiff: -50.6775208560811, Distance: 7149.106629786534"
+before turn|| AngleDiff is -50.6775208560811
+Turn left! status:10
+"after turn|| GPS:[130.95883333333333, 30.374343500000002], Azimuth: -50.67729175357858, AngleDiff: -50.67729175357858, Distance: 7149.1300463359785"
+after turn|| AngleDiff is -50.67729175357858
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883333333333, 30.374343500000002], Azimuth: -50.67729175357858, AngleDiff: -50.67729175357858, Distance: 7149.1300463359785"
+before turn|| AngleDiff is -50.67729175357858
+Turn left! status:10
+"after turn|| GPS:[130.958845, 30.374343999999997], Azimuth: -50.683324075643185, AngleDiff: -50.683324075643185, Distance: 7149.962482832717"
+after turn|| AngleDiff is -50.683324075643185
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958845, 30.374343999999997], Azimuth: -50.683324075643185, AngleDiff: -50.683324075643185, Distance: 7149.962482832717"
+before turn|| AngleDiff is -50.683324075643185
+Turn left! status:10
+"after turn|| GPS:[130.95884466666666, 30.374342666666667], Azimuth: -50.68224519303393, AngleDiff: -50.68224519303393, Distance: 7150.031350019207"
+after turn|| AngleDiff is -50.68224519303393
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884466666666, 30.374342666666667], Azimuth: -50.68224519303393, AngleDiff: -50.68224519303393, Distance: 7150.031350019207"
+before turn|| AngleDiff is -50.68224519303393
+Turn left! status:10
+"after turn|| GPS:[130.9588445, 30.374342166666665], Azimuth: -50.68182030282782, AngleDiff: -50.68182030282782, Distance: 7150.054077373951"
+after turn|| AngleDiff is -50.68182030282782
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588445, 30.374342166666665], Azimuth: -50.68182030282782, AngleDiff: -50.68182030282782, Distance: 7150.054077373951"
+before turn|| AngleDiff is -50.68182030282782
+Turn left! status:10
+"after turn|| GPS:[130.95884316666667, 30.374339833333337], Azimuth: -50.679566647293804, AngleDiff: -50.679566647293804, Distance: 7150.11883157969"
+after turn|| AngleDiff is -50.679566647293804
+End Turn-phase ! AngleDiff is -50.679566647293804
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.95884316666667, 30.374339833333337], Azimuth: -50.679566647293804, AngleDiff: -50.679566647293804, Distance: 7150.11883157969"
+Move forward!
+"after move forward|| [130.95884316666667, 30.374339833333337], Azimuth: -50.679566647293804, AngleDiff: -50.679566647293804, Distance: 7150.11883157969"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884283333334, 30.374337666666666], Azimuth: -50.677915149681745, AngleDiff: -50.677915149681745, Distance: 7150.246247978444"
+before turn|| AngleDiff is -50.677915149681745
+Turn left! status:10
+"after turn|| GPS:[130.95884183333334, 30.37434], Azimuth: -50.67903108531544, AngleDiff: -50.67903108531544, Distance: 7150.0079755867355"
+after turn|| AngleDiff is -50.67903108531544
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884183333334, 30.37434], Azimuth: -50.67903108531544, AngleDiff: -50.67903108531544, Distance: 7150.0079755867355"
+before turn|| AngleDiff is -50.67903108531544
+Turn left! status:10
+"after turn|| GPS:[130.95884183333334, 30.37434], Azimuth: -50.67903108531544, AngleDiff: -50.67903108531544, Distance: 7150.0079755867355"
+after turn|| AngleDiff is -50.67903108531544
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884183333334, 30.37434], Azimuth: -50.67903108531544, AngleDiff: -50.67903108531544, Distance: 7150.0079755867355"
+before turn|| AngleDiff is -50.67903108531544
+Turn left! status:10
+"after turn|| GPS:[130.95884183333334, 30.37434], Azimuth: -50.67903108531544, AngleDiff: -50.67903108531544, Distance: 7150.0079755867355"
+after turn|| AngleDiff is -50.67903108531544
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884183333334, 30.37434], Azimuth: -50.67903108531544, AngleDiff: -50.67903108531544, Distance: 7150.0079755867355"
+before turn|| AngleDiff is -50.67903108531544
+Turn left! status:10
+"after turn|| GPS:[130.95884116666667, 30.374346833333334], Azimuth: -50.68340248031963, AngleDiff: -50.68340248031963, Distance: 7149.478399824876"
+after turn|| AngleDiff is -50.68340248031963
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884116666667, 30.374346833333334], Azimuth: -50.68340248031963, AngleDiff: -50.68340248031963, Distance: 7149.478399824876"
+before turn|| AngleDiff is -50.68340248031963
+Turn left! status:10
+"after turn|| GPS:[130.95884116666667, 30.374346833333334], Azimuth: -50.68340248031963, AngleDiff: -50.68340248031963, Distance: 7149.478399824876"
+after turn|| AngleDiff is -50.68340248031963
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884116666667, 30.374346833333334], Azimuth: -50.68340248031963, AngleDiff: -50.68340248031963, Distance: 7149.478399824876"
+before turn|| AngleDiff is -50.68340248031963
+Turn left! status:10
+"after turn|| GPS:[130.95884116666667, 30.374346833333334], Azimuth: -50.68340248031963, AngleDiff: -50.68340248031963, Distance: 7149.478399824876"
+after turn|| AngleDiff is -50.68340248031963
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884116666667, 30.374346833333334], Azimuth: -50.68340248031963, AngleDiff: -50.68340248031963, Distance: 7149.478399824876"
+before turn|| AngleDiff is -50.68340248031963
+Turn left! status:10
+"after turn|| GPS:[130.95883800000001, 30.374345166666664], Azimuth: -50.68071290116458, AngleDiff: -50.68071290116458, Distance: 7149.359984748815"
+after turn|| AngleDiff is -50.68071290116458
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883800000001, 30.374345166666664], Azimuth: -50.68071290116458, AngleDiff: -50.68071290116458, Distance: 7149.359984748815"
+before turn|| AngleDiff is -50.68071290116458
+Turn left! status:10
+"after turn|| GPS:[130.95883800000001, 30.374345166666664], Azimuth: -50.68071290116458, AngleDiff: -50.68071290116458, Distance: 7149.359984748815"
+after turn|| AngleDiff is -50.68071290116458
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883800000001, 30.374345166666664], Azimuth: -50.68071290116458, AngleDiff: -50.68071290116458, Distance: 7149.359984748815"
+before turn|| AngleDiff is -50.68071290116458
+Turn left! status:10
+"after turn|| GPS:[130.95883800000001, 30.374345166666664], Azimuth: -50.68071290116458, AngleDiff: -50.68071290116458, Distance: 7149.359984748815"
+after turn|| AngleDiff is -50.68071290116458
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883800000001, 30.374345166666664], Azimuth: -50.68071290116458, AngleDiff: -50.68071290116458, Distance: 7149.359984748815"
+before turn|| AngleDiff is -50.68071290116458
+Turn left! status:10
+"after turn|| GPS:[130.95833333333334, 30.374346999999997], Azimuth: -50.43459738022949, AngleDiff: -50.43459738022949, Distance: 7111.768535893444"
+after turn|| AngleDiff is -50.43459738022949
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95833333333334, 30.374346999999997], Azimuth: -50.43459738022949, AngleDiff: -50.43459738022949, Distance: 7111.768535893444"
+before turn|| AngleDiff is -50.43459738022949
+Turn left! status:10
+"after turn|| GPS:[130.9588385, 30.374348], Azimuth: -50.68290415293384, AngleDiff: -50.68290415293384, Distance: 7149.198144642603"
+after turn|| AngleDiff is -50.68290415293384
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588385, 30.374348], Azimuth: -50.68290415293384, AngleDiff: -50.68290415293384, Distance: 7149.198144642603"
+before turn|| AngleDiff is -50.68290415293384
+Turn left! status:10
+"after turn|| GPS:[130.95883333333333, 30.374348], Azimuth: -50.68038476411043, AngleDiff: -50.68038476411043, Distance: 7148.813932552313"
+after turn|| AngleDiff is -50.68038476411043
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883333333333, 30.374348], Azimuth: -50.68038476411043, AngleDiff: -50.68038476411043, Distance: 7148.813932552313"
+before turn|| AngleDiff is -50.68038476411043
+Turn left! status:10
+"after turn|| GPS:[130.9588405, 30.374349], Azimuth: -50.68456668339622, AngleDiff: -50.68456668339622, Distance: 7149.276636170284"
+after turn|| AngleDiff is -50.68456668339622
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588405, 30.374349], Azimuth: -50.68456668339622, AngleDiff: -50.68456668339622, Distance: 7149.276636170284"
+before turn|| AngleDiff is -50.68456668339622
+Turn left! status:10
+"after turn|| GPS:[130.9588405, 30.374349], Azimuth: -50.68456668339622, AngleDiff: -50.68456668339622, Distance: 7149.276636170284"
+after turn|| AngleDiff is -50.68456668339622
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588405, 30.374349], Azimuth: -50.68456668339622, AngleDiff: -50.68456668339622, Distance: 7149.276636170284"
+before turn|| AngleDiff is -50.68456668339622
+Turn left! status:10
+"after turn|| GPS:[130.95833333333334, 30.374343833333334], Azimuth: -50.432417159164466, AngleDiff: -50.432417159164466, Distance: 7111.992147137746"
+after turn|| AngleDiff is -50.432417159164466
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95833333333334, 30.374343833333334], Azimuth: -50.432417159164466, AngleDiff: -50.432417159164466, Distance: 7111.992147137746"
+before turn|| AngleDiff is -50.432417159164466
+Turn left! status:10
+"after turn|| GPS:[130.95885216666665, 30.37434466666667], Azimuth: -50.68727603957981, AngleDiff: -50.68727603957981, Distance: 7150.448624827041"
+after turn|| AngleDiff is -50.68727603957981
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885216666665, 30.37434466666667], Azimuth: -50.68727603957981, AngleDiff: -50.68727603957981, Distance: 7150.448624827041"
+before turn|| AngleDiff is -50.68727603957981
+Turn left! status:10
+"after turn|| GPS:[130.95885216666665, 30.37434466666667], Azimuth: -50.68727603957981, AngleDiff: -50.68727603957981, Distance: 7150.448624827041"
+after turn|| AngleDiff is -50.68727603957981
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885216666665, 30.37434466666667], Azimuth: -50.68727603957981, AngleDiff: -50.68727603957981, Distance: 7150.448624827041"
+before turn|| AngleDiff is -50.68727603957981
+Turn left! status:10
+"after turn|| GPS:[130.95885783333333, 30.374348833333336], Azimuth: -50.69290190153873, AngleDiff: -50.69290190153873, Distance: 7150.577441825046"
+after turn|| AngleDiff is -50.69290190153873
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885783333333, 30.374348833333336], Azimuth: -50.69290190153873, AngleDiff: -50.69290190153873, Distance: 7150.577441825046"
+before turn|| AngleDiff is -50.69290190153873
+Turn left! status:10
+"after turn|| GPS:[130.95885283333334, 30.374351833333336], Azimuth: -50.692526832982814, AngleDiff: -50.692526832982814, Distance: 7149.994884645149"
+after turn|| AngleDiff is -50.692526832982814
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885283333334, 30.374351833333336], Azimuth: -50.692526832982814, AngleDiff: -50.692526832982814, Distance: 7149.994884645149"
+before turn|| AngleDiff is -50.692526832982814
+Turn left! status:10
+"after turn|| GPS:[130.95885283333334, 30.374351833333336], Azimuth: -50.692526832982814, AngleDiff: -50.692526832982814, Distance: 7149.994884645149"
+after turn|| AngleDiff is -50.692526832982814
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885283333334, 30.374351833333336], Azimuth: -50.692526832982814, AngleDiff: -50.692526832982814, Distance: 7149.994884645149"
+before turn|| AngleDiff is -50.692526832982814
+Turn left! status:10
+"after turn|| GPS:[130.9588451666667, 30.374351499999996], Azimuth: -50.68856034314428, AngleDiff: -50.68856034314428, Distance: 7149.44810097932"
+after turn|| AngleDiff is -50.68856034314428
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588451666667, 30.374351499999996], Azimuth: -50.68856034314428, AngleDiff: -50.68856034314428, Distance: 7149.44810097932"
+before turn|| AngleDiff is -50.68856034314428
+Turn left! status:10
+"after turn|| GPS:[130.95884316666667, 30.374352999999996], Azimuth: -50.68861638023013, AngleDiff: -50.68861638023013, Distance: 7149.194009592022"
+after turn|| AngleDiff is -50.68861638023013
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884316666667, 30.374352999999996], Azimuth: -50.68861638023013, AngleDiff: -50.68861638023013, Distance: 7149.194009592022"
+before turn|| AngleDiff is -50.68861638023013
+Turn left! status:10
+"after turn|| GPS:[130.95884216666667, 30.374352999999996], Azimuth: -50.688128836898265, AngleDiff: -50.688128836898265, Distance: 7149.119638814172"
+after turn|| AngleDiff is -50.688128836898265
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884216666667, 30.374352999999996], Azimuth: -50.688128836898265, AngleDiff: -50.688128836898265, Distance: 7149.119638814172"
+before turn|| AngleDiff is -50.688128836898265
+Turn left! status:10
+"after turn|| GPS:[130.95884216666667, 30.374352999999996], Azimuth: -50.688128836898265, AngleDiff: -50.688128836898265, Distance: 7149.119638814172"
+after turn|| AngleDiff is -50.688128836898265
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884216666667, 30.374352999999996], Azimuth: -50.688128836898265, AngleDiff: -50.688128836898265, Distance: 7149.119638814172"
+before turn|| AngleDiff is -50.688128836898265
+Turn left! status:10
+"after turn|| GPS:[130.95883683333335, 30.374350333333336], Azimuth: -50.6851474439637, AngleDiff: -50.6851474439637, Distance: 7148.927516822526"
+after turn|| AngleDiff is -50.6851474439637
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883683333335, 30.374350333333336], Azimuth: -50.6851474439637, AngleDiff: -50.6851474439637, Distance: 7148.927516822526"
+before turn|| AngleDiff is -50.6851474439637
+Turn left! status:10
+"after turn|| GPS:[130.95883683333335, 30.374350333333336], Azimuth: -50.68369534813638, AngleDiff: -50.68369534813638, Distance: 7148.910307059279"
+after turn|| AngleDiff is -50.68369534813638
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883683333335, 30.374350333333336], Azimuth: -50.68369534813638, AngleDiff: -50.68369534813638, Distance: 7148.910307059279"
+before turn|| AngleDiff is -50.68369534813638
+Turn left! status:10
+"after turn|| GPS:[130.95883483333333, 30.374349], Azimuth: -50.6818035967662, AngleDiff: -50.6818035967662, Distance: 7148.855232988012"
+after turn|| AngleDiff is -50.6818035967662
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883483333333, 30.374349], Azimuth: -50.6818035967662, AngleDiff: -50.6818035967662, Distance: 7148.855232988012"
+before turn|| AngleDiff is -50.6818035967662
+Turn left! status:10
+"after turn|| GPS:[130.95883433333333, 30.37434916666667], Azimuth: -50.68167434241791, AngleDiff: -50.68167434241791, Distance: 7148.806343927633"
+after turn|| AngleDiff is -50.68167434241791
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883433333333, 30.37434916666667], Azimuth: -50.68167434241791, AngleDiff: -50.68167434241791, Distance: 7148.806343927633"
+before turn|| AngleDiff is -50.68167434241791
+Turn left! status:10
+"after turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+after turn|| AngleDiff is -50.68075869994292
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+before turn|| AngleDiff is -50.68075869994292
+Turn left! status:10
+"after turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+after turn|| AngleDiff is -50.68075869994292
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+before turn|| AngleDiff is -50.68075869994292
+Turn left! status:10
+"after turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+after turn|| AngleDiff is -50.68075869994292
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+before turn|| AngleDiff is -50.68075869994292
+Turn left! status:10
+"after turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+after turn|| AngleDiff is -50.68075869994292
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882916666667, 30.374351499999996], Azimuth: -50.68075869994292, AngleDiff: -50.68075869994292, Distance: 7148.258231653731"
+before turn|| AngleDiff is -50.68075869994292
+Turn left! status:10
+"after turn|| GPS:[130.9588245, 30.374348333333334], Azimuth: -50.67630592399712, AngleDiff: -50.67630592399712, Distance: 7148.133668714382"
+after turn|| AngleDiff is -50.67630592399712
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588245, 30.374348333333334], Azimuth: -50.67630592399712, AngleDiff: -50.67630592399712, Distance: 7148.133668714382"
+before turn|| AngleDiff is -50.67630592399712
+Turn left! status:10
+"after turn|| GPS:[130.95882533333332, 30.37434766666667], Azimuth: -50.67625411281158, AngleDiff: -50.67625411281158, Distance: 7148.242467878816"
+after turn|| AngleDiff is -50.67625411281158
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882533333332, 30.37434766666667], Azimuth: -50.67625411281158, AngleDiff: -50.67625411281158, Distance: 7148.242467878816"
+before turn|| AngleDiff is -50.67625411281158
+Turn left! status:10
+"after turn|| GPS:[130.95882533333332, 30.37434766666667], Azimuth: -50.67625411281158, AngleDiff: -50.67625411281158, Distance: 7148.242467878816"
+after turn|| AngleDiff is -50.67625411281158
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882533333332, 30.37434766666667], Azimuth: -50.67625411281158, AngleDiff: -50.67625411281158, Distance: 7148.242467878816"
+before turn|| AngleDiff is -50.67625411281158
+Turn left! status:10
+"after turn|| GPS:[130.95882683333332, 30.374345333333334], Azimuth: -50.67538185654707, AngleDiff: -50.67538185654707, Distance: 7148.517925434544"
+after turn|| AngleDiff is -50.67538185654707
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882683333332, 30.374345333333334], Azimuth: -50.67538185654707, AngleDiff: -50.67538185654707, Distance: 7148.517925434544"
+before turn|| AngleDiff is -50.67538185654707
+Turn left! status:10
+"after turn|| GPS:[130.95881666666668, 30.374346833333334], Azimuth: -50.671453892723676, AngleDiff: -50.671453892723676, Distance: 7147.656600661882"
+after turn|| AngleDiff is -50.671453892723676
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95881666666668, 30.374346833333334], Azimuth: -50.671453892723676, AngleDiff: -50.671453892723676, Distance: 7147.656600661882"
+before turn|| AngleDiff is -50.671453892723676
+Turn left! status:10
+"after turn|| GPS:[130.95882516666668, 30.37435083333333], Azimuth: -50.67834959770802, AngleDiff: -50.67834959770802, Distance: 7148.007616989043"
+after turn|| AngleDiff is -50.67834959770802
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882516666668, 30.37435083333333], Azimuth: -50.67834959770802, AngleDiff: -50.67834959770802, Distance: 7148.007616989043"
+before turn|| AngleDiff is -50.67834959770802
+Turn left! status:10
+"after turn|| GPS:[130.95882666666665, 30.374351], Azimuth: -50.67919574560427, AngleDiff: -50.67919574560427, Distance: 7148.107449914268"
+after turn|| AngleDiff is -50.67919574560427
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882666666665, 30.374351], Azimuth: -50.67919574560427, AngleDiff: -50.67919574560427, Distance: 7148.107449914268"
+before turn|| AngleDiff is -50.67919574560427
+Turn left! status:10
+"after turn|| GPS:[130.95, 30.374351333333333], Azimuth: -45.94988225829119, AngleDiff: -45.94988225829119, Distance: 6513.922703738729"
+after turn|| AngleDiff is -45.94988225829119
+End Turn-phase ! AngleDiff is -45.94988225829119
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.95, 30.374351333333333], Azimuth: -45.94988225829119, AngleDiff: -45.94988225829119, Distance: 6513.922703738729"
+Move forward!
+"after move forward|| [130.95, 30.374351333333333], Azimuth: -45.94988225829119, AngleDiff: -45.94988225829119, Distance: 6513.922703738729"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882333333333, 30.374348499999996], Azimuth: -50.6758514544235, AngleDiff: -50.6758514544235, Distance: 7148.035209443179"
+before turn|| AngleDiff is -50.6758514544235
+Turn left! status:10
+"after turn|| GPS:[130.95882333333333, 30.374348499999996], Azimuth: -50.6758514544235, AngleDiff: -50.6758514544235, Distance: 7148.035209443179"
+after turn|| AngleDiff is -50.6758514544235
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882333333333, 30.374348499999996], Azimuth: -50.6758514544235, AngleDiff: -50.6758514544235, Distance: 7148.035209443179"
+before turn|| AngleDiff is -50.6758514544235
+Turn left! status:10
+"after turn|| GPS:[130.95882250000003, 30.374346], Azimuth: -50.673726538732524, AngleDiff: -50.673726538732524, Distance: 7148.14887974837"
+after turn|| AngleDiff is -50.673726538732524
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882250000003, 30.374346], Azimuth: -50.673726538732524, AngleDiff: -50.673726538732524, Distance: 7148.14887974837"
+before turn|| AngleDiff is -50.673726538732524
+Turn left! status:10
+"after turn|| GPS:[130.95882133333333, 30.37434616666667], Azimuth: -50.67327203457712, AngleDiff: -50.67327203457712, Distance: 7148.0504230285"
+after turn|| AngleDiff is -50.67327203457712
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882133333333, 30.37434616666667], Azimuth: -50.67327203457712, AngleDiff: -50.67327203457712, Distance: 7148.0504230285"
+before turn|| AngleDiff is -50.67327203457712
+Turn left! status:10
+"after turn|| GPS:[130.9586666666667, 30.374344333333337], Azimuth: -50.596446934985515, AngleDiff: -50.596446934985515, Distance: 7136.685448890292"
+after turn|| AngleDiff is -50.596446934985515
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9586666666667, 30.374344333333337], Azimuth: -50.596446934985515, AngleDiff: -50.596446934985515, Distance: 7136.685448890292"
+before turn|| AngleDiff is -50.596446934985515
+Turn left! status:10
+"after turn|| GPS:[130.95, 30.37434166666667], Azimuth: -45.94310827780395, AngleDiff: -45.94310827780395, Distance: 6514.667843382881"
+after turn|| AngleDiff is -45.94310827780395
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95, 30.37434166666667], Azimuth: -45.94310827780395, AngleDiff: -45.94310827780395, Distance: 6514.667843382881"
+before turn|| AngleDiff is -45.94310827780395
+Turn left! status:10
+"after turn|| GPS:[130.95, 30.37434166666667], Azimuth: -45.94310827780395, AngleDiff: -45.94310827780395, Distance: 6514.667843382881"
+after turn|| AngleDiff is -45.94310827780395
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95, 30.37434166666667], Azimuth: -45.94310827780395, AngleDiff: -45.94310827780395, Distance: 6514.667843382881"
+before turn|| AngleDiff is -45.94310827780395
+Turn left! status:10
+"after turn|| GPS:[130.95, 30.37434166666667], Azimuth: -45.94310827780395, AngleDiff: -45.94310827780395, Distance: 6514.667843382881"
+after turn|| AngleDiff is -45.94310827780395
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95, 30.37434166666667], Azimuth: -45.94310827780395, AngleDiff: -45.94310827780395, Distance: 6514.667843382881"
+before turn|| AngleDiff is -45.94310827780395
+Turn left! status:10
+"after turn|| GPS:[130.95882, 30.374340999999998], Azimuth: -50.66907041214228, AngleDiff: -50.66907041214228, Distance: 7148.314291109772"
+after turn|| AngleDiff is -50.66907041214228
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882, 30.374340999999998], Azimuth: -50.66907041214228, AngleDiff: -50.66907041214228, Distance: 7148.314291109772"
+before turn|| AngleDiff is -50.66907041214228
+Turn left! status:10
+"after turn|| GPS:[130.95882, 30.374340999999998], Azimuth: -50.66907041214228, AngleDiff: -50.66907041214228, Distance: 7148.314291109772"
+after turn|| AngleDiff is -50.66907041214228
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882, 30.374340999999998], Azimuth: -50.66907041214228, AngleDiff: -50.66907041214228, Distance: 7148.314291109772"
+before turn|| AngleDiff is -50.66907041214228
+Turn left! status:10
+"after turn|| GPS:[130.9588255, 30.37434], Azimuth: -50.67106588477319, AngleDiff: -50.67106588477319, Distance: 7148.79348405164"
+after turn|| AngleDiff is -50.67106588477319
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588255, 30.37434], Azimuth: -50.67106588477319, AngleDiff: -50.67106588477319, Distance: 7148.79348405164"
+before turn|| AngleDiff is -50.67106588477319
+Turn left! status:10
+"after turn|| GPS:[130.9588255, 30.37434], Azimuth: -50.67106588477319, AngleDiff: -50.67106588477319, Distance: 7148.79348405164"
+after turn|| AngleDiff is -50.67106588477319
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588255, 30.37434], Azimuth: -50.67106588477319, AngleDiff: -50.67106588477319, Distance: 7148.79348405164"
+before turn|| AngleDiff is -50.67106588477319
+Turn left! status:10
+"after turn|| GPS:[130.95882583333332, 30.374338333333338], Azimuth: -50.6700830262693, AngleDiff: -50.6700830262693, Distance: 7148.93536780132"
+after turn|| AngleDiff is -50.6700830262693
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882583333332, 30.374338333333338], Azimuth: -50.6700830262693, AngleDiff: -50.6700830262693, Distance: 7148.93536780132"
+before turn|| AngleDiff is -50.6700830262693
+Turn left! status:10
+"after turn|| GPS:[130.9588293333333, 30.374340333333333], Azimuth: -50.67316460162869, AngleDiff: -50.67316460162869, Distance: 7149.055086632302"
+after turn|| AngleDiff is -50.67316460162869
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588293333333, 30.374340333333333], Azimuth: -50.67316460162869, AngleDiff: -50.67316460162869, Distance: 7149.055086632302"
+before turn|| AngleDiff is -50.67316460162869
+Turn left! status:10
+"after turn|| GPS:[130.95882716666668, 30.374342166666665], Azimuth: -50.673367906596454, AngleDiff: -50.673367906596454, Distance: 7148.7651823351825"
+after turn|| AngleDiff is -50.673367906596454
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882716666668, 30.374342166666665], Azimuth: -50.673367906596454, AngleDiff: -50.673367906596454, Distance: 7148.7651823351825"
+before turn|| AngleDiff is -50.673367906596454
+Turn left! status:10
+"after turn|| GPS:[130.95833333333334, 30.374343333333332], Azimuth: -50.43207292626671, AngleDiff: -50.43207292626671, Distance: 7112.027455117283"
+after turn|| AngleDiff is -50.43207292626671
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95833333333334, 30.374343333333332], Azimuth: -50.43207292626671, AngleDiff: -50.43207292626671, Distance: 7112.027455117283"
+before turn|| AngleDiff is -50.43207292626671
+Turn left! status:10
+"after turn|| GPS:[130.95882333333333, 30.374343833333334], Azimuth: -50.67264375168574, AngleDiff: -50.67264375168574, Distance: 7148.363063212374"
+after turn|| AngleDiff is -50.67264375168574
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882333333333, 30.374343833333334], Azimuth: -50.67264375168574, AngleDiff: -50.67264375168574, Distance: 7148.363063212374"
+before turn|| AngleDiff is -50.67264375168574
+Turn left! status:10
+"after turn|| GPS:[130.95882250000003, 30.374342666666667], Azimuth: -50.671435398513815, AngleDiff: -50.671435398513815, Distance: 7148.383069325065"
+after turn|| AngleDiff is -50.671435398513815
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882250000003, 30.374342666666667], Azimuth: -50.671435398513815, AngleDiff: -50.671435398513815, Distance: 7148.383069325065"
+before turn|| AngleDiff is -50.671435398513815
+Turn left! status:10
+"after turn|| GPS:[130.9588235, 30.374340833333335], Azimuth: -50.67066310701427, AngleDiff: -50.67066310701427, Distance: 7148.586230165622"
+after turn|| AngleDiff is -50.67066310701427
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588235, 30.374340833333335], Azimuth: -50.67066310701427, AngleDiff: -50.67066310701427, Distance: 7148.586230165622"
+before turn|| AngleDiff is -50.67066310701427
+Turn left! status:10
+"after turn|| GPS:[130.9588235, 30.374340833333335], Azimuth: -50.67066310701427, AngleDiff: -50.67066310701427, Distance: 7148.586230165622"
+after turn|| AngleDiff is -50.67066310701427
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588235, 30.374340833333335], Azimuth: -50.67066310701427, AngleDiff: -50.67066310701427, Distance: 7148.586230165622"
+before turn|| AngleDiff is -50.67066310701427
+Turn left! status:10
+"after turn|| GPS:[130.9588235, 30.374340833333335], Azimuth: -50.67066310701427, AngleDiff: -50.67066310701427, Distance: 7148.586230165622"
+after turn|| AngleDiff is -50.67066310701427
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588235, 30.374340833333335], Azimuth: -50.67066310701427, AngleDiff: -50.67066310701427, Distance: 7148.586230165622"
+before turn|| AngleDiff is -50.67066310701427
+Turn left! status:10
+"after turn|| GPS:[130.95882500000002, 30.374333166666663], Azimuth: -50.66612592764959, AngleDiff: -50.66612592764959, Distance: 7149.2364385606315"
+after turn|| AngleDiff is -50.66612592764959
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882500000002, 30.374333166666663], Azimuth: -50.66612592764959, AngleDiff: -50.66612592764959, Distance: 7149.2364385606315"
+before turn|| AngleDiff is -50.66612592764959
+Turn left! status:10
+"after turn|| GPS:[130.95882666666665, 30.374333999999998], Azimuth: -50.66751151837033, AngleDiff: -50.66751151837033, Distance: 7149.301797108287"
+after turn|| AngleDiff is -50.66751151837033
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882666666665, 30.374333999999998], Azimuth: -50.66751151837033, AngleDiff: -50.66751151837033, Distance: 7149.301797108287"
+before turn|| AngleDiff is -50.66751151837033
+Turn left! status:10
+"after turn|| GPS:[130.95882666666665, 30.374333999999998], Azimuth: -50.66751151837033, AngleDiff: -50.66751151837033, Distance: 7149.301797108287"
+after turn|| AngleDiff is -50.66751151837033
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95882666666665, 30.374333999999998], Azimuth: -50.66751151837033, AngleDiff: -50.66751151837033, Distance: 7149.301797108287"
+before turn|| AngleDiff is -50.66751151837033
+Turn left! status:10
+"after turn|| GPS:[130.9588325, 30.37433433333333], Azimuth: -50.67058561738442, AngleDiff: -50.67058561738442, Distance: 7149.7120861780995"
+after turn|| AngleDiff is -50.67058561738442
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588325, 30.37433433333333], Azimuth: -50.67058561738442, AngleDiff: -50.67058561738442, Distance: 7149.7120861780995"
+before turn|| AngleDiff is -50.67058561738442
+Turn left! status:10
+"after turn|| GPS:[130.9588325, 30.37433433333333], Azimuth: -50.67058561738442, AngleDiff: -50.67058561738442, Distance: 7149.7120861780995"
+after turn|| AngleDiff is -50.67058561738442
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588325, 30.37433433333333], Azimuth: -50.67058561738442, AngleDiff: -50.67058561738442, Distance: 7149.7120861780995"
+before turn|| AngleDiff is -50.67058561738442
+Turn left! status:10
+"after turn|| GPS:[130.9588325, 30.37433433333333], Azimuth: -50.67058561738442, AngleDiff: -50.67058561738442, Distance: 7149.7120861780995"
+after turn|| AngleDiff is -50.67058561738442
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588325, 30.37433433333333], Azimuth: -50.67058561738442, AngleDiff: -50.67058561738442, Distance: 7149.7120861780995"
+before turn|| AngleDiff is -50.67058561738442
+Turn left! status:10
+"after turn|| GPS:[130.9588331666667, 30.374336499999995], Azimuth: -50.67239966789692, AngleDiff: -50.67239966789692, Distance: 7149.609427990574"
+after turn|| AngleDiff is -50.67239966789692
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588331666667, 30.374336499999995], Azimuth: -50.67239966789692, AngleDiff: -50.67239966789692, Distance: 7149.609427990574"
+before turn|| AngleDiff is -50.67239966789692
+Turn left! status:10
+"after turn|| GPS:[130.95883966666668, 30.374337500000003], Azimuth: -50.67625656732974, AngleDiff: -50.67625656732974, Distance: 7150.0224868264695"
+after turn|| AngleDiff is -50.67625656732974
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883966666668, 30.374337500000003], Azimuth: -50.67625656732974, AngleDiff: -50.67625656732974, Distance: 7150.0224868264695"
+before turn|| AngleDiff is -50.67625656732974
+Turn left! status:10
+"after turn|| GPS:[130.95884366666667, 30.374339833333337], Azimuth: -50.67981043069047, AngleDiff: -50.67981043069047, Distance: 7150.156012357925"
+after turn|| AngleDiff is -50.67981043069047
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884366666667, 30.374339833333337], Azimuth: -50.67981043069047, AngleDiff: -50.67981043069047, Distance: 7150.156012357925"
+before turn|| AngleDiff is -50.67981043069047
+Turn left! status:10
+"after turn|| GPS:[130.95, 30.374347166666666], Azimuth: -45.946962249087974, AngleDiff: -45.946962249087974, Distance: 6514.2438734537645"
+after turn|| AngleDiff is -45.946962249087974
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95, 30.374347166666666], Azimuth: -45.946962249087974, AngleDiff: -45.946962249087974, Distance: 6514.2438734537645"
+before turn|| AngleDiff is -45.946962249087974
+Turn left! status:10
+"after turn|| GPS:[130.95885833333332, 30.374348833333336], Azimuth: -50.693145599911084, AngleDiff: -50.693145599911084, Distance: 7150.614629687601"
+after turn|| AngleDiff is -50.693145599911084
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885833333332, 30.374348833333336], Azimuth: -50.693145599911084, AngleDiff: -50.693145599911084, Distance: 7150.614629687601"
+before turn|| AngleDiff is -50.693145599911084
+Turn left! status:10
+"after turn|| GPS:[130.95885833333332, 30.374348833333336], Azimuth: -50.693145599911084, AngleDiff: -50.693145599911084, Distance: 7150.614629687601"
+after turn|| AngleDiff is -50.693145599911084
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885833333332, 30.374348833333336], Azimuth: -50.693145599911084, AngleDiff: -50.693145599911084, Distance: 7150.614629687601"
+before turn|| AngleDiff is -50.693145599911084
+Turn left! status:10
+"after turn|| GPS:[130.95885833333332, 30.374348833333336], Azimuth: -50.693145599911084, AngleDiff: -50.693145599911084, Distance: 7150.614629687601"
+after turn|| AngleDiff is -50.693145599911084
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885833333332, 30.374348833333336], Azimuth: -50.693145599911084, AngleDiff: -50.693145599911084, Distance: 7150.614629687601"
+before turn|| AngleDiff is -50.693145599911084
+Turn left! status:10
+"after turn|| GPS:[130.95885166666667, 30.374353166666666], Azimuth: -50.69287465409089, AngleDiff: -50.69287465409089, Distance: 7149.814477695712"
+after turn|| AngleDiff is -50.69287465409089
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885166666667, 30.374353166666666], Azimuth: -50.69287465409089, AngleDiff: -50.69287465409089, Distance: 7149.814477695712"
+before turn|| AngleDiff is -50.69287465409089
+Turn left! status:10
+"after turn|| GPS:[130.95885166666667, 30.374353166666666], Azimuth: -50.69287465409089, AngleDiff: -50.69287465409089, Distance: 7149.814477695712"
+after turn|| AngleDiff is -50.69287465409089
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885166666667, 30.374353166666666], Azimuth: -50.69287465409089, AngleDiff: -50.69287465409089, Distance: 7149.814477695712"
+before turn|| AngleDiff is -50.69287465409089
+Turn left! status:10
+"after turn|| GPS:[130.95884733333332, 30.374358666666662], Azimuth: -50.69454318821559, AngleDiff: -50.69454318821559, Distance: 7149.105940897908"
+after turn|| AngleDiff is -50.69454318821559
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884733333332, 30.374358666666662], Azimuth: -50.69454318821559, AngleDiff: -50.69454318821559, Distance: 7149.105940897908"
+before turn|| AngleDiff is -50.69454318821559
+Turn left! status:10
+"after turn|| GPS:[130.95884633333333, 30.3743595], Azimuth: -50.6946286047919, AngleDiff: -50.6946286047919, Distance: 7148.973043576172"
+after turn|| AngleDiff is -50.6946286047919
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884633333333, 30.3743595], Azimuth: -50.6946286047919, AngleDiff: -50.6946286047919, Distance: 7148.973043576172"
+before turn|| AngleDiff is -50.6946286047919
+Turn left! status:10
+"after turn|| GPS:[130.958845, 30.374361], Azimuth: -50.695009864066066, AngleDiff: -50.695009864066066, Distance: 7148.768538035725"
+after turn|| AngleDiff is -50.695009864066066
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958845, 30.374361], Azimuth: -50.695009864066066, AngleDiff: -50.695009864066066, Distance: 7148.768538035725"
+before turn|| AngleDiff is -50.695009864066066
+Turn left! status:10
+"after turn|| GPS:[130.95884400000003, 30.374361], Azimuth: -50.69452235825659, AngleDiff: -50.69452235825659, Distance: 7148.694160470221"
+after turn|| AngleDiff is -50.69452235825659
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884400000003, 30.374361], Azimuth: -50.69452235825659, AngleDiff: -50.69452235825659, Distance: 7148.694160470221"
+before turn|| AngleDiff is -50.69452235825659
+Turn left! status:10
+"after turn|| GPS:[130.958845, 30.374361999999998], Azimuth: -50.444352679569064, AngleDiff: -50.444352679569064, Distance: 7110.768295899424"
+after turn|| AngleDiff is -50.444352679569064
+End Turn-phase ! AngleDiff is -50.444352679569064
+-----------------Forward movement phase ---------------
+"befor move forward|| [130.958845, 30.374361999999998], Azimuth: -50.444352679569064, AngleDiff: -50.444352679569064, Distance: 7110.768295899424"
+Move forward!
+"after move forward|| [130.958845, 30.374361999999998], Azimuth: -50.444352679569064, AngleDiff: -50.444352679569064, Distance: 7110.768295899424"
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+before turn|| AngleDiff is -50.69702456152558
+Turn left! status:10
+"after turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+after turn|| AngleDiff is -50.69702456152558
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+before turn|| AngleDiff is -50.69702456152558
+Turn left! status:10
+"after turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+after turn|| AngleDiff is -50.69702456152558
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+before turn|| AngleDiff is -50.69702456152558
+Turn left! status:10
+"after turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+after turn|| AngleDiff is -50.69702456152558
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884466666666, 30.37436416666667], Azimuth: -50.69702456152558, AngleDiff: -50.69702456152558, Distance: 7148.521376063796"
+before turn|| AngleDiff is -50.69702456152558
+Turn left! status:10
+"after turn|| GPS:[130.958845, 30.374370999999996], Azimuth: -50.701885680670685, AngleDiff: -50.701885680670685, Distance: 7148.066356511745"
+after turn|| AngleDiff is -50.701885680670685
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.958845, 30.374370999999996], Azimuth: -50.701885680670685, AngleDiff: -50.701885680670685, Distance: 7148.066356511745"
+before turn|| AngleDiff is -50.701885680670685
+Turn left! status:10
+"after turn|| GPS:[130.95884633333333, 30.374371166666666], Azimuth: -50.7026502489671, AngleDiff: -50.7026502489671, Distance: 7148.1538351466115"
+after turn|| AngleDiff is -50.7026502489671
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884633333333, 30.374371166666666], Azimuth: -50.7026502489671, AngleDiff: -50.7026502489671, Distance: 7148.1538351466115"
+before turn|| AngleDiff is -50.7026502489671
+Turn left! status:10
+"after turn|| GPS:[130.95884633333333, 30.374371166666666], Azimuth: -50.7026502489671, AngleDiff: -50.7026502489671, Distance: 7148.1538351466115"
+after turn|| AngleDiff is -50.7026502489671
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884633333333, 30.374371166666666], Azimuth: -50.7026502489671, AngleDiff: -50.7026502489671, Distance: 7148.1538351466115"
+before turn|| AngleDiff is -50.7026502489671
+Turn left! status:10
+"after turn|| GPS:[130.9588455, 30.374369], Azimuth: -50.70075414892762, AngleDiff: -50.70075414892762, Distance: 7148.243976477345"
+after turn|| AngleDiff is -50.70075414892762
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588455, 30.374369], Azimuth: -50.70075414892762, AngleDiff: -50.70075414892762, Distance: 7148.243976477345"
+before turn|| AngleDiff is -50.70075414892762
+Turn left! status:10
+"after turn|| GPS:[130.9588455, 30.374369], Azimuth: -50.70075414892762, AngleDiff: -50.70075414892762, Distance: 7148.243976477345"
+after turn|| AngleDiff is -50.70075414892762
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588455, 30.374369], Azimuth: -50.70075414892762, AngleDiff: -50.70075414892762, Distance: 7148.243976477345"
+before turn|| AngleDiff is -50.70075414892762
+Turn left! status:10
+"after turn|| GPS:[130.9588455, 30.374369], Azimuth: -50.70075414892762, AngleDiff: -50.70075414892762, Distance: 7148.243976477345"
+after turn|| AngleDiff is -50.70075414892762
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588455, 30.374369], Azimuth: -50.70075414892762, AngleDiff: -50.70075414892762, Distance: 7148.243976477345"
+before turn|| AngleDiff is -50.70075414892762
+Turn left! status:10
+"after turn|| GPS:[130.95884566666666, 30.374366166666665], Azimuth: -50.6988871907434, AngleDiff: -50.6988871907434, Distance: 7148.455319240549"
+after turn|| AngleDiff is -50.6988871907434
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95884566666666, 30.374366166666665], Azimuth: -50.6988871907434, AngleDiff: -50.6988871907434, Distance: 7148.455319240549"
+before turn|| AngleDiff is -50.6988871907434
+Turn left! status:10
+"after turn|| GPS:[130.95, 30.374364666666665], Azimuth: -45.95922822290558, AngleDiff: -45.95922822290558, Distance: 6512.895074364744"
+after turn|| AngleDiff is -45.95922822290558
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95, 30.374364666666665], Azimuth: -45.95922822290558, AngleDiff: -45.95922822290558, Distance: 6512.895074364744"
+before turn|| AngleDiff is -45.95922822290558
+Turn left! status:10
+"after turn|| GPS:[130.9588413333333, 30.374364333333332], Azimuth: -50.69551411075329, AngleDiff: -50.69551411075329, Distance: 7148.261741954548"
+after turn|| AngleDiff is -50.69551411075329
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588413333333, 30.374364333333332], Azimuth: -50.69551411075329, AngleDiff: -50.69551411075329, Distance: 7148.261741954548"
+before turn|| AngleDiff is -50.69551411075329
+Turn left! status:10
+"after turn|| GPS:[130.9588385, 30.374357499999995], Azimuth: -50.69551411075329, AngleDiff: -50.69551411075329, Distance: 7148.261741954548"
+after turn|| AngleDiff is -50.69551411075329
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.9588385, 30.374357499999995], Azimuth: -50.69551411075329, AngleDiff: -50.69551411075329, Distance: 7148.261741954548"
+before turn|| AngleDiff is -50.69551411075329
+Turn left! status:10
+"after turn|| GPS:[130.95883899999998, 30.374357], Azimuth: -50.68933467172164, AngleDiff: -50.68933467172164, Distance: 7148.603199352311"
+after turn|| AngleDiff is -50.68933467172164
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95883899999998, 30.374357], Azimuth: -50.68933467172164, AngleDiff: -50.68933467172164, Distance: 7148.603199352311"
+before turn|| AngleDiff is -50.68933467172164
+Turn left! status:10
+"after turn|| GPS:[130.95885099999998, 30.374359833333333], Azimuth: -50.68588412493711, AngleDiff: -50.68588412493711, Distance: 7148.252003934102"
+after turn|| AngleDiff is -50.68588412493711
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885099999998, 30.374359833333333], Azimuth: -50.68588412493711, AngleDiff: -50.68588412493711, Distance: 7148.252003934102"
+before turn|| AngleDiff is -50.68588412493711
+Turn left! status:10
+"after turn|| GPS:[130.95885099999998, 30.374359833333333], Azimuth: -50.69713261181908, AngleDiff: -50.69713261181908, Distance: 7149.29673708812"
+after turn|| AngleDiff is -50.69713261181908
+-----------------Turning phase ---------------
+"before turn|| GPS:[130.95885099999998, 30.374359833333333], Azimuth: -50.69713261181908, AngleDiff: -50.69713261181908, Distance: 7149.29673708812"
+before turn|| AngleDiff is -50.69713261181908
+Turn left! status:10

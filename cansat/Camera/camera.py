@@ -4,6 +4,7 @@ import time
 import os
 from picamera2 import Picamera2
 from libcamera import Transform
+import colorsys
 
 # Define image dimensions
 height = 100
@@ -47,7 +48,7 @@ class Camera:
         log_message(f"Image captured and saved to {filename}.")
         return filename
 
-    def redthreshold_left_center_right(self, image_path, red_threshold=150, green_threshold=40, black_threshold=50):
+    def redthreshold_left_center_right(self, image_path, red_threshold=130, green_threshold=50, black_threshold=0):
         # 画像を読み込み
         image = Image.open(image_path)
         image_rgb = np.array(image)
@@ -58,6 +59,9 @@ class Camera:
         g_channel = image_rgb[:, :, 1]
         b_channel = image_rgb[:, :, 2]
 
+        #colorsys.rgb_to_hsv(r_channel,g_channel,b_channel)
+
+        
         # 赤色の判定マスクを作成
         red_mask = (r_channel > red_threshold) & (g_channel < green_threshold) & (r_channel > b_channel)
 

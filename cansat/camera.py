@@ -47,7 +47,7 @@ class Camera:
         log_message(f"Image captured and saved to {filename}.")
         return filename
 
-    def redthreshold_left_center_right(self, image_path, red_threshold=150, green_threshold=40, black_threshold=50):
+    def redthreshold_left_center_right(self, image_path, red_threshold=30, green_threshold=30, black_threshold=0):
         # 画像を読み込み
         image = Image.open(image_path)
         image_rgb = np.array(image)
@@ -59,7 +59,7 @@ class Camera:
         b_channel = image_rgb[:, :, 2]
 
         # 赤色の判定マスクを作成
-        red_mask = (r_channel > red_threshold) & (g_channel < green_threshold) & (r_channel > b_channel)
+        red_mask = (r_channel > red_threshold) & (g_channel > green_threshold) & (r_channel > b_channel)
 
         # 黒色を除外
         black_mask = (r_channel < black_threshold) & (g_channel < black_threshold) & (b_channel < black_threshold)
